@@ -1,0 +1,157 @@
+{
+	"name": "Utility Mode",
+	"icon": "minecraft:compass/0",
+	"data": {
+		"elements": [
+			{
+				"name": "JEI Override",
+				"data": {
+					"canGiveItems": false,
+					"canDeleteItemsAboveItemsList": false,
+					"moveSearchFieldToCenter": true,
+					"searchFieldWidth": 180,
+					"searchFieldHeight": 16
+				}
+			},
+			{
+				"name": "FEI Utils Grid",
+				"enabled": true,
+				"data": {
+					"xPos": 0,
+					"yPos": 0,
+					"elementsX": 5,
+					"elementsY": 2,
+					"borderX": 2,
+					"borderY": 2,
+					"backgroundColor": {
+						"r": 0,
+						"g": 0,
+						"b": 0,
+						"a": 0
+					},
+					"textColor": {
+						"r": 255,
+						"g": 255,
+						"b": 255,
+						"a": 255
+					},
+					"tooltipBackground": true,
+					"utils": {
+						"Weather": {
+							"x": 2,
+							"y": 0,
+							"currentPropertyIndex": 0
+						},
+						"Bin": {
+							"x": 0,
+							"y": 0,
+							"currentPropertyIndex": 0
+						},
+						"Magnet": {
+							"x": 0,
+							"y": 1,
+							"currentPropertyIndex": 0
+						},
+						"CEI Cycle": {
+							"x": 1,
+							"y": 1,
+							"currentPropertyIndex": 0
+						},
+						"Time": {
+							"x": 1,
+							"y": 0,
+							"currentPropertyIndex": 1
+						},
+						"LLOR Toggle": {
+							"x": 2,
+							"y": 1,
+							"currentPropertyIndex": 0
+						}
+					}
+				}
+			},
+			{
+				"name": "FEI Invetory Saves List",
+				"enabled": true,
+				"data": {
+					"xPos": 0,
+					"yPos": 92,
+					"width": 63,
+					"height": 151,
+					"borderX": 2,
+					"borderY": 2,
+					"scrollDistance": 0,
+					"clickTimeThreshold": 250,
+					"clickDistanceThreshold": 2,
+					"backgroundColor": {
+						"r": 0,
+						"g": 0,
+						"b": 0,
+						"a": 0
+					},
+					"textColor": {
+						"r": 255,
+						"g": 255,
+						"b": 255,
+						"a": 255
+					},
+					"tooltipBackground": true
+				}
+			},
+			{
+				"name": "FEI Mods Items Dropdown",
+				"enabled": true,
+				"data": {
+					"xPos": 222,
+					"yPos": 0,
+					"width": 191,
+					"height": 20,
+					"borderX": 2,
+					"borderY": 2,
+					"clickTimeThreshold": 250,
+					"clickDistanceThreshold": 2,
+					"backgroundColor": {
+						"r": 127,
+						"g": 127,
+						"b": 127,
+						"a": 242
+					},
+					"textColor": {
+						"r": 255,
+						"g": 255,
+						"b": 255,
+						"a": 255
+					},
+					"tooltipBackground": true,
+					"dropdownSize": 100
+				}
+			},
+			{
+				"name": "FEI Profiles Switcher",
+				"data": {
+					"xPos": 0,
+					"yPos": 316,
+					"height": 80,
+					"borderX": 2,
+					"borderY": 2,
+					"scrollDistance": 0,
+					"clickTimeThreshold": 250,
+					"clickDistanceThreshold": 2,
+					"backgroundColor": {
+						"r": 0,
+						"g": 0,
+						"b": 0,
+						"a": 0
+					},
+					"textColor": {
+						"r": 255,
+						"g": 255,
+						"b": 255,
+						"a": 255
+					},
+					"tooltipBackground": true
+				}
+			}
+		]
+	}
+}

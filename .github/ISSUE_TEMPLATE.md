@@ -1,6 +1,6 @@
 Issue Description:
 
-Note: Make sure you update to latest version first before reporting any bugs!
+Note: Make sure you update to latest version first before reporting any bugs! If you are suggestions a mod or config change delete all this.
 
 What happens:
 

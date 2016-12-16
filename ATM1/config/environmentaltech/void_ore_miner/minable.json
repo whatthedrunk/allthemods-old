@@ -228,6 +228,11 @@
       "oreName": "oreTungsten",
       "focusColor": "black",
       "weight": 8
+    },
+    {
+      "oreName": "oreOsmium",
+      "focusColor": "purple",
+      "weight": 28
     }
   ]
 }

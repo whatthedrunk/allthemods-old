@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "path": "vanilla/soils/farmland_soil.json",
+  "id": "farmland_soil",
+  "name": "Farmland",
+  "varients": [
+    {
+      "item": "minecraft:farmland",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": true,
+      "useOreDict": true
+    }
+  ]
+}

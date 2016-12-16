@@ -1,0 +1,1346 @@
+[
+  {
+    "name": "Tier 1",
+    "colour": "BLACK",
+    "weights": [
+      90,
+      10,
+      5,
+      0,
+      0
+    ],
+    "groups": [
+      {
+        "id": "321f54c2-3ee8-45c3-8ced-429541190809",
+        "name": "Crap S4",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:sapling"
+          },
+          {
+            "id": "minecraft:sapling",
+            "damage": 1
+          },
+          {
+            "id": "minecraft:sapling",
+            "damage": 2
+          },
+          {
+            "id": "minecraft:sapling",
+            "damage": 3
+          },
+          {
+            "id": "minecraft:sapling",
+            "damage": 4
+          },
+          {
+            "id": "minecraft:sapling",
+            "damage": 5
+          }
+        ]
+      },
+      {
+        "id": "b3441f16-ec36-4688-89e1-b51aac22f12a",
+        "name": "Crap S16",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:cake"
+          }
+        ]
+      },
+      {
+        "id": "3a7f634c-213f-49e6-86e2-db342b492db7",
+        "name": "Crap S5",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:leaves",
+            "amount": 64
+          },
+          {
+            "id": "minecraft:leaves",
+            "damage": 2,
+            "amount": 64
+          },
+          {
+            "id": "minecraft:leaves",
+            "damage": 3,
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "id": "a78fc394-8159-42f2-a2b0-1c2be0317f93",
+        "name": "Crap S2",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:planks",
+            "damage": 4,
+            "amount": 64
+          },
+          {
+            "id": "minecraft:log2",
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "id": "cb23986b-f71e-4a06-a2d0-e64c39daa833",
+        "name": "Flower Band",
+        "limit": 0,
+        "items": [
+          {
+            "id": "biomesoplenty:exotic_flower_band"
+          },
+          {
+            "id": "biomesoplenty:lush_flower_band"
+          }
+        ]
+      },
+      {
+        "id": "bfb45e23-e08e-43f8-a62f-06a02101c9bf",
+        "name": "Meat Quartet",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:cooked_beef",
+            "amount": 8
+          },
+          {
+            "id": "minecraft:cooked_chicken",
+            "amount": 8
+          },
+          {
+            "id": "minecraft:cooked_porkchop",
+            "amount": 8
+          },
+          {
+            "id": "minecraft:cooked_mutton",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "id": "faf7c4b6-8f6e-4f42-8405-1ccb24740483",
+        "name": "Mud Armor",
+        "limit": 0,
+        "items": [
+          {
+            "id": "biomesoplenty:mud_helmet"
+          },
+          {
+            "id": "biomesoplenty:mud_chestplate"
+          },
+          {
+            "id": "biomesoplenty:mud_leggings"
+          },
+          {
+            "id": "biomesoplenty:mud_boots"
+          }
+        ]
+      },
+      {
+        "id": "51fcf966-df4a-4b47-a5ea-0d611e2ffb86",
+        "name": "Mud Tools",
+        "limit": 0,
+        "items": [
+          {
+            "id": "biomesoplenty:mud_sword"
+          },
+          {
+            "id": "biomesoplenty:mud_pickaxe"
+          },
+          {
+            "id": "biomesoplenty:mud_axe"
+          }
+        ]
+      },
+      {
+        "id": "60c5ced6-a4de-4b56-a62c-ee1149b0679d",
+        "name": "Crap S8",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:tallgrass",
+            "damage": 1,
+            "amount": 64
+          },
+          {
+            "id": "minecraft:tallgrass",
+            "damage": 2,
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "id": "955f6c33-3d9f-400f-abd3-5a4d4586959a",
+        "name": "Crap S9",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:deadbush"
+          }
+        ]
+      },
+      {
+        "id": "cf48f8a0-d182-4c70-9af4-67945b43a922",
+        "name": "Chisel S2",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chisel:factory",
+            "damage": 1,
+            "amount": 32
+          },
+          {
+            "id": "chisel:factory",
+            "damage": 6,
+            "amount": 32
+          },
+          {
+            "id": "chisel:factory",
+            "damage": 7,
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "id": "f0644476-485c-4dc8-9bd6-2e7a5222967d",
+        "name": "Crap S3",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:dirt",
+            "damage": 1,
+            "amount": 64
+          },
+          {
+            "id": "minecraft:dirt",
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "id": "62dc7aa3-da79-4920-ad6e-edd08103d0b0",
+        "name": "Crap S12",
+        "limit": 0,
+        "items": [
+          {
+            "id": "botania:tinyPotato"
+          }
+        ]
+      },
+      {
+        "id": "45d26ece-f03f-4b94-910a-f942437eaf23",
+        "name": "Crap S13",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:wool",
+            "amount": 8
+          },
+          {
+            "id": "minecraft:wool",
+            "damage": 15,
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "id": "a8435750-19ca-4701-b7a5-f039bd45021e",
+        "name": "Crap S17",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chisel:planks-acacia",
+            "damage": 12,
+            "amount": 32
+          },
+          {
+            "id": "chisel:planks-jungle",
+            "damage": 12,
+            "amount": 32
+          },
+          {
+            "id": "chisel:planks-oak",
+            "damage": 12,
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "id": "79b4122c-6115-4b7e-8fae-eef6ddd0fb5d",
+        "name": "Chisel S3",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chisel:laboratory",
+            "amount": 32
+          },
+          {
+            "id": "chisel:laboratory",
+            "damage": 12,
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "id": "f9eb4eea-a760-4457-9514-9f58906d10f3",
+        "name": "Probe",
+        "limit": 0,
+        "items": [
+          {
+            "id": "theoneprobe:probe"
+          }
+        ]
+      },
+      {
+        "id": "1f5fa819-9076-443a-afa1-33803c31ec33",
+        "name": "Chisel S4",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chisel:holystone",
+            "damage": 10,
+            "amount": 32
+          },
+          {
+            "id": "chisel:holystone",
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "id": "f64528be-37d1-4d73-b572-03e68d4bf020",
+        "name": "Chisel S5",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chisel:fantasy",
+            "damage": 1,
+            "amount": 32
+          },
+          {
+            "id": "chisel:fantasy2",
+            "damage": 8,
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "id": "d64f2678-eab3-4527-aed9-30b1b0070fb6",
+        "name": "Chisel S6",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chisel:grimstone",
+            "amount": 32
+          },
+          {
+            "id": "chisel:grimstone",
+            "damage": 15,
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "id": "52b6362e-4318-47b0-973e-c160ff90c72c",
+        "name": "Crap S1",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:stone",
+            "amount": 64
+          },
+          {
+            "id": "minecraft:cobblestone",
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "id": "3629b4cf-a1ce-4d10-82b4-1adfd32e17ff",
+        "name": "Chisel S7",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chisel:technical",
+            "amount": 16
+          },
+          {
+            "id": "chisel:technical",
+            "damage": 1,
+            "amount": 16
+          },
+          {
+            "id": "chisel:technical",
+            "damage": 2,
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "id": "39df3b13-7ba6-4a55-a0bd-5f4f9950b56d",
+        "name": "IO S1",
+        "limit": 0,
+        "items": [
+          {
+            "id": "enderzoo:owlEgg",
+            "amount": 16
+          },
+          {
+            "id": "enderio:itemEnderFood"
+          }
+        ]
+      },
+      {
+        "id": "93924413-645a-4042-bff3-caccd5882d4e",
+        "name": "Packing Tape",
+        "limit": 0,
+        "items": [
+          {
+            "id": "packingtape:itemTape",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "id": "346d7845-9cbb-4784-bf42-ded87bf51b68",
+        "name": "Crap S6",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:piston",
+            "amount": 2
+          },
+          {
+            "id": "minecraft:sticky_piston"
+          }
+        ]
+      },
+      {
+        "id": "29b1092b-ee29-4b22-8c31-0def539022e2",
+        "name": "Sleeping Bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "sleepingbag:sleepingbag"
+          }
+        ]
+      },
+      {
+        "id": "b6b8b10f-0504-4060-9348-b349a2dbcce8",
+        "name": "Crap S7",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:coal_ore",
+            "amount": 16
+          },
+          {
+            "id": "minecraft:iron_ore",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "id": "eeb83ce6-1957-4af9-9c7f-1a44fbdce110",
+        "name": "Crap S10",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:stone",
+            "damage": 3,
+            "amount": 32
+          },
+          {
+            "id": "minecraft:stone",
+            "damage": 5,
+            "amount": 32
+          },
+          {
+            "id": "minecraft:stone",
+            "damage": 1,
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "id": "28439db9-b42c-4d02-a62c-115025f300d0",
+        "name": "Build S1",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:stained_hardened_clay",
+            "damage": 3,
+            "amount": 64
+          },
+          {
+            "id": "minecraft:stained_hardened_clay",
+            "damage": 4,
+            "amount": 64
+          },
+          {
+            "id": "minecraft:stained_hardened_clay",
+            "damage": 2,
+            "amount": 64
+          },
+          {
+            "id": "minecraft:stained_hardened_clay",
+            "damage": 5,
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "id": "f3eca5cd-91a6-4218-adc0-4dd91fd83dbf",
+        "name": "Crap S11",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:poisonous_potato",
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "id": "cd9f6e2b-5d64-4e82-89fd-e8b3b014bf65",
+        "name": "Wand S1",
+        "limit": 0,
+        "items": [
+          {
+            "id": "notenoughwands:illumination_wand"
+          }
+        ]
+      },
+      {
+        "id": "3dca8a8b-31e5-434d-bff4-1b1557a5bdb2",
+        "name": "Crap S14",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:carrot",
+            "amount": 8
+          },
+          {
+            "id": "minecraft:potato",
+            "amount": 8
+          }
+        ]
+      },
+      {
+        "id": "28313d5f-c1a2-4a84-bdb8-1529a89c131d",
+        "name": "Crap S15",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:wheat_seeds",
+            "amount": 8
+          },
+          {
+            "id": "minecraft:pumpkin_seeds",
+            "amount": 8
+          },
+          {
+            "id": "minecraft:melon_seeds",
+            "amount": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tier 2",
+    "colour": "BLUE",
+    "weights": [
+      80,
+      12,
+      10,
+      0,
+      0
+    ],
+    "groups": [
+      {
+        "id": "49718092-3736-4108-80b8-1f5c6ce3116e",
+        "name": "Zombie",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:spawn_egg",
+            "amount": 5,
+            "nbt": "{EntityTag:{id:\"Zombie\"}}"
+          }
+        ]
+      },
+      {
+        "id": "4b700ef7-fdc3-44d7-9a2f-fe62e492cca7",
+        "name": "Skel",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:spawn_egg",
+            "amount": 5,
+            "nbt": "{EntityTag:{id:\"Skeleton\"}}"
+          }
+        ]
+      },
+      {
+        "id": "88575fae-78ac-48ec-a445-0660b5f8fc1e",
+        "name": "Baggy",
+        "limit": 0,
+        "items": [
+          {
+            "id": "bagginses:black"
+          }
+        ]
+      },
+      {
+        "id": "3e61ad96-be2a-4b0a-8115-cacda610db03",
+        "name": "Crap S15",
+        "limit": 0,
+        "items": [
+          {
+            "id": "botania:reedBlock",
+            "amount": 32
+          },
+          {
+            "id": "botania:thatch",
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "id": "07234cb0-f2da-4f0f-894a-88338fb9f73b",
+        "name": "Copper Hammer",
+        "limit": 0,
+        "items": [
+          {
+            "id": "hammerz:item.Hammer",
+            "nbt": "{Hammerz.HammerType:\"COPPER\"}"
+          }
+        ]
+      },
+      {
+        "id": "e94fde9e-f755-4962-8f4a-3a2893c884b4",
+        "name": "Origin",
+        "limit": 0,
+        "items": [
+          {
+            "id": "biomesoplenty:terrarium",
+            "damage": 13
+          },
+          {
+            "id": "biomesoplenty:sapling_1"
+          }
+        ]
+      },
+      {
+        "id": "ee39d7ce-c978-4bdb-be4c-d605783d7fb6",
+        "name": "Bauble Base",
+        "limit": 0,
+        "items": [
+          {
+            "id": "baublesstuff:Belt_Core"
+          },
+          {
+            "id": "baublesstuff:Pendant_Core"
+          },
+          {
+            "id": "baublesstuff:Ring_Core"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tier 3",
+    "colour": "GREEN",
+    "weights": [
+      50,
+      20,
+      12,
+      5,
+      5
+    ],
+    "groups": [
+      {
+        "id": "99c18bf8-5bf8-4887-9650-9229d73247a7",
+        "name": "ReIron Armor",
+        "limit": 0,
+        "items": [
+          {
+            "id": "armorplus:RIHelmet"
+          },
+          {
+            "id": "armorplus:RIChestplate"
+          },
+          {
+            "id": "armorplus:RILeggings"
+          },
+          {
+            "id": "armorplus:RIBoots"
+          }
+        ]
+      },
+      {
+        "id": "c1f15643-c521-422f-8406-b41d4621c653",
+        "name": "Creep",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:spawn_egg",
+            "amount": 5,
+            "nbt": "{EntityTag:{id:\"Creeper\"}}"
+          }
+        ]
+      },
+      {
+        "id": "5043abd5-abd1-42be-b950-dc128d2ee3c7",
+        "name": "Glowstone Chisel",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chisel:lightstone",
+            "damage": 12,
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "id": "959fdad2-5424-44e7-aa1b-af7920b2b253",
+        "name": "Lavastone Chisel",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chisel:lavastone",
+            "damage": 7,
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "id": "2a57ef22-315f-4610-9989-26decdb2277a",
+        "name": "Nickel Hammer",
+        "limit": 0,
+        "items": [
+          {
+            "id": "hammerz:item.Hammer",
+            "nbt": "{Hammerz.HammerType:\"NICKEL\"}"
+          }
+        ]
+      },
+      {
+        "id": "e59eb3f3-3138-47ad-ab53-ea9fcf8b8f53",
+        "name": "Grapple",
+        "limit": 0,
+        "items": [
+          {
+            "id": "grapplemod:grapplinghook"
+          },
+          {
+            "id": "minecraft:string",
+            "amount": 16
+          }
+        ]
+      },
+      {
+        "id": "217c30c7-01f0-4775-85d7-1eebeafbf395",
+        "name": "Baggy T2",
+        "limit": 0,
+        "items": [
+          {
+            "id": "bagginses:pinkT2"
+          }
+        ]
+      },
+      {
+        "id": "7236603e-2a76-4eee-a489-be2a4c977bae",
+        "name": "Chisel n Bits",
+        "limit": 0,
+        "items": [
+          {
+            "id": "chiselsandbits:chisel_gold"
+          },
+          {
+            "id": "chiselsandbits:positiveprint"
+          }
+        ]
+      },
+      {
+        "id": "36024d43-b592-48a6-859f-503bfdfb8681",
+        "name": "IO S5",
+        "limit": 0,
+        "items": [
+          {
+            "id": "enderio:blockEndermanSkull",
+            "amount": 2
+          },
+          {
+            "id": "enderio:blockEndermanSkull",
+            "damage": 2
+          }
+        ]
+      },
+      {
+        "id": "f1046bdd-01e3-4a04-9719-a8d9b14d1906",
+        "name": "Arrow S1",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:tipped_arrow",
+            "amount": 32,
+            "nbt": "{Potion:\"minecraft:strong_healing\"}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tier 4",
+    "colour": "CYAN",
+    "weights": [
+      20,
+      15,
+      20,
+      15,
+      12
+    ],
+    "groups": [
+      {
+        "id": "2833f29c-648c-4024-8749-0270aaf071b2",
+        "name": "ReGold Armor",
+        "limit": 0,
+        "items": [
+          {
+            "id": "armorplus:RGHelmet"
+          },
+          {
+            "id": "armorplus:RGChestplate"
+          },
+          {
+            "id": "armorplus:RGLeggings"
+          },
+          {
+            "id": "armorplus:RGBoots"
+          }
+        ]
+      },
+      {
+        "id": "6febf62a-dca1-45a8-ba3d-c32aec350246",
+        "name": "Alienware",
+        "limit": 0,
+        "items": [
+          {
+            "id": "tconstruct:rapier",
+            "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:3.23f,FreeModifiers:3,Durability:335,HarvestLevel:3,Attack:3.23f},display:{Name:\"Alienware\"},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:4.1819963f,FreeModifiers:0,Durability:468,HarvestLevel:3,Attack:11.596011f},Special:{Categories:[0:\"tool\",1:\"weapon\"],alienStatBonus:{identifier:\"\",color:0,attack:0.65499955f,durability:133,speed:0.95200187f},alienStatPool:{identifier:\"\",color:16777215,attack:1.249999f,durability:270,speed:1.9599979f}},TinkerData:{UsedModifiers:4,Materials:[0:\"lead\",1:\"endstone\",2:\"electrum\"],Modifiers:[0:\"sharpness\",1:\"necrotic\",2:\"creative\"]},Modifiers:[0:{identifier:\"poisonous\",color:-11712152,level:1},1:{identifier:\"alien\",color:-2041712,level:1},2:{identifier:\"shocking\",charge:10.0f,color:-1516727,level:1,x:366.69999998807907d,y:4.0d,z:-708.6724327850762d},3:{identifier:\"sharpness\",current:216,color:16774902,level:3,max:216,extraInfo:\"215 / 216\"},4:{identifier:\"necrotic\",color:6160384,level:1},5:{identifier:\"creative\",color:0,level:1}],Traits:[0:\"poisonous\",1:\"alien\",2:\"shocking\",3:\"necrotic\"]}"
+          }
+        ]
+      },
+      {
+        "id": "8014fa65-fb87-4130-bf25-a24f7fd51c3d",
+        "name": "Bauble S3",
+        "limit": 0,
+        "items": [
+          {
+            "id": "baublesstuff:Translator"
+          }
+        ]
+      },
+      {
+        "id": "70f321c2-a9e6-4351-bea9-86d5cc2539ab",
+        "name": "Baconator",
+        "limit": 0,
+        "items": [
+          {
+            "id": "tconstruct:broadsword",
+            "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:6.2f,FreeModifiers:3,Durability:566,HarvestLevel:3,Attack:5.5f},display:{Name:\"Baconator\"},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:6.2f,FreeModifiers:2,Durability:566,HarvestLevel:3,Attack:8.141312f},Special:{Categories:[0:\"weapon\",1:\"tool\"]},TinkerData:{UsedModifiers:2,Materials:[0:\"manyullyn\",1:\"pigiron\",2:\"magmaslime\"],Modifiers:[0:\"sharpness\",1:\"creative\",2:\"fiery\"]},Modifiers:[0:{identifier:\"coldblooded\",color:-6202120,level:1},1:{identifier:\"baconlicious\",color:-1073509,level:1},2:{identifier:\"tasty\",color:-1073509,level:1},3:{identifier:\"flammable\",color:-27123,level:1},4:{identifier:\"sharpness\",current:72,color:16774902,level:1,max:72,extraInfo:\"71 / 72\"},5:{identifier:\"creative\",color:0,level:1},6:{identifier:\"fiery\",current:25,color:15375922,level:1,max:25,extraInfo:\"24 / 25\"}],Traits:[0:\"coldblooded\",1:\"baconlicious\",2:\"tasty\",3:\"flammable\",4:\"fiery\"]}"
+          }
+        ]
+      },
+      {
+        "id": "d77096f0-b9cf-48bc-9db6-b2fd623a09d0",
+        "name": "Soul Shard S1",
+        "limit": 0,
+        "items": [
+          {
+            "id": "soulshardstow:ItemSoulSword"
+          },
+          {
+            "id": "soulshardstow:ItemSoulShard",
+            "nbt": "{Tier:0,KillCount:0}"
+          }
+        ]
+      },
+      {
+        "id": "a5aada45-1fd4-4578-a841-2561380f5607",
+        "name": "Rune S1",
+        "limit": 0,
+        "items": [
+          {
+            "id": "botania:rune",
+            "damage": 13,
+            "amount": 2
+          },
+          {
+            "id": "botania:rune",
+            "damage": 14,
+            "amount": 2
+          },
+          {
+            "id": "botania:rune",
+            "damage": 15,
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "id": "b8fd3465-c0aa-4e8a-95b5-b19df871184e",
+        "name": "Enderbag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "enderbags:enderbag"
+          }
+        ]
+      },
+      {
+        "id": "70a48c8b-9cee-4f7d-9d57-0e5c24d06ef2",
+        "name": "Potion S3",
+        "limit": 0,
+        "items": [
+          {
+            "id": "botania:brewVial",
+            "nbt": "{brewKey:\"bloodthirst\"}"
+          }
+        ]
+      },
+      {
+        "id": "edec59be-b193-4ffa-a7f0-d35a3f1cfd73",
+        "name": "Grave Digger",
+        "limit": 0,
+        "items": [
+          {
+            "id": "tconstruct:shovel",
+            "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:7.0f,FreeModifiers:3,Durability:820,HarvestLevel:3,Attack:6.0f},display:{Name:\"Grave Digger\"},Stats:{AttackSpeedMultiplier:1.6f,MiningSpeed:19.403421f,FreeModifiers:0,Durability:820,HarvestLevel:3,Attack:6.0f},Special:{Categories:[0:\"tool\",1:\"harvest\"]},TinkerData:{UsedModifiers:4,Materials:[0:\"knightslime\",1:\"steel\",2:\"prismarine\"],Modifiers:[0:\"haste\",1:\"creative\",2:\"fiery\"]},Modifiers:[0:{identifier:\"unnatural\",color:-946192,level:1},1:{identifier:\"sharp\",color:-5789785,level:1},2:{identifier:\"aquadynamic\",color:-8462660,level:1},3:{identifier:\"haste\",current:150,color:9502720,level:3,max:150,extraInfo:\"149 / 150\"},4:{identifier:\"creative\",color:0,level:1},5:{identifier:\"fiery\",current:25,color:15375922,level:1,max:25,extraInfo:\"24 / 25\"}],Traits:[0:\"unnatural\",1:\"sharp\",2:\"aquadynamic\",3:\"fiery\"]}"
+          }
+        ]
+      },
+      {
+        "id": "44bfa726-a8e6-4554-a87a-e8b7c065d2ed",
+        "name": "Ninja Star",
+        "limit": 0,
+        "items": [
+          {
+            "id": "tconstruct:shuriken",
+            "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:5.2975f,FreeModifiers:3,Durability:549,HarvestLevel:4,Attack:7.23f},display:{Name:\"Ninja Star\"},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:5.2975f,FreeModifiers:3,Durability:549,HarvestLevel:4,Attack:7.23f},Special:{Categories:[0:\"tool\",1:\"no_melee\",2:\"projectile\"]},TinkerData:{Materials:[0:\"obsidian\",1:\"manyullyn\",2:\"silver\",3:\"magmaslime\"],Modifiers:[]},Modifiers:[0:{identifier:\"duritos\",color:-10478396,level:1},1:{identifier:\"insatiable\",color:-6202120,level:1},2:{identifier:\"coldblooded\",color:-6202120,level:1},3:{identifier:\"holy\",color:-3019530,level:1},4:{identifier:\"superheat\",color:-27123,level:1},5:{identifier:\"flammable\",color:-27123,level:1}],Traits:[0:\"duritos\",1:\"insatiable\",2:\"coldblooded\",3:\"holy\",4:\"superheat\",5:\"flammable\"]}"
+          }
+        ]
+      },
+      {
+        "id": "6f7a3eac-9705-4cca-8822-ac5c34122570",
+        "name": "Sharpen Wood",
+        "limit": 0,
+        "items": [
+          {
+            "id": "tconstruct:pickaxe",
+            "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:2.0f,FreeModifiers:3,Durability:402,HarvestLevel:0,Attack:2.0f},display:{Name:\"Sharpen Wood\"},Stats:{AttackSpeedMultiplier:1.3000001f,MiningSpeed:8.70725f,FreeModifiers:0,Durability:402,HarvestLevel:0,Attack:7.947485f},Special:{Categories:[0:\"tool\",1:\"harvest\"]},TinkerData:{UsedModifiers:3,Materials:[0:\"cobalt\",1:\"wood\",2:\"cobalt\"],Modifiers:[0:\"sharpness\",1:\"haste\"]},Modifiers:[0:{identifier:\"lightweight\",color:-14122284,level:1},1:{identifier:\"ecological\",color:-7444965,level:1},2:{identifier:\"sharpness\",current:144,color:16774902,level:2,max:144,extraInfo:\"143 / 144\"},3:{identifier:\"haste\",current:50,color:9502720,level:1,max:50,extraInfo:\"49 / 50\"}],Traits:[0:\"lightweight\",1:\"ecological\"]}"
+          }
+        ]
+      },
+      {
+        "id": "6558d86a-6515-4fd3-b4c1-5a2e6a4f7948",
+        "name": "Soul Shard S2",
+        "limit": 0,
+        "items": [
+          {
+            "id": "soulshardstow:ItemMaterials",
+            "damage": 1,
+            "amount": 8
+          },
+          {
+            "id": "soulshardstow:ItemMaterials",
+            "amount": 2
+          },
+          {
+            "id": "soulshardstow:BlockCage"
+          }
+        ]
+      },
+      {
+        "id": "9a34b59c-3652-4361-97df-4baa81cc43f1",
+        "name": "Fiesty Pan",
+        "limit": 0,
+        "items": [
+          {
+            "id": "tconstruct:frypan",
+            "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:12.0f,FreeModifiers:3,Durability:836,HarvestLevel:4,Attack:4.1f},display:{Name:\"Fiesty Pan\"},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:12.0f,FreeModifiers:2,Durability:836,HarvestLevel:4,Attack:6.972194f},Special:{Categories:[0:\"tool\",1:\"weapon\"]},TinkerData:{UsedModifiers:2,Materials:[0:\"pigiron\",1:\"cobalt\"],Modifiers:[0:\"fiery\",1:\"creative\",2:\"sharpness\"]},Modifiers:[0:{identifier:\"tasty\",color:-1073509,level:1},1:{identifier:\"momentum\",color:-14122284,level:1},2:{identifier:\"fiery\",current:25,color:15375922,level:1,max:25,extraInfo:\"24 / 25\"},3:{identifier:\"creative\",color:0,level:1},4:{identifier:\"sharpness\",current:72,color:16774902,level:1,max:72,extraInfo:\"71 / 72\"}],Traits:[0:\"tasty\",1:\"momentum\",2:\"fiery\"]}"
+          }
+        ]
+      },
+      {
+        "id": "417df00c-2eca-4764-89f7-1b7c44182f5d",
+        "name": "Gold bag",
+        "limit": 0,
+        "items": [
+          {
+            "id": "extrautils2:BagOfHolding"
+          }
+        ]
+      },
+      {
+        "id": "973134b8-cfb3-4e54-acab-784c892c608b",
+        "name": "Diamond Hammer",
+        "limit": 0,
+        "items": [
+          {
+            "id": "hammerz:item.Hammer",
+            "nbt": "{Hammerz.HammerType:\"DIAMOND\"}"
+          }
+        ]
+      },
+      {
+        "id": "bc6be6ff-d13d-491f-aa83-44a29b09c121",
+        "name": "Bauble S2",
+        "limit": 0,
+        "items": [
+          {
+            "id": "baublesstuff:Spell_Book"
+          }
+        ]
+      },
+      {
+        "id": "c0172939-cc4f-4cb8-ae21-5754aac7bd00",
+        "name": "Enchant S4",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:enchanted_book",
+            "nbt": "{StoredEnchantments:[0:{lvl:1s,id:11s}]}"
+          }
+        ]
+      },
+      {
+        "id": "d7b53410-925f-4597-9180-5e42f510b0bf",
+        "name": "Ender Seed",
+        "limit": 0,
+        "items": [
+          {
+            "id": "endercrop:ender_seeds"
+          },
+          {
+            "id": "minecraft:ender_pearl",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "id": "d1a42b69-b4c4-41fe-99b7-436edf5999ec",
+        "name": "Enchant S5",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:enchanted_book",
+            "nbt": "{StoredEnchantments:[0:{lvl:3s,id:10s}]}"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "New Tier",
+    "colour": "RED",
+    "weights": [
+      15,
+      17,
+      19,
+      27,
+      24
+    ],
+    "groups": [
+      {
+        "id": "05aa8abd-dbff-45a9-a824-d171149e8044",
+        "name": "IO S7",
+        "limit": 0,
+        "items": [
+          {
+            "id": "enderio:itemFrankenSkull",
+            "damage": 4
+          }
+        ]
+      },
+      {
+        "id": "46b81349-fe7b-412c-8e02-3eca56d239a9",
+        "name": "Bifrost",
+        "limit": 0,
+        "items": [
+          {
+            "id": "botania:rainbowRod"
+          },
+          {
+            "id": "botania:bifrostPerm",
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "id": "19c529e5-a50e-4a0c-95a2-725dc2a9e3e5",
+        "name": "Spec Key",
+        "limit": 0,
+        "items": [
+          {
+            "id": "randomthings:spectreKey"
+          }
+        ]
+      },
+      {
+        "id": "6bc2ea5f-73d5-4c05-a08d-8530e2e4d619",
+        "name": "Gold App",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:golden_apple"
+          }
+        ]
+      },
+      {
+        "id": "e5da0be3-3f47-4740-9dbf-bb8cb8defb3f",
+        "name": "Laputa",
+        "limit": 0,
+        "items": [
+          {
+            "id": "botania:laputaShard",
+            "damage": 19
+          }
+        ]
+      },
+      {
+        "id": "f152e63f-4f7a-4466-bf38-c4d2280e65e7",
+        "name": "Potion S2",
+        "limit": 0,
+        "items": [
+          {
+            "id": "botania:brewVial",
+            "nbt": "{brewKey:\"healing\"}"
+          }
+        ]
+      },
+      {
+        "id": "8c033563-5681-4aa0-8f49-25bbff476770",
+        "name": "Enchant S1",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:enchanted_book",
+            "nbt": "{StoredEnchantments:[0:{lvl:1s,id:13s}]}"
+          }
+        ]
+      },
+      {
+        "id": "c5439359-02d4-48a8-aa5d-ceeb64b25240",
+        "name": "IO S2",
+        "limit": 0,
+        "items": [
+          {
+            "id": "enderio:darkSteel_chestplate",
+            "nbt": "{enderio.darksteel.upgrade.energyUpgrade:{upgradeItem:{id:\"enderio:itemBasicCapacitor\",Count:1b,Damage:2s},maxOuput:10000,level_cost:20,unlocalized_name:\"enderio.darksteel.upgrade.empowered_four\",maxInput:10000,capacity:1000000,energy:1000000},enderio.darksteel.upgrade.glide:{upgradeItem:{id:\"enderio:itemGliderWing\",Count:1b,Damage:1s},level_cost:10,unlocalized_name:\"enderio.darksteel.upgrade.glider\"}}"
+          }
+        ]
+      },
+      {
+        "id": "22afce6a-2734-4309-aaec-5baf3a45268a",
+        "name": "Dark Steel Hammer",
+        "limit": 0,
+        "items": [
+          {
+            "id": "hammerz:item.Hammer",
+            "nbt": "{Hammerz.HammerType:\"DARKSTEEL\"}"
+          }
+        ]
+      },
+      {
+        "id": "9ddfbb5c-3fb9-4ec7-9a91-cdde4d19f512",
+        "name": "IO S3",
+        "limit": 0,
+        "items": [
+          {
+            "id": "enderio:itemMagnet",
+            "nbt": "{Energy:100000}"
+          }
+        ]
+      },
+      {
+        "id": "38717091-798f-4102-a04b-82d0c6cbedf8",
+        "name": "Enchant S2",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:enchanted_book",
+            "nbt": "{StoredEnchantments:[0:{lvl:2s,id:9s}]}"
+          }
+        ]
+      },
+      {
+        "id": "5caa8ccb-4b30-432b-8e29-2df7f699898e",
+        "name": "Enchant S3",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:enchanted_book",
+            "nbt": "{StoredEnchantments:[0:{lvl:1s,id:70s}]}"
+          }
+        ]
+      },
+      {
+        "id": "abbda4e1-c75d-438e-9a6c-644ada3d9945",
+        "name": "PSI S1",
+        "limit": 0,
+        "items": [
+          {
+            "id": "psi:material",
+            "amount": 4
+          },
+          {
+            "id": "psi:material",
+            "damage": 1,
+            "amount": 2
+          },
+          {
+            "id": "psi:material",
+            "damage": 2
+          }
+        ]
+      },
+      {
+        "id": "1d9570dd-78a8-4b6e-8ff2-d0e86d807adc",
+        "name": "IO S6",
+        "limit": 0,
+        "items": [
+          {
+            "id": "enderio:itemFrankenSkull"
+          },
+          {
+            "id": "enderio:itemFrankenSkull",
+            "damage": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "New Tier",
+    "colour": "PURPLE",
+    "weights": [
+      5,
+      7,
+      12,
+      17,
+      32
+    ],
+    "groups": [
+      {
+        "id": "6ba1e328-a4d3-46ba-a2d5-00afb09a4593",
+        "name": "Draining Cleaver",
+        "limit": 0,
+        "items": [
+          {
+            "id": "tconstruct:cleaver",
+            "nbt": "{ench:[0:{lvl:1s,id:33s}],StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:3.79f,FreeModifiers:3,Durability:632,HarvestLevel:4,Attack:4.975f},display:{Name:\"Draining Cleaver\"},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:3.79f,FreeModifiers:0,Durability:632,HarvestLevel:4,Attack:7.7028937f},Special:{Categories:[0:\"tool\",1:\"weapon\"]},TinkerData:{UsedModifiers:5,Materials:[0:\"sponge\",1:\"paper\",2:\"obsidian\",3:\"paper\"],Modifiers:[0:\"beheading_cleaver\",1:\"sharpness\",2:\"necrotic\"]},Modifiers:[0:{identifier:\"squeaky\",color:-3486642,level:1},1:{identifier:\"writable\",color:-1,level:2,writable2:1b,writable1:1b},2:{identifier:\"duritos\",color:-10478396,level:1},3:{identifier:\"beheading_cleaver\",color:1070923,level:2},4:{identifier:\"sharpness\",current:72,color:16774902,level:1,max:72,extraInfo:\"71 / 72\"},5:{identifier:\"necrotic\",color:6160384,level:4}],Traits:[0:\"squeaky\",1:\"writable2\",2:\"duritos\",3:\"writable1\",4:\"necrotic\"]}"
+          }
+        ]
+      },
+      {
+        "id": "52efb1f4-f089-4b92-b563-e0266f805b8e",
+        "name": "Potion S1",
+        "limit": 0,
+        "items": [
+          {
+            "id": "botania:brewFlask",
+            "nbt": "{brewKey:\"strength\"}"
+          }
+        ]
+      },
+      {
+        "id": "d9f63a84-3a41-4016-a604-d9b391bb4904",
+        "name": "Bag S1",
+        "limit": 0,
+        "items": [
+          {
+            "id": "hardcorequesting:bags",
+            "damage": 4
+          }
+        ]
+      },
+      {
+        "id": "2e63e6a4-ecca-4316-ab93-ca7d74dc8b91",
+        "name": "UU",
+        "limit": 0,
+        "items": [
+          {
+            "id": "techreborn:uumatter",
+            "amount": 12
+          }
+        ]
+      },
+      {
+        "id": "cfb580ef-37ac-435a-b962-f006c93de9f3",
+        "name": "IO S4",
+        "limit": 0,
+        "items": [
+          {
+            "id": "enderio:blockTransceiver",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "id": "54d72a77-a256-475a-98e1-ad3691368f41",
+        "name": "Tiara",
+        "limit": 0,
+        "items": [
+          {
+            "id": "botania:flightTiara",
+            "damage": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "New Tier",
+    "colour": "LIGHT_GRAY",
+    "weights": [
+      0,
+      0,
+      0,
+      10,
+      90
+    ],
+    "groups": [
+      {
+        "id": "2514b260-bbc4-4efd-b32b-43aa178ce59c",
+        "name": "Notch",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:golden_apple",
+            "damage": 1
+          }
+        ]
+      },
+      {
+        "id": "954a4af1-4f7e-464c-b7f2-dd20b7d2c270",
+        "name": "Angel Wing",
+        "limit": 0,
+        "items": [
+          {
+            "id": "extrautils2:AngelRing",
+            "damage": 1
+          }
+        ]
+      }
+    ]
+  }
+]

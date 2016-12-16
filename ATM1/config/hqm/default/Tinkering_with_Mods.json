@@ -1,0 +1,1172 @@
+{
+  "name": "Tinkering with Mods",
+  "description": "Modpacks require some changes, can\u0027t just take them out of the box and call it a day!",
+  "quests": [
+    {
+      "uuid": "015cd62b-bcf3-44cf-ad8e-a35db180ba14",
+      "name": "Regular Mods",
+      "description": "Your average joe...",
+      "x": 134,
+      "y": 61,
+      "icon": {
+        "id": "minecraft:redstone_block"
+      },
+      "prerequisites": [
+        "b2b13abb-516b-49a7-b013-be11af4ccaf1"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:redstone_block"
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "minecraft:quartz_block"
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "minecraft:lapis_block"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "minecraft:blaze_powder"
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:lapis_ore",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:redstone_ore",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:quartz_ore",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:blaze_rod",
+          "amount": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6f5af63d-220f-4604-acfe-d7b62f08d71e",
+      "name": "Bronze Cuffs",
+      "description": "We\u0027ve entered the bronze age boys!",
+      "x": 217,
+      "y": 65,
+      "icon": {
+        "id": "chisel:blockBronze",
+        "damage": 2
+      },
+      "prerequisites": [
+        "b2b13abb-516b-49a7-b013-be11af4ccaf1"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "techreborn:techreborn.storage",
+                "damage": 5
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "tconstruct:pick_head",
+                "nbt": "{Material:\"bronze\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:sword_blade",
+                "nbt": "{Material:\"bronze\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:axe_head",
+                "nbt": "{Material:\"bronze\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "techreborn:techreborn.ore2",
+          "amount": 12
+        },
+        {
+          "id": "techreborn:techreborn.ore2",
+          "damage": 1,
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forge:bucketFilled",
+          "nbt": "{FluidName:\"alubrass\",Amount:1000}"
+        },
+        {
+          "id": "forge:bucketFilled",
+          "nbt": "{FluidName:\"ardite\",Amount:1000}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eb896009-17bf-4f58-9574-91ea92d289fc",
+      "name": "Slime Accesories",
+      "description": "Only found on the black market ;)",
+      "x": 64,
+      "y": 121,
+      "icon": {
+        "id": "tconstruct:slimesling"
+      },
+      "prerequisites": [
+        "2aeeeef1-3184-4314-9872-a45a1c790c28"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:slimesling"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:slime_boots"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:materials",
+          "damage": 9,
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:skull",
+          "damage": 3,
+          "nbt": "{SkullOwner:{Id:\"870aba93-40e8-48b3-89c5-32ece00d6630\",Properties:{textures:[0:{Signature:\"ybCwjfXeKMuYxwN1E7dmQP5DbXbFOHW29uh/jHVQ2GcEbzfXZqBfkhOHaOYLw2DICwXO/w44ZemtDbjMSZeuSWWuBAnd1PzDAbuyagd7GasH9FxhkX2K5eNAOrGFQhBWrYj+UNtY5OBRuEtdSkro3+vMRkakFbobdlyupn+03zWSeQi5Q2d/Oa3tFRoV4mo39sDou3ma8zErGQk7am8hXf0NVmTWbDbx1vH8a6NEx6Q8oypnrxMLTozpTMHK1iQRsZWhrkknc6VAJA65jXLsSGlSqiJDp4/QtkoieqJ5uGvC/NIIOi/HjJG6RXJtjJbXyKEI7+0fKY8c876/LqdmB1RCaWrOFzTqFKz5/e+8QypHaCg1Rzl2ndcm027KgBqGUkVT+rI1cbBQjklzGv4HUXjnzXLhsyzLsNyZSFrh2RNvGUq4hj36b5JeSSbAvYM7nh5QwZuwogRiNu1KQkACVP+8CIY50p8c9lyEe5Xzz/9z6FEz4vSUu6rc9Hf2XJg81nUV0eNxGLeh2gAI8KNLbtOac9cfo+QuHnIxD10T8SBulV02qB+AtgrWSrdbIi54+bbgPCWIHTtOsEnnNV96nQbLlODjnBK/wo1aOj574x46MnKDeuGdeJh8g+y93yAJx3SDMEwp/ndJQtlBasCExME4MyLJp1cr4iUa2CYwR2g\u003d\",Value:\"eyJ0aW1lc3RhbXAiOjE0NjQ5NzE5NDkyNTksInByb2ZpbGVJZCI6Ijg3MGFiYTkzNDBlODQ4YjM4OWM1MzJlY2UwMGQ2NjMwIiwicHJvZmlsZU5hbWUiOiJNSEZfU2xpbWUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE2YWQyMGZjMmQ1NzliZTI1MGQzZGI2NTljODMyZGEyYjQ3OGE3M2E2OThiN2VhMTBkMThjOTE2MmU0ZDliNSJ9fX0\u003d\"}]},Name:\"MHF_Slime\"}}"
+        },
+        {
+          "id": "minecraft:skull",
+          "damage": 3,
+          "nbt": "{SkullOwner:{Id:\"0972bdd1-4b86-49fb-9ecc-a353f8491a51\",Properties:{textures:[0:{Signature:\"eOyKHuLyoQ1oDq3NQXIVtPFUaHGPJM0TVL7WbBSg6zSuRGrb2++IMaYIBuIL5D838cmuw2FPLYl30BaBRcZU9uOUgTFVObN3B4LVebtVMKIfuE69zBC1P9krszKymBgBiDVTFLEQTQkPn7uhi6ArQbDIfh2r7nZMVpLYq0P+IAtXDHq8jy8lT5QJstwlaIpbaQWOz9PwZJrefyD8PZjrSi/ibCvvsonLCl2dVsUUWafMrgwVDK6Uik4/sc1ASMEsUOeaUrsROzeqRAsYFAKxPoUZjxWUGGbbDlh9fhft5HViaMCIpKtPx3hebTbyhzZGH9BoSxeSCSoLTN+hfJJX1xDMqIXSpu/kSid7iVIhKfbz/MY7TOWSdEw/SedtcmCR/UwD8YGyEM0paIfAW6P+mtRxUVWnYjlaVdwSckGLqqi2bOH7Wg6Mrj4PyVo3xfezlyMZI5q4yfVNL/FjjsJbmnhk1o+O8KcLprCSBRJGMNo9w0yPvthzOr/moAJankPVDoskKtuKO1Op18YJxe1zGiCZ9WMiQN21sA+FKZdi11Uup5KeIVRAtuuRDtFN/z3aLnq4WJnBmp+3dBrmviJ0OTtlcyIRAc9iAm1rtgn4Hx02p+zqWHP55Fgh3I8FdY8I6t6jvojoRFKrYADenIzdd9NQO41lllohtBFdBzNpU0w\u003d\",Value:\"eyJ0aW1lc3RhbXAiOjE0NjQ5NzE5NDgzMDksInByb2ZpbGVJZCI6IjA5NzJiZGQxNGI4NjQ5ZmI5ZWNjYTM1M2Y4NDkxYTUxIiwicHJvZmlsZU5hbWUiOiJNSEZfTGF2YVNsaW1lIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zODk1N2Q1MDIzYzkzN2M0YzQxYWEyNDEyZDQzNDEwYmRhMjNjZjc5YTlmNmFiMzZiNzZmZWYyZDdjNDI5In19fQ\u003d\u003d\"}]},Name:\"MHF_LavaSlime\"}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f607e63d-c5c2-4563-9fab-cc0cd8df8ec2",
+      "name": "Fragile Obsidian",
+      "description": "Surprinsly light!",
+      "x": 217,
+      "y": 100,
+      "icon": {
+        "id": "minecraft:obsidian"
+      },
+      "prerequisites": [
+        "6f5af63d-220f-4604-acfe-d7b62f08d71e"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:obsidian"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "tconstruct:pick_head",
+                "nbt": "{Material:\"obsidian\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:sword_blade",
+                "nbt": "{Material:\"obsidian\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:axe_head",
+                "nbt": "{Material:\"obsidian\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:obsidian",
+          "amount": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forge:bucketFilled",
+          "nbt": "{FluidName:\"ice\",Amount:1000}"
+        },
+        {
+          "id": "forge:bucketFilled",
+          "nbt": "{FluidName:\"rocket_fuel\",Amount:1000}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fe93c3d7-e80a-48e2-b569-c6175714bae0",
+      "name": "Quick Cobalt",
+      "description": "Mirror mirror on the wall, who is the fastest of them all?",
+      "x": 217,
+      "y": 135,
+      "icon": {
+        "id": "tconstruct:metal"
+      },
+      "prerequisites": [
+        "f607e63d-c5c2-4563-9fab-cc0cd8df8ec2"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:metal"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "tconstruct:pick_head",
+                "nbt": "{Material:\"cobalt\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:sword_blade",
+                "nbt": "{Material:\"cobalt\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:axe_head",
+                "nbt": "{Material:\"cobalt\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:ore",
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forge:bucketFilled",
+          "nbt": "{FluidName:\"gold\",Amount:1000}"
+        },
+        {
+          "id": "forge:bucketFilled",
+          "nbt": "{FluidName:\"zinc\",Amount:1000}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9ac04067-480e-4e67-909d-4fb044c47bd1",
+      "name": "Silky Smooth",
+      "description": "Soft as a baby\u0027s bottom.",
+      "x": 133,
+      "y": 130,
+      "icon": {
+        "id": "tconstruct:materials",
+        "damage": 16
+      },
+      "prerequisites": [
+        "1c7a6ae5-e140-4532-90fd-0d7adbc95e10"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gold_ingot"
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "minecraft:string"
+              },
+              "required": 64
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:materials",
+                "damage": 16
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:gold_block",
+          "amount": 12
+        },
+        {
+          "id": "minecraft:wool",
+          "amount": 64
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dfe85700-ffb7-4e70-bfec-92588945b9bc",
+      "name": "Many Sharpens",
+      "description": "How many can you sharpen??? Haha, get it? Cause \"many\" is in \"manyullun\"? No? Okay I\u0027ll shut up now...",
+      "x": 252,
+      "y": 187,
+      "icon": {
+        "id": "tconstruct:sharpening_kit",
+        "nbt": "{Material:\"manyullyn\"}"
+      },
+      "prerequisites": [
+        "1f9ac0ef-c4c5-44c8-be63-2c3d5811e1ac"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:sharpening_kit",
+                "nbt": "{Material:\"manyullyn\"}"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:metal",
+          "damage": 2,
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8969d695-37bf-4189-8e43-82c3a8cf505b",
+      "name": "Scrawny Match",
+      "description": "Let\u0027s see this sharpen anything...",
+      "x": 253,
+      "y": 114,
+      "icon": {
+        "id": "tconstruct:sharpening_kit",
+        "nbt": "{Material:\"obsidian\"}"
+      },
+      "prerequisites": [
+        "f607e63d-c5c2-4563-9fab-cc0cd8df8ec2"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:sharpening_kit",
+                "nbt": "{Material:\"obsidian\"}"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:obsidian",
+          "amount": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2aeeeef1-3184-4314-9872-a45a1c790c28",
+      "name": "Bouncey House",
+      "description": "You won\u0027t die of fall damage with this!",
+      "x": 64,
+      "y": 88,
+      "icon": {
+        "id": "minecraft:slime"
+      },
+      "prerequisites": [
+        "0fdf35ea-ce9b-4704-99fb-29a7a03e1888"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:slime_congealed"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "tconstruct:slime_congealed",
+                "damage": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "tconstruct:slime_congealed",
+                "damage": 2
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "tconstruct:slime_congealed",
+                "damage": 3
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "tconstruct:slime_congealed",
+                "damage": 4
+              },
+              "required": 16
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:materials",
+                "damage": 9
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "tconstruct:materials",
+                "damage": 10
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "tconstruct:materials",
+                "damage": 11
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:metal",
+          "damage": 3,
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forge:bucketFilled",
+          "nbt": "{FluidName:\"obsidian\",Amount:1000}"
+        },
+        {
+          "id": "forge:bucketFilled",
+          "nbt": "{FluidName:\"nickel\",Amount:1000}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b02e38d8-43a9-4832-ba07-cc1fc1ed2034",
+      "name": "Odd Man Out",
+      "description": "Useful, but odd to be in a tool mod...",
+      "x": 64,
+      "y": 158,
+      "icon": {
+        "id": "tconstruct:throwball",
+        "damage": 1
+      },
+      "prerequisites": [
+        "eb896009-17bf-4f58-9574-91ea92d289fc"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:throwball",
+                "damage": 1
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "tconstruct:throwball"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "tconstruct:punji"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:throwball",
+          "damage": 1,
+          "amount": 64
+        },
+        {
+          "id": "tconstruct:throwball",
+          "amount": 64
+        },
+        {
+          "id": "tconstruct:punji",
+          "amount": 64
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1c7a6ae5-e140-4532-90fd-0d7adbc95e10",
+      "name": "Expansion",
+      "description": "Maybe it\u0027s time to expand the company!",
+      "x": 133,
+      "y": 96,
+      "icon": {
+        "id": "tconstruct:materials",
+        "damage": 13
+      },
+      "prerequisites": [
+        "015cd62b-bcf3-44cf-ad8e-a35db180ba14"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:materials",
+                "damage": 12
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:materials",
+                "damage": 13
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:materials",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:ingots",
+          "damage": 3,
+          "amount": 16
+        },
+        {
+          "id": "minecraft:obsidian",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5948f3d5-cf66-4cd6-9f48-a9d527488f56",
+      "name": "Cheater!",
+      "description": "How did you manage to get that reward? It\u0027s creative only!",
+      "x": 133,
+      "y": 166,
+      "icon": {
+        "id": "tconstruct:materials",
+        "damage": 50
+      },
+      "prerequisites": [
+        "b02e38d8-43a9-4832-ba07-cc1fc1ed2034",
+        "9ac04067-480e-4e67-909d-4fb044c47bd1",
+        "1f9ac0ef-c4c5-44c8-be63-2c3d5811e1ac"
+      ],
+      "repeat": {
+        "type": "TIME",
+        "days": 10,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:redstone_block"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "minecraft:quartz_block"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "minecraft:lapis_block"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "tconstruct:throwball",
+                "damage": 1
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "tconstruct:materials",
+                "damage": 16
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "tconstruct:metal",
+                "damage": 2
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "tconstruct:metal"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:materials",
+          "damage": 50
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 4
+        }
+      ],
+      "commandrewards": [
+        "/say @p has gotten a creative modifer! What a waste of resources!"
+      ]
+    },
+    {
+      "uuid": "1f9ac0ef-c4c5-44c8-be63-2c3d5811e1ac",
+      "name": "Hard as Manyullun",
+      "description": "Better than steel!",
+      "x": 217,
+      "y": 172,
+      "icon": {
+        "id": "tconstruct:metal",
+        "damage": 2
+      },
+      "prerequisites": [
+        "fe93c3d7-e80a-48e2-b569-c6175714bae0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:metal",
+                "damage": 2
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "tconstruct:pick_head",
+                "nbt": "{Material:\"manyullyn\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:sword_blade",
+                "nbt": "{Material:\"manyullyn\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:axe_head",
+                "nbt": "{Material:\"manyullyn\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:ore",
+          "amount": 12
+        },
+        {
+          "id": "tconstruct:ore",
+          "damage": 1,
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forge:bucketFilled",
+          "nbt": "{FluidName:\"knightslime\",Amount:1000}"
+        },
+        {
+          "id": "forge:bucketFilled",
+          "nbt": "{FluidName:\"cobalt\",Amount:1000}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7c0fed95-395a-4d7e-8136-a65c41ebc87d",
+      "name": "Cobalt Madness",
+      "description": "Sharpens quicker than the rest!",
+      "x": 251,
+      "y": 149,
+      "icon": {
+        "id": "tconstruct:sharpening_kit",
+        "nbt": "{Material:\"cobalt\"}"
+      },
+      "prerequisites": [
+        "fe93c3d7-e80a-48e2-b569-c6175714bae0"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:sharpening_kit",
+                "nbt": "{Material:\"cobalt\"}"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:metal",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0fdf35ea-ce9b-4704-99fb-29a7a03e1888",
+      "name": "Mr. Grout",
+      "description": "Don\u0027t be so grouty!",
+      "x": 46,
+      "y": 34,
+      "icon": {
+        "id": "tconstruct:soil"
+      },
+      "prerequisites": [
+        "7a4629fc-e13c-46b7-bde2-20fc117083d2"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:soil"
+              },
+              "required": 128
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:materials",
+          "amount": 64
+        },
+        {
+          "id": "tconstruct:smeltery_controller"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:lava_bucket",
+          "amount": 4
+        },
+        {
+          "id": "forge:bucketFilled",
+          "amount": 4,
+          "nbt": "{FluidName:\"iron\",Amount:1000}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a73df37b-7513-48bd-9c75-b7462636270a",
+      "name": "Iron Sharpener",
+      "description": "Pencil Sharpener",
+      "x": 252,
+      "y": 42,
+      "icon": {
+        "id": "tconstruct:sharpening_kit",
+        "nbt": "{Material:\"iron\"}"
+      },
+      "prerequisites": [
+        "b2b13abb-516b-49a7-b013-be11af4ccaf1"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:sharpening_kit",
+                "nbt": "{Material:\"iron\"}"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_block",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags"
+        },
+        {
+          "id": "hardcorequesting:bags"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b2b13abb-516b-49a7-b013-be11af4ccaf1",
+      "name": "Iron Nails",
+      "description": "What better way to start off?",
+      "x": 217,
+      "y": 31,
+      "icon": {
+        "id": "minecraft:iron_block"
+      },
+      "prerequisites": [
+        "a6ee7b02-3a0a-4dc0-961b-270f7b09c9d2"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_block"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "tconstruct:pick_head",
+                "nbt": "{Material:\"iron\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:sword_blade",
+                "nbt": "{Material:\"iron\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:axe_head",
+                "nbt": "{Material:\"iron\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_ore",
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forge:bucketFilled",
+          "nbt": "{FluidName:\"emerald\",Amount:1000}"
+        },
+        {
+          "id": "forge:bucketFilled",
+          "nbt": "{FluidName:\"steel\",Amount:1000}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f5ba3760-e4f8-408c-8827-9fcd5eadcd6b",
+      "name": "Bronze Tan",
+      "description": "Better than what you can get in a tanning booth!",
+      "x": 253,
+      "y": 77,
+      "icon": {
+        "id": "tconstruct:sharpening_kit",
+        "nbt": "{Material:\"bronze\"}"
+      },
+      "prerequisites": [
+        "6f5af63d-220f-4604-acfe-d7b62f08d71e"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:sharpening_kit",
+                "nbt": "{Material:\"bronze\"}"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "techreborn:techreborn.storage",
+          "damage": 5,
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a6ee7b02-3a0a-4dc0-961b-270f7b09c9d2",
+      "name": "Seared Stone",
+      "description": "Why didn\u0027t you call the fire department?",
+      "x": 82,
+      "y": 33,
+      "icon": {
+        "id": "tconstruct:seared"
+      },
+      "prerequisites": [
+        "0fdf35ea-ce9b-4704-99fb-29a7a03e1888"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:seared_tank"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared",
+                "damage": 3
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "tconstruct:smeltery_controller"
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:smeltery_io"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:seared",
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forge:bucketFilled",
+          "nbt": "{FluidName:\"knightslime\",Amount:1000}"
+        },
+        {
+          "id": "forge:bucketFilled",
+          "nbt": "{FluidName:\"electrum\",Amount:1000}"
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

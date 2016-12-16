@@ -1,0 +1,2046 @@
+{
+  "name": "Sticky Mods",
+  "description": "The buzz of bees and sweetness of trees. Honey can sticky up your mods.",
+  "quests": [
+    {
+      "uuid": "2eb284be-80d3-4fce-bd4d-b1204aadfd1e",
+      "name": "Cheapskate",
+      "description": "There is a line between money managment and being a cheapskate...",
+      "x": 157,
+      "y": 144,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:50,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesFrugal\",UID0:\"forestry.speciesFrugal\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceDown1\",UID0:\"forestry.toleranceDown1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersCacti\",UID0:\"forestry.flowersCacti\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:50,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesFrugal\",UID0:\"forestry.speciesFrugal\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceDown1\",UID0:\"forestry.toleranceDown1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersCacti\",UID0:\"forestry.flowersCacti\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "48c926c1-5467-4885-8f47-ed5665d818fe",
+        "43c3d59b-d5ca-4dbb-9a54-e20e4a7dfe9e"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:50,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesFrugal\",UID0:\"forestry.speciesFrugal\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceDown1\",UID0:\"forestry.toleranceDown1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersCacti\",UID0:\"forestry.flowersCacti\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:50,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesFrugal\",UID0:\"forestry.speciesFrugal\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceDown1\",UID0:\"forestry.toleranceDown1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersCacti\",UID0:\"forestry.flowersCacti\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:honeyDrop",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "13372528-834e-463e-a34e-db5de79f664c",
+      "name": "Fiendish Foes",
+      "description": "Those damn monsters!",
+      "x": 172,
+      "y": 164,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:50,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesFiendish\",UID0:\"forestry.speciesFiendish\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersNether\",UID0:\"forestry.flowersNether\",Slot:9b},10:{UID1:\"forestry.floweringAverage\",UID0:\"forestry.floweringAverage\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectAggressive\",UID0:\"forestry.effectAggressive\",Slot:12b}]},Health:50,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesFiendish\",UID0:\"forestry.speciesFiendish\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersNether\",UID0:\"forestry.flowersNether\",Slot:9b},10:{UID1:\"forestry.floweringAverage\",UID0:\"forestry.floweringAverage\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectAggressive\",UID0:\"forestry.effectAggressive\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "48c926c1-5467-4885-8f47-ed5665d818fe"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:50,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesFiendish\",UID0:\"forestry.speciesFiendish\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersNether\",UID0:\"forestry.flowersNether\",Slot:9b},10:{UID1:\"forestry.floweringAverage\",UID0:\"forestry.floweringAverage\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectAggressive\",UID0:\"forestry.effectAggressive\",Slot:12b}]},Health:50,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesFiendish\",UID0:\"forestry.speciesFiendish\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersNether\",UID0:\"forestry.flowersNether\",Slot:9b},10:{UID1:\"forestry.floweringAverage\",UID0:\"forestry.floweringAverage\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectAggressive\",UID0:\"forestry.effectAggressive\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:pollen",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eaf36307-f025-43be-ad7d-d133da5783fb",
+      "name": "Unknown",
+      "description": "Does anyone have a clue what that means??",
+      "x": 130,
+      "y": 145,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:60,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesAustere\",UID0:\"forestry.speciesAustere\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceDown1\",UID0:\"forestry.toleranceDown1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersCacti\",UID0:\"forestry.flowersCacti\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectCreeper\",UID0:\"forestry.effectCreeper\",Slot:12b}]},Health:60,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesAustere\",UID0:\"forestry.speciesAustere\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceDown1\",UID0:\"forestry.toleranceDown1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersCacti\",UID0:\"forestry.flowersCacti\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectCreeper\",UID0:\"forestry.effectCreeper\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "2eb284be-80d3-4fce-bd4d-b1204aadfd1e"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:60,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesAustere\",UID0:\"forestry.speciesAustere\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceDown1\",UID0:\"forestry.toleranceDown1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersCacti\",UID0:\"forestry.flowersCacti\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectCreeper\",UID0:\"forestry.effectCreeper\",Slot:12b}]},Health:60,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesAustere\",UID0:\"forestry.speciesAustere\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceDown1\",UID0:\"forestry.toleranceDown1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersCacti\",UID0:\"forestry.flowersCacti\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectCreeper\",UID0:\"forestry.effectCreeper\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:pollen",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "72db1b12-0a44-431a-8760-3eaea6f98962",
+      "name": "Royalty",
+      "description": "Everyone is from royalty if you go back far enough...",
+      "x": 237,
+      "y": 53,
+      "icon": {
+        "id": "forestry:royalJelly"
+      },
+      "prerequisites": [
+        "8f9f58d5-2387-4488-a924-b61bbb5c0453"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:royalJelly"
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:royalJelly",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:crated.forestry.beeswax.0",
+          "amount": 16
+        },
+        {
+          "id": "forestry:crated.forestry.royalJelly.0",
+          "amount": 8
+        },
+        {
+          "id": "forestry:crated.forestry.beeCombs.0",
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2ec7e71e-5a11-4290-ac9b-cd2180dbbbfb",
+      "name": "Diligent Work",
+      "description": "Keep working!",
+      "x": 144,
+      "y": 31,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:30,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesDiligent\",UID0:\"forestry.speciesDiligent\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlow\",UID0:\"forestry.floweringSlow\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:30,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesDiligent\",UID0:\"forestry.speciesDiligent\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlow\",UID0:\"forestry.floweringSlow\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "f8bf62f7-7e16-45cc-a4d0-fc77514c1278",
+        "ae205350-dede-42bc-9403-56d7f6299284"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:30,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesDiligent\",UID0:\"forestry.speciesDiligent\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlow\",UID0:\"forestry.floweringSlow\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:30,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesDiligent\",UID0:\"forestry.speciesDiligent\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlow\",UID0:\"forestry.floweringSlow\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:honeyDrop",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8f9f58d5-2387-4488-a924-b61bbb5c0453",
+      "name": "Imperial King",
+      "description": "More like a dictator...",
+      "x": 224,
+      "y": 31,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:40,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesImperial\",UID0:\"forestry.speciesImperial\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectBeatific\",UID0:\"forestry.effectBeatific\",Slot:12b}]},Health:40,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesImperial\",UID0:\"forestry.speciesImperial\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectBeatific\",UID0:\"forestry.effectBeatific\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "f6caffcf-2793-4f57-b544-a5d635cacd5e"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:40,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesImperial\",UID0:\"forestry.speciesImperial\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectBeatific\",UID0:\"forestry.effectBeatific\",Slot:12b}]},Health:40,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesImperial\",UID0:\"forestry.speciesImperial\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectBeatific\",UID0:\"forestry.effectBeatific\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:royalJelly",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d4d8cd84-bc99-4a74-bcc3-0d7c9ef6ff0d",
+      "name": "Pretty Meadows",
+      "description": "The flowers are so pretty!",
+      "x": 172,
+      "y": 77,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:20,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesMeadows\",UID0:\"forestry.speciesMeadows\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMeadows\",UID0:\"forestry.speciesMeadows\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "e49e80c7-1799-4d98-94e7-8e89cb1e91ad"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:20,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesMeadows\",UID0:\"forestry.speciesMeadows\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMeadows\",UID0:\"forestry.speciesMeadows\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:beehives",
+          "damage": 1,
+          "amount": 5
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:beehives",
+          "amount": 2
+        },
+        {
+          "id": "forestry:beehives",
+          "damage": 3,
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f8bf62f7-7e16-45cc-a4d0-fc77514c1278",
+      "name": "Common Start",
+      "description": "Everyone\u0027s gotta start somewhere right?",
+      "x": 158,
+      "y": 54,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:20,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesCommon\",UID0:\"forestry.speciesCommon\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesCommon\",UID0:\"forestry.speciesCommon\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "d4d8cd84-bc99-4a74-bcc3-0d7c9ef6ff0d",
+        "423e50bc-001f-4c7e-b7f6-8b68346f580b"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:20,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesCommon\",UID0:\"forestry.speciesCommon\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesCommon\",UID0:\"forestry.speciesCommon\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:pollen",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8036bcf9-6731-4a0a-9785-cf3e2f10343a",
+      "name": "Apiaries",
+      "description": "Much better than those pesky bee houses.",
+      "x": 117,
+      "y": 123,
+      "icon": {
+        "id": "forestry:bee_house"
+      },
+      "prerequisites": [
+        "dc7dd902-5dc8-4774-9232-eb1256f98f6a"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:apiary"
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:beeCombs",
+          "amount": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:engine_clockwork"
+        },
+        {
+          "id": "forestry:engine_biogas"
+        },
+        {
+          "id": "forestry:engine_peat"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6c2e4f9b-a37e-454c-b4d9-0834499e26fd",
+      "name": "Silky Smooth",
+      "description": "You\u0027re telling me bees can make silk?",
+      "x": 198,
+      "y": 121,
+      "icon": {
+        "id": "forestry:beeCombs",
+        "damage": 6
+      },
+      "prerequisites": [
+        "5b158778-63e7-40d8-84a7-0eb61479b0bc"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeCombs",
+                "damage": 6
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "forestry:propolis",
+                "damage": 3
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:beeQueenGE",
+          "nbt": "{MaxH:30,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesTropical\",UID0:\"forestry.speciesTropical\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersJungle\",UID0:\"forestry.flowersJungle\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectMiasmic\",UID0:\"forestry.effectMiasmic\",Slot:12b}]},Health:30,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesTropical\",UID0:\"forestry.speciesTropical\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersJungle\",UID0:\"forestry.flowersJungle\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectMiasmic\",UID0:\"forestry.effectMiasmic\",Slot:12b}]}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:propolis",
+          "amount": 16
+        },
+        {
+          "id": "forestry:propolis",
+          "damage": 3,
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "43c3d59b-d5ca-4dbb-9a54-e20e4a7dfe9e",
+      "name": "Humble Beginnings",
+      "description": "Your too modest!",
+      "x": 143,
+      "y": 123,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:30,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesModest\",UID0:\"forestry.speciesModest\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceDown1\",UID0:\"forestry.toleranceDown1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersCacti\",UID0:\"forestry.flowersCacti\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:30,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesModest\",UID0:\"forestry.speciesModest\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceDown1\",UID0:\"forestry.toleranceDown1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersCacti\",UID0:\"forestry.flowersCacti\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "e49e80c7-1799-4d98-94e7-8e89cb1e91ad"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:30,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesModest\",UID0:\"forestry.speciesModest\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceDown1\",UID0:\"forestry.toleranceDown1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersCacti\",UID0:\"forestry.flowersCacti\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:30,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesModest\",UID0:\"forestry.speciesModest\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceDown1\",UID0:\"forestry.toleranceDown1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersCacti\",UID0:\"forestry.flowersCacti\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:beehives",
+          "damage": 2,
+          "amount": 5
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:beehives",
+          "damage": 3,
+          "amount": 2
+        },
+        {
+          "id": "forestry:beehives",
+          "damage": 5,
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "32b72515-e085-4988-b020-588a1ec77995",
+      "name": "Noble Knight",
+      "description": "Hah! You noble? Nice joke!",
+      "x": 198,
+      "y": 31,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:30,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesNoble\",UID0:\"forestry.speciesNoble\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlow\",UID0:\"forestry.floweringSlow\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:30,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesNoble\",UID0:\"forestry.speciesNoble\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlow\",UID0:\"forestry.floweringSlow\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "f8bf62f7-7e16-45cc-a4d0-fc77514c1278",
+        "ae205350-dede-42bc-9403-56d7f6299284"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:30,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesNoble\",UID0:\"forestry.speciesNoble\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlow\",UID0:\"forestry.floweringSlow\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:30,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesNoble\",UID0:\"forestry.speciesNoble\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlow\",UID0:\"forestry.floweringSlow\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:honeyDrop",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5b158778-63e7-40d8-84a7-0eb61479b0bc",
+      "name": "Exotic Lands",
+      "description": "We\u0027ve traveled far and wide to get here!",
+      "x": 171,
+      "y": 121,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:30,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesTropical\",UID0:\"forestry.speciesTropical\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersJungle\",UID0:\"forestry.flowersJungle\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectMiasmic\",UID0:\"forestry.effectMiasmic\",Slot:12b}]},Health:30,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesTropical\",UID0:\"forestry.speciesTropical\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersJungle\",UID0:\"forestry.flowersJungle\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectMiasmic\",UID0:\"forestry.effectMiasmic\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "e49e80c7-1799-4d98-94e7-8e89cb1e91ad"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:30,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesTropical\",UID0:\"forestry.speciesTropical\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersJungle\",UID0:\"forestry.flowersJungle\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectMiasmic\",UID0:\"forestry.effectMiasmic\",Slot:12b}]},Health:30,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesTropical\",UID0:\"forestry.speciesTropical\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersJungle\",UID0:\"forestry.flowersJungle\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectMiasmic\",UID0:\"forestry.effectMiasmic\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:beehives",
+          "damage": 3,
+          "amount": 5
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:beehives",
+          "damage": 2,
+          "amount": 2
+        },
+        {
+          "id": "forestry:beehives",
+          "damage": 5,
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c4368270-3a18-453a-96c4-7e182460423f",
+      "name": "Industry Growth",
+      "description": "The industry for builds has grown quite immensively since we\u0027ve begun! Better make a bigger, better, faster bee!",
+      "x": 131,
+      "y": 53,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:40,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesIndustrious\",UID0:\"forestry.speciesIndustrious\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringFast\",UID0:\"forestry.floweringFast\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:40,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesIndustrious\",UID0:\"forestry.speciesIndustrious\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringFast\",UID0:\"forestry.floweringFast\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "86815b28-1bf2-457d-9308-c3c47daf5d56"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:40,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesIndustrious\",UID0:\"forestry.speciesIndustrious\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringFast\",UID0:\"forestry.floweringFast\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:40,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesIndustrious\",UID0:\"forestry.speciesIndustrious\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringFast\",UID0:\"forestry.floweringFast\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:pollen",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5c25959b-d2e2-4027-a174-1c8e1690d006",
+      "name": "Swampy Marsh",
+      "description": "The bugs are getting to me...",
+      "x": 183,
+      "y": 99,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:20,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesMarshy\",UID0:\"forestry.speciesMarshy\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersMushrooms\",UID0:\"forestry.flowersMushrooms\",Slot:9b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMarshy\",UID0:\"forestry.speciesMarshy\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersMushrooms\",UID0:\"forestry.flowersMushrooms\",Slot:9b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "e49e80c7-1799-4d98-94e7-8e89cb1e91ad"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:20,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesMarshy\",UID0:\"forestry.speciesMarshy\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersMushrooms\",UID0:\"forestry.flowersMushrooms\",Slot:9b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMarshy\",UID0:\"forestry.speciesMarshy\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersMushrooms\",UID0:\"forestry.flowersMushrooms\",Slot:9b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:beehives",
+          "damage": 6,
+          "amount": 5
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:beehives",
+          "amount": 2
+        },
+        {
+          "id": "forestry:beehives",
+          "damage": 3,
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "47610da8-5f0c-4e93-8bfc-5a7831670478",
+      "name": "Wintry Snow",
+      "description": "Let it goooo, let it gooooo",
+      "x": 130,
+      "y": 99,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:30,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesWintry\",UID0:\"forestry.speciesWintry\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityMaximum\",UID0:\"forestry.fertilityMaximum\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersSnow\",UID0:\"forestry.flowersSnow\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectGlacial\",UID0:\"forestry.effectGlacial\",Slot:12b}]},Health:30,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesWintry\",UID0:\"forestry.speciesWintry\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityMaximum\",UID0:\"forestry.fertilityMaximum\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersSnow\",UID0:\"forestry.flowersSnow\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectGlacial\",UID0:\"forestry.effectGlacial\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "e49e80c7-1799-4d98-94e7-8e89cb1e91ad"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:30,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesWintry\",UID0:\"forestry.speciesWintry\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityMaximum\",UID0:\"forestry.fertilityMaximum\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersSnow\",UID0:\"forestry.flowersSnow\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectGlacial\",UID0:\"forestry.effectGlacial\",Slot:12b}]},Health:30,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesWintry\",UID0:\"forestry.speciesWintry\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanShort\",UID0:\"forestry.lifespanShort\",Slot:2b},3:{UID1:\"forestry.fertilityMaximum\",UID0:\"forestry.fertilityMaximum\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersSnow\",UID0:\"forestry.flowersSnow\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectGlacial\",UID0:\"forestry.effectGlacial\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:beehives",
+          "damage": 5,
+          "amount": 5
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:beehives",
+          "damage": 6,
+          "amount": 2
+        },
+        {
+          "id": "forestry:beehives",
+          "damage": 1,
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e49e80c7-1799-4d98-94e7-8e89cb1e91ad",
+      "name": "Sticky Situtation",
+      "description": "Delicious!",
+      "x": 157,
+      "y": 99,
+      "icon": {
+        "id": "biomesoplenty:honeycomb"
+      },
+      "prerequisites": [
+        "8036bcf9-6731-4a0a-9785-cf3e2f10343a"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeCombs"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "biomesoplenty:filled_honeycomb",
+          "amount": 127
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:honeyedSlice",
+          "amount": 16
+        },
+        {
+          "id": "forestry:beeCombs",
+          "amount": 12
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bab460c0-5c04-48d5-8bbc-8d021b770417",
+      "name": "Ouch!",
+      "description": "I\u0027m tired of getting stung by these bees! I\u0027m going to do something about it!",
+      "x": 209,
+      "y": 99,
+      "icon": {
+        "id": "forestry:apiaristHelmet"
+      },
+      "prerequisites": [
+        "6c2e4f9b-a37e-454c-b4d9-0834499e26fd"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:craftingMaterial",
+                "damage": 3
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "forestry:craftingMaterial",
+                "damage": 2
+              },
+              "required": 16
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:apiaristHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "forestry:apiaristChest"
+              }
+            },
+            {
+              "item": {
+                "id": "forestry:apiaristLegs"
+              }
+            },
+            {
+              "item": {
+                "id": "forestry:apiaristBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:craftingMaterial",
+          "damage": 3,
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:string",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:wool",
+          "amount": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bf0bd28c-f6d4-4e3f-97e1-0e7568c7d5cd",
+      "name": "Isolated",
+      "description": "Selcusion is nice at times, but go out and experience the world!",
+      "x": 116,
+      "y": 167,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:50,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesSecluded\",UID0:\"forestry.speciesSecluded\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},9:{UID1:\"forestry.flowersWheat\",UID0:\"forestry.flowersWheat\",Slot:9b},10:{UID1:\"forestry.floweringFastest\",UID0:\"forestry.floweringFastest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:50,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesSecluded\",UID0:\"forestry.speciesSecluded\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},9:{UID1:\"forestry.flowersWheat\",UID0:\"forestry.flowersWheat\",Slot:9b},10:{UID1:\"forestry.floweringFastest\",UID0:\"forestry.floweringFastest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "eaf36307-f025-43be-ad7d-d133da5783fb",
+        "7153ce36-1537-4309-beab-2a102f51adf8"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:50,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesSecluded\",UID0:\"forestry.speciesSecluded\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},9:{UID1:\"forestry.flowersWheat\",UID0:\"forestry.flowersWheat\",Slot:9b},10:{UID1:\"forestry.floweringFastest\",UID0:\"forestry.floweringFastest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:50,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesSecluded\",UID0:\"forestry.speciesSecluded\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},9:{UID1:\"forestry.flowersWheat\",UID0:\"forestry.flowersWheat\",Slot:9b},10:{UID1:\"forestry.floweringFastest\",UID0:\"forestry.floweringFastest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:royalJelly",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9c4eb4b4-70cf-4906-ad9e-335d24a02234",
+      "name": "Scented Sticks",
+      "description": "Very effective, clears up the smell of honey!... wait",
+      "x": 225,
+      "y": 78,
+      "icon": {
+        "id": "forestry:craftingMaterial",
+        "damage": 6
+      },
+      "prerequisites": [
+        "72db1b12-0a44-431a-8760-3eaea6f98962"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:craftingMaterial",
+                "damage": 6
+              },
+              "required": 42
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:craftingMaterial",
+          "damage": 6,
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:craftingMaterial",
+          "damage": 7,
+          "amount": 64
+        },
+        {
+          "id": "forestry:craftingMaterial",
+          "damage": 6,
+          "amount": 64
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cff785f4-feff-4d94-bfe8-f31cb5aa63ef",
+      "name": "Ender Ender",
+      "description": "Not an endermen farm...",
+      "x": 77,
+      "y": 144,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:60,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesEnded\",UID0:\"forestry.speciesEnded\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersEnd\",UID0:\"forestry.flowersEnd\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLarge\",UID0:\"forestry.territoryLarge\",Slot:11b},12:{UID1:\"forestry.effectMisanthrope\",UID0:\"forestry.effectMisanthrope\",Slot:12b}]},Health:60,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesEnded\",UID0:\"forestry.speciesEnded\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersEnd\",UID0:\"forestry.flowersEnd\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLarge\",UID0:\"forestry.territoryLarge\",Slot:11b},12:{UID1:\"forestry.effectMisanthrope\",UID0:\"forestry.effectMisanthrope\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "e49e80c7-1799-4d98-94e7-8e89cb1e91ad"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:60,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesEnded\",UID0:\"forestry.speciesEnded\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersEnd\",UID0:\"forestry.flowersEnd\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLarge\",UID0:\"forestry.territoryLarge\",Slot:11b},12:{UID1:\"forestry.effectMisanthrope\",UID0:\"forestry.effectMisanthrope\",Slot:12b}]},Health:60,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesEnded\",UID0:\"forestry.speciesEnded\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersEnd\",UID0:\"forestry.flowersEnd\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLarge\",UID0:\"forestry.territoryLarge\",Slot:11b},12:{UID1:\"forestry.effectMisanthrope\",UID0:\"forestry.effectMisanthrope\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:beehives",
+          "damage": 4,
+          "amount": 6
+        },
+        {
+          "id": "minecraft:end_crystal"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4e0b6e08-d274-497b-a73c-b2b5b9f09122",
+      "name": "The God",
+      "description": "The ultimate bee... well one of them! Allows ressuration!",
+      "x": 52,
+      "y": 142,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:70,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesPhantasmal\",UID0:\"forestry.speciesPhantasmal\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanLongest\",UID0:\"forestry.lifespanLongest\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersEnd\",UID0:\"forestry.flowersEnd\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLarge\",UID0:\"forestry.territoryLarge\",Slot:11b},12:{UID1:\"forestry.effectResurrection\",UID0:\"forestry.effectResurrection\",Slot:12b}]},Health:70,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesPhantasmal\",UID0:\"forestry.speciesPhantasmal\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanLongest\",UID0:\"forestry.lifespanLongest\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersEnd\",UID0:\"forestry.flowersEnd\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLarge\",UID0:\"forestry.territoryLarge\",Slot:11b},12:{UID1:\"forestry.effectResurrection\",UID0:\"forestry.effectResurrection\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "8b6778cb-2e0d-464e-a62a-cf6cb2917e7c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:70,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesPhantasmal\",UID0:\"forestry.speciesPhantasmal\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanLongest\",UID0:\"forestry.lifespanLongest\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersEnd\",UID0:\"forestry.flowersEnd\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLarge\",UID0:\"forestry.territoryLarge\",Slot:11b},12:{UID1:\"forestry.effectResurrection\",UID0:\"forestry.effectResurrection\",Slot:12b}]},Health:70,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesPhantasmal\",UID0:\"forestry.speciesPhantasmal\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanLongest\",UID0:\"forestry.lifespanLongest\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersEnd\",UID0:\"forestry.flowersEnd\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLarge\",UID0:\"forestry.territoryLarge\",Slot:11b},12:{UID1:\"forestry.effectResurrection\",UID0:\"forestry.effectResurrection\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:royalJelly",
+          "amount": 12
+        },
+        {
+          "id": "botania:goldenLaurel"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "48c926c1-5467-4885-8f47-ed5665d818fe",
+      "name": "Sinister Intentions",
+      "description": "Watch where you\u0027re pointing that knife!",
+      "x": 185,
+      "y": 142,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:40,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesSinister\",UID0:\"forestry.speciesSinister\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersNether\",UID0:\"forestry.flowersNether\",Slot:9b},10:{UID1:\"forestry.floweringAverage\",UID0:\"forestry.floweringAverage\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectAggressive\",UID0:\"forestry.effectAggressive\",Slot:12b}]},Health:40,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesSinister\",UID0:\"forestry.speciesSinister\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersNether\",UID0:\"forestry.flowersNether\",Slot:9b},10:{UID1:\"forestry.floweringAverage\",UID0:\"forestry.floweringAverage\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectAggressive\",UID0:\"forestry.effectAggressive\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "5b158778-63e7-40d8-84a7-0eb61479b0bc",
+        "ae205350-dede-42bc-9403-56d7f6299284"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:40,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesSinister\",UID0:\"forestry.speciesSinister\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersNether\",UID0:\"forestry.flowersNether\",Slot:9b},10:{UID1:\"forestry.floweringAverage\",UID0:\"forestry.floweringAverage\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectAggressive\",UID0:\"forestry.effectAggressive\",Slot:12b}]},Health:40,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesSinister\",UID0:\"forestry.speciesSinister\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersNether\",UID0:\"forestry.flowersNether\",Slot:9b},10:{UID1:\"forestry.floweringAverage\",UID0:\"forestry.floweringAverage\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectAggressive\",UID0:\"forestry.effectAggressive\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:honeyDrop",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2f35aa60-1eb5-41e1-9b49-c4a67d53357c",
+      "name": "Demonic Demon",
+      "description": "The demon is inside all of us...",
+      "x": 199,
+      "y": 164,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:60,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesDemonic\",UID0:\"forestry.speciesDemonic\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersNether\",UID0:\"forestry.flowersNether\",Slot:9b},10:{UID1:\"forestry.floweringAverage\",UID0:\"forestry.floweringAverage\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectIgnition\",UID0:\"forestry.effectIgnition\",Slot:12b}]},Health:60,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesDemonic\",UID0:\"forestry.speciesDemonic\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersNether\",UID0:\"forestry.flowersNether\",Slot:9b},10:{UID1:\"forestry.floweringAverage\",UID0:\"forestry.floweringAverage\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectIgnition\",UID0:\"forestry.effectIgnition\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "13372528-834e-463e-a34e-db5de79f664c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:60,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesDemonic\",UID0:\"forestry.speciesDemonic\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersNether\",UID0:\"forestry.flowersNether\",Slot:9b},10:{UID1:\"forestry.floweringAverage\",UID0:\"forestry.floweringAverage\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectIgnition\",UID0:\"forestry.effectIgnition\",Slot:12b}]},Health:60,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesDemonic\",UID0:\"forestry.speciesDemonic\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceDown2\",UID0:\"forestry.toleranceDown2\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersNether\",UID0:\"forestry.flowersNether\",Slot:9b},10:{UID1:\"forestry.floweringAverage\",UID0:\"forestry.floweringAverage\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectIgnition\",UID0:\"forestry.effectIgnition\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:royalJelly",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f04da240-1e47-42fa-bb31-7ae68603d840",
+      "name": "Hermit",
+      "description": "Made by the finest hermits around!",
+      "x": 89,
+      "y": 167,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:50,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesHermitic\",UID0:\"forestry.speciesHermitic\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},9:{UID1:\"forestry.flowersWheat\",UID0:\"forestry.flowersWheat\",Slot:9b},10:{UID1:\"forestry.floweringFastest\",UID0:\"forestry.floweringFastest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectRepulsion\",UID0:\"forestry.effectRepulsion\",Slot:12b}]},Health:50,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesHermitic\",UID0:\"forestry.speciesHermitic\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},9:{UID1:\"forestry.flowersWheat\",UID0:\"forestry.flowersWheat\",Slot:9b},10:{UID1:\"forestry.floweringFastest\",UID0:\"forestry.floweringFastest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectRepulsion\",UID0:\"forestry.effectRepulsion\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "7153ce36-1537-4309-beab-2a102f51adf8",
+        "bf0bd28c-f6d4-4e3f-97e1-0e7568c7d5cd"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:50,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesHermitic\",UID0:\"forestry.speciesHermitic\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},9:{UID1:\"forestry.flowersWheat\",UID0:\"forestry.flowersWheat\",Slot:9b},10:{UID1:\"forestry.floweringFastest\",UID0:\"forestry.floweringFastest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectRepulsion\",UID0:\"forestry.effectRepulsion\",Slot:12b}]},Health:50,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesHermitic\",UID0:\"forestry.speciesHermitic\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},9:{UID1:\"forestry.flowersWheat\",UID0:\"forestry.flowersWheat\",Slot:9b},10:{UID1:\"forestry.floweringFastest\",UID0:\"forestry.floweringFastest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectRepulsion\",UID0:\"forestry.effectRepulsion\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:pollen",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7153ce36-1537-4309-beab-2a102f51adf8",
+      "name": "Villager Bred",
+      "description": "Can only be found in a village!",
+      "x": 103,
+      "y": 145,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:50,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesMonastic\",UID0:\"forestry.speciesMonastic\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},9:{UID1:\"forestry.flowersWheat\",UID0:\"forestry.flowersWheat\",Slot:9b},10:{UID1:\"forestry.floweringFaster\",UID0:\"forestry.floweringFaster\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:50,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMonastic\",UID0:\"forestry.speciesMonastic\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},9:{UID1:\"forestry.flowersWheat\",UID0:\"forestry.flowersWheat\",Slot:9b},10:{UID1:\"forestry.floweringFaster\",UID0:\"forestry.floweringFaster\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "e49e80c7-1799-4d98-94e7-8e89cb1e91ad"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:50,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesMonastic\",UID0:\"forestry.speciesMonastic\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},9:{UID1:\"forestry.flowersWheat\",UID0:\"forestry.flowersWheat\",Slot:9b},10:{UID1:\"forestry.floweringFaster\",UID0:\"forestry.floweringFaster\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:50,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMonastic\",UID0:\"forestry.speciesMonastic\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLong\",UID0:\"forestry.lifespanLong\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceBoth1\",UID0:\"forestry.toleranceBoth1\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:8b},9:{UID1:\"forestry.flowersWheat\",UID0:\"forestry.flowersWheat\",Slot:9b},10:{UID1:\"forestry.floweringFaster\",UID0:\"forestry.floweringFaster\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:spawn_egg",
+          "amount": 3,
+          "nbt": "{EntityTag:{id:\"Villager\"}}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "87228238-7ca8-4c45-9a82-ea8af41d9d40",
+      "name": "Sturdy Workings",
+      "description": "Bee keeping isn\u0027t only bees you know!",
+      "x": 105,
+      "y": 99,
+      "icon": {
+        "id": "forestry:carpenter"
+      },
+      "prerequisites": [
+        "e49e80c7-1799-4d98-94e7-8e89cb1e91ad"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:fabricator"
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "forestry:carpenter"
+              }
+            },
+            {
+              "item": {
+                "id": "forestry:squeezer"
+              }
+            },
+            {
+              "item": {
+                "id": "forestry:centrifuge"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:beeCombs",
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:kitPickaxe",
+          "amount": 2
+        },
+        {
+          "id": "forestry:kitShovel",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8b6778cb-2e0d-464e-a62a-cf6cb2917e7c",
+      "name": "See Through",
+      "description": "You can\u0027t see me!",
+      "x": 63,
+      "y": 166,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:60,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesSpectral\",UID0:\"forestry.speciesSpectral\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersEnd\",UID0:\"forestry.flowersEnd\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLarge\",UID0:\"forestry.territoryLarge\",Slot:11b},12:{UID1:\"forestry.effectReanimation\",UID0:\"forestry.effectReanimation\",Slot:12b}]},Health:60,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesSpectral\",UID0:\"forestry.speciesSpectral\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersEnd\",UID0:\"forestry.flowersEnd\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLarge\",UID0:\"forestry.territoryLarge\",Slot:11b},12:{UID1:\"forestry.effectReanimation\",UID0:\"forestry.effectReanimation\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "cff785f4-feff-4d94-bfe8-f31cb5aa63ef",
+        "f04da240-1e47-42fa-bb31-7ae68603d840"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:60,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesSpectral\",UID0:\"forestry.speciesSpectral\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersEnd\",UID0:\"forestry.flowersEnd\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLarge\",UID0:\"forestry.territoryLarge\",Slot:11b},12:{UID1:\"forestry.effectReanimation\",UID0:\"forestry.effectReanimation\",Slot:12b}]},Health:60,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesSpectral\",UID0:\"forestry.speciesSpectral\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityLow\",UID0:\"forestry.fertilityLow\",Slot:3b},4:{UID1:\"forestry.toleranceUp1\",UID0:\"forestry.toleranceUp1\",Slot:4b},5:{UID1:\"forestry.boolTrue\",UID0:\"forestry.boolTrue\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersEnd\",UID0:\"forestry.flowersEnd\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLarge\",UID0:\"forestry.territoryLarge\",Slot:11b},12:{UID1:\"forestry.effectReanimation\",UID0:\"forestry.effectReanimation\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:royalJelly",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c25c98e6-d627-4064-acba-34d02e0c3c22",
+      "name": "Foundation Frames",
+      "description": "The bees gotta make honey somewhere right?",
+      "x": 90,
+      "y": 121,
+      "icon": {
+        "id": "forestry:frameUntreated"
+      },
+      "prerequisites": [
+        "87228238-7ca8-4c45-9a82-ea8af41d9d40"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:frameUntreated"
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "forestry:frameImpregnated"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:frameProven",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "16091b27-89d4-4198-b757-b7e2f1bf3f1c",
+      "name": "Allergies",
+      "description": "I swear! My eyes are red because of allergies!",
+      "x": 104,
+      "y": 52,
+      "icon": {
+        "id": "forestry:pollen"
+      },
+      "prerequisites": [
+        "c4368270-3a18-453a-96c4-7e182460423f"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:pollen"
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:pollen",
+          "damage": 1,
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:honeyDrop",
+          "amount": 12
+        },
+        {
+          "id": "forestry:honeydew",
+          "amount": 12
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "423e50bc-001f-4c7e-b7f6-8b68346f580b",
+      "name": "Wooden Forest",
+      "description": "Can you guess where to find these?",
+      "x": 143,
+      "y": 76,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:20,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesForest\",UID0:\"forestry.speciesForest\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityHigh\",UID0:\"forestry.fertilityHigh\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesForest\",UID0:\"forestry.speciesForest\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityHigh\",UID0:\"forestry.fertilityHigh\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "e49e80c7-1799-4d98-94e7-8e89cb1e91ad"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:20,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesForest\",UID0:\"forestry.speciesForest\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityHigh\",UID0:\"forestry.fertilityHigh\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesForest\",UID0:\"forestry.speciesForest\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:2b},3:{UID1:\"forestry.fertilityHigh\",UID0:\"forestry.fertilityHigh\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlower\",UID0:\"forestry.floweringSlower\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:beehives",
+          "amount": 5
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:beehives",
+          "damage": 1,
+          "amount": 4
+        },
+        {
+          "id": "forestry:beehives",
+          "damage": 2,
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "86815b28-1bf2-457d-9308-c3c47daf5d56",
+      "name": "Unweary",
+      "description": "I\u0027m not tired!",
+      "x": 119,
+      "y": 30,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:35,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesUnweary\",UID0:\"forestry.speciesUnweary\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanShortened\",UID0:\"forestry.lifespanShortened\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:35,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesUnweary\",UID0:\"forestry.speciesUnweary\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanShortened\",UID0:\"forestry.lifespanShortened\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "2ec7e71e-5a11-4290-ac9b-cd2180dbbbfb"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:35,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesUnweary\",UID0:\"forestry.speciesUnweary\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanShortened\",UID0:\"forestry.lifespanShortened\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:35,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesUnweary\",UID0:\"forestry.speciesUnweary\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanShortened\",UID0:\"forestry.lifespanShortened\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:honeyDrop",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2847c5be-2083-4dc8-8b7a-190befe72b04",
+      "name": "Vengeful",
+      "description": "Revenge is a dish best served cold.",
+      "x": 224,
+      "y": 120,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:60,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesVengeful\",UID0:\"forestry.speciesVengeful\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLargest\",UID0:\"forestry.territoryLargest\",Slot:11b},12:{UID1:\"forestry.effectRadioactive\",UID0:\"forestry.effectRadioactive\",Slot:12b}]},Health:60,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesVengeful\",UID0:\"forestry.speciesVengeful\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLargest\",UID0:\"forestry.territoryLargest\",Slot:11b},12:{UID1:\"forestry.effectRadioactive\",UID0:\"forestry.effectRadioactive\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "c7298475-e730-4381-a460-3b9410209b34"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:60,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesVengeful\",UID0:\"forestry.speciesVengeful\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLargest\",UID0:\"forestry.territoryLargest\",Slot:11b},12:{UID1:\"forestry.effectRadioactive\",UID0:\"forestry.effectRadioactive\",Slot:12b}]},Health:60,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesVengeful\",UID0:\"forestry.speciesVengeful\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanLonger\",UID0:\"forestry.lifespanLonger\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLargest\",UID0:\"forestry.territoryLargest\",Slot:11b},12:{UID1:\"forestry.effectRadioactive\",UID0:\"forestry.effectRadioactive\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:pollen",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4fccd601-18df-44c8-bb53-0f620ac5ea45",
+      "name": "New \u0026 Improved",
+      "description": "Even better than aparies!",
+      "x": 198,
+      "y": 76,
+      "icon": {
+        "id": "forestry:alveary.plain"
+      },
+      "prerequisites": [
+        "9c4eb4b4-70cf-4906-ad9e-335d24a02234"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:alveary.plain"
+              },
+              "required": 42
+            },
+            {
+              "item": {
+                "id": "forestry:alveary.swarmer"
+              }
+            },
+            {
+              "item": {
+                "id": "forestry:alveary.fan"
+              }
+            },
+            {
+              "item": {
+                "id": "forestry:alveary.heater"
+              }
+            },
+            {
+              "item": {
+                "id": "forestry:alveary.hygro"
+              }
+            },
+            {
+              "item": {
+                "id": "forestry:alveary.stabiliser"
+              }
+            },
+            {
+              "item": {
+                "id": "forestry:alveary.sieve"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:alveary.plain",
+          "amount": 32
+        },
+        {
+          "id": "forestry:craftingMaterial",
+          "damage": 6,
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:alveary.stabiliser",
+          "amount": 4
+        },
+        {
+          "id": "forestry:alveary.sieve",
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ec44b966-f753-42c4-94a7-768af6bd02c5",
+      "name": "Chest Collection",
+      "description": "Great idea! Let\u0027s store angry bees in a small, dark, confined space!",
+      "x": 79,
+      "y": 97,
+      "icon": {
+        "id": "forestry:butterfly_chest"
+      },
+      "prerequisites": [
+        "87228238-7ca8-4c45-9a82-ea8af41d9d40"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:bee_chest"
+              }
+            },
+            {
+              "item": {
+                "id": "forestry:butterfly_chest"
+              }
+            },
+            {
+              "item": {
+                "id": "forestry:tree_chest"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:honeyDrop",
+          "amount": 16
+        },
+        {
+          "id": "forestry:butterflyGE",
+          "amount": 12,
+          "nbt": "{MaxH:20,Health:20,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.lepiCabbageWhite\",UID0:\"forestry.lepiCabbageWhite\",Slot:0b},1:{UID1:\"forestry.sizeAverage\",UID0:\"forestry.sizeAverage\",Slot:1b},2:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:2b},3:{UID1:\"forestry.lifespanShorter\",UID0:\"forestry.lifespanShorter\",Slot:3b},4:{UID1:\"forestry.i3d\",UID0:\"forestry.i3d\",Slot:4b},5:{UID1:\"forestry.i3d\",UID0:\"forestry.i3d\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:9b},10:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:10b},11:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:11b},12:{UID1:\"forestry.bfNone\",UID0:\"forestry.bfNone\",Slot:12b},13:{UID1:\"forestry.cocoonDefault\",UID0:\"forestry.cocoonDefault\",Slot:13b}]}}"
+        },
+        {
+          "id": "forestry:sapling",
+          "amount": 12,
+          "nbt": "{IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.treeOak\",UID0:\"forestry.treeOak\",Slot:0b},1:{UID1:\"forestry.growthLightlevel\",UID0:\"forestry.growthLightlevel\",Slot:1b},2:{UID1:\"forestry.heightSmall\",UID0:\"forestry.heightSmall\",Slot:2b},3:{UID1:\"forestry.saplingsAverage\",UID0:\"forestry.saplingsAverage\",Slot:3b},4:{UID1:\"forestry.fruitApple\",UID0:\"forestry.fruitApple\",Slot:4b},5:{UID1:\"forestry.yieldLowest\",UID0:\"forestry.yieldLowest\",Slot:5b},6:{UID1:\"forestry.plantTypeNone\",UID0:\"forestry.plantTypeNone\",Slot:6b},7:{UID1:\"forestry.sappinessLowest\",UID0:\"forestry.sappinessLowest\",Slot:7b},8:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:8b},9:{UID1:\"forestry.leavesNone\",UID0:\"forestry.leavesNone\",Slot:9b},10:{UID1:\"forestry.maturationFaster\",UID0:\"forestry.maturationFaster\",Slot:10b},11:{UID1:\"forestry.i1d\",UID0:\"forestry.i1d\",Slot:11b},12:{UID1:\"forestry.i20d\",UID0:\"forestry.i20d\",Slot:12b},13:{UID1:\"forestry.i5d\",UID0:\"forestry.i5d\",Slot:13b},14:{UID1:\"forestry.fireproofFalse\",UID0:\"forestry.fireproofFalse\",Slot:14b}]}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f6caffcf-2793-4f57-b544-a5d635cacd5e",
+      "name": "Majestic Work",
+      "description": "Beauty beyong belief.",
+      "x": 211,
+      "y": 54,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:35,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesMajestic\",UID0:\"forestry.speciesMajestic\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanShortened\",UID0:\"forestry.lifespanShortened\",Slot:2b},3:{UID1:\"forestry.fertilityMaximum\",UID0:\"forestry.fertilityMaximum\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:35,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMajestic\",UID0:\"forestry.speciesMajestic\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanShortened\",UID0:\"forestry.lifespanShortened\",Slot:2b},3:{UID1:\"forestry.fertilityMaximum\",UID0:\"forestry.fertilityMaximum\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "32b72515-e085-4988-b020-588a1ec77995"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:35,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesMajestic\",UID0:\"forestry.speciesMajestic\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanShortened\",UID0:\"forestry.lifespanShortened\",Slot:2b},3:{UID1:\"forestry.fertilityMaximum\",UID0:\"forestry.fertilityMaximum\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:35,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesMajestic\",UID0:\"forestry.speciesMajestic\",Slot:0b},1:{UID1:\"forestry.speedNormal\",UID0:\"forestry.speedNormal\",Slot:1b},2:{UID1:\"forestry.lifespanShortened\",UID0:\"forestry.lifespanShortened\",Slot:2b},3:{UID1:\"forestry.fertilityMaximum\",UID0:\"forestry.fertilityMaximum\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:pollen",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c12e2a2f-6655-4cae-aada-71ce8cd1951e",
+      "name": "Sturdier Workings",
+      "description": "Who knew there were other types of casings?",
+      "x": 117,
+      "y": 76,
+      "icon": {
+        "id": "forestry:hardenedMachine"
+      },
+      "prerequisites": [
+        "87228238-7ca8-4c45-9a82-ea8af41d9d40"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:hardenedMachine"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "forestry:impregnatedCasing"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "forestry:sturdyMachine"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:beeCombs",
+          "amount": 20
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:hardenedMachine",
+          "amount": 12
+        },
+        {
+          "id": "forestry:impregnatedCasing",
+          "amount": 12
+        },
+        {
+          "id": "forestry:sturdyMachine",
+          "amount": 20
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fde999df-6c32-4e0a-a14c-a0d6a57fa28d",
+      "name": "Avengers",
+      "description": "Better than the X-Men!",
+      "x": 237,
+      "y": 143,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:70,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesAvenging\",UID0:\"forestry.speciesAvenging\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanLongest\",UID0:\"forestry.lifespanLongest\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLargest\",UID0:\"forestry.territoryLargest\",Slot:11b},12:{UID1:\"forestry.effectRadioactive\",UID0:\"forestry.effectRadioactive\",Slot:12b}]},Health:70,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesAvenging\",UID0:\"forestry.speciesAvenging\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanLongest\",UID0:\"forestry.lifespanLongest\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLargest\",UID0:\"forestry.territoryLargest\",Slot:11b},12:{UID1:\"forestry.effectRadioactive\",UID0:\"forestry.effectRadioactive\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "2847c5be-2083-4dc8-8b7a-190befe72b04"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:70,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesAvenging\",UID0:\"forestry.speciesAvenging\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanLongest\",UID0:\"forestry.lifespanLongest\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLargest\",UID0:\"forestry.territoryLargest\",Slot:11b},12:{UID1:\"forestry.effectRadioactive\",UID0:\"forestry.effectRadioactive\",Slot:12b}]},Health:70,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesAvenging\",UID0:\"forestry.speciesAvenging\",Slot:0b},1:{UID1:\"forestry.speedSlowest\",UID0:\"forestry.speedSlowest\",Slot:1b},2:{UID1:\"forestry.lifespanLongest\",UID0:\"forestry.lifespanLongest\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLargest\",UID0:\"forestry.territoryLargest\",Slot:11b},12:{UID1:\"forestry.effectRadioactive\",UID0:\"forestry.effectRadioactive\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:royalJelly",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ae205350-dede-42bc-9403-56d7f6299284",
+      "name": "Cult Work",
+      "description": "Actually it\u0027s cultivated...",
+      "x": 185,
+      "y": 54,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:10,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesCultivated\",UID0:\"forestry.speciesCultivated\",Slot:0b},1:{UID1:\"forestry.speedFast\",UID0:\"forestry.speedFast\",Slot:1b},2:{UID1:\"forestry.lifespanShortest\",UID0:\"forestry.lifespanShortest\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:10,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesCultivated\",UID0:\"forestry.speciesCultivated\",Slot:0b},1:{UID1:\"forestry.speedFast\",UID0:\"forestry.speedFast\",Slot:1b},2:{UID1:\"forestry.lifespanShortest\",UID0:\"forestry.lifespanShortest\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "f8bf62f7-7e16-45cc-a4d0-fc77514c1278"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:10,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesCultivated\",UID0:\"forestry.speciesCultivated\",Slot:0b},1:{UID1:\"forestry.speedFast\",UID0:\"forestry.speedFast\",Slot:1b},2:{UID1:\"forestry.lifespanShortest\",UID0:\"forestry.lifespanShortest\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]},Health:10,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesCultivated\",UID0:\"forestry.speciesCultivated\",Slot:0b},1:{UID1:\"forestry.speedFast\",UID0:\"forestry.speedFast\",Slot:1b},2:{UID1:\"forestry.lifespanShortest\",UID0:\"forestry.lifespanShortest\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryAverage\",UID0:\"forestry.territoryAverage\",Slot:11b},12:{UID1:\"forestry.effectNone\",UID0:\"forestry.effectNone\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:honeyDrop",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c7298475-e730-4381-a460-3b9410209b34",
+      "name": "Vindictive",
+      "description": "Can you please stop being so vindictive?!",
+      "x": 211,
+      "y": 142,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:40,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesVindictive\",UID0:\"forestry.speciesVindictive\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLargest\",UID0:\"forestry.territoryLargest\",Slot:11b},12:{UID1:\"forestry.effectRadioactive\",UID0:\"forestry.effectRadioactive\",Slot:12b}]},Health:40,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesVindictive\",UID0:\"forestry.speciesVindictive\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLargest\",UID0:\"forestry.territoryLargest\",Slot:11b},12:{UID1:\"forestry.effectRadioactive\",UID0:\"forestry.effectRadioactive\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "7153ce36-1537-4309-beab-2a102f51adf8",
+        "2f35aa60-1eb5-41e1-9b49-c4a67d53357c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beeDroneGE",
+                "nbt": "{MaxH:40,Mate:{Chromosomes:[0:{UID1:\"forestry.speciesVindictive\",UID0:\"forestry.speciesVindictive\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLargest\",UID0:\"forestry.territoryLargest\",Slot:11b},12:{UID1:\"forestry.effectRadioactive\",UID0:\"forestry.effectRadioactive\",Slot:12b}]},Health:40,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"forestry.speciesVindictive\",UID0:\"forestry.speciesVindictive\",Slot:0b},1:{UID1:\"forestry.speedSlower\",UID0:\"forestry.speedSlower\",Slot:1b},2:{UID1:\"forestry.lifespanNormal\",UID0:\"forestry.lifespanNormal\",Slot:2b},3:{UID1:\"forestry.fertilityNormal\",UID0:\"forestry.fertilityNormal\",Slot:3b},4:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:4b},5:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:5b},6:{UID1:\"forestry.toleranceNone\",UID0:\"forestry.toleranceNone\",Slot:6b},7:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:7b},8:{UID1:\"forestry.boolFalse\",UID0:\"forestry.boolFalse\",Slot:8b},9:{UID1:\"forestry.flowersVanilla\",UID0:\"forestry.flowersVanilla\",Slot:9b},10:{UID1:\"forestry.floweringSlowest\",UID0:\"forestry.floweringSlowest\",Slot:10b},11:{UID1:\"forestry.territoryLargest\",UID0:\"forestry.territoryLargest\",Slot:11b},12:{UID1:\"forestry.effectRadioactive\",UID0:\"forestry.effectRadioactive\",Slot:12b}]}}"
+              },
+              "required": 16,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:pollen",
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 4
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

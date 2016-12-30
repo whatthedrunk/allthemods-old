@@ -1,0 +1,18 @@
+{
+  "recipes": [
+    {
+      "block": "minecraft:cobblestone",
+      "meta": 0,
+      "solidVolume": 250,
+      "fluid": "lava",
+      "fluidVolume": 250
+    },
+    {
+      "block": "minecraft:netherrack",
+      "meta": 0,
+      "solidVolume": 250,
+      "fluid": "lava",
+      "fluidVolume": 1000
+    }
+  ]
+}

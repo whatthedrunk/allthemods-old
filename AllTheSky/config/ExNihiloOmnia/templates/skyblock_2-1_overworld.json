@@ -1,0 +1,1222 @@
+{
+  "spawnYLevel": 64,
+  "blocks": [
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": -1,
+      "y": 0,
+      "z": -1
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": -1,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": -1,
+      "y": 0,
+      "z": 1
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": 0,
+      "y": 0,
+      "z": -1
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": 1,
+      "y": 0,
+      "z": -1
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": 1,
+      "y": 0,
+      "z": 1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -1,
+      "y": -1,
+      "z": -1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -1,
+      "y": -1,
+      "z": 0
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -1,
+      "y": -1,
+      "z": 1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 0,
+      "y": -1,
+      "z": -1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 0,
+      "y": -1,
+      "z": 0
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 0,
+      "y": -1,
+      "z": 1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 1,
+      "y": -1,
+      "z": -1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 1,
+      "y": -1,
+      "z": 0
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 1,
+      "y": -1,
+      "z": 1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -1,
+      "y": -2,
+      "z": -1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -1,
+      "y": -2,
+      "z": 0
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -1,
+      "y": -2,
+      "z": 1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 0,
+      "y": -2,
+      "z": -1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 0,
+      "y": -2,
+      "z": 0
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 0,
+      "y": -2,
+      "z": 1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 1,
+      "y": -2,
+      "z": -1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 1,
+      "y": -2,
+      "z": 0
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 1,
+      "y": -2,
+      "z": 1
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": -4,
+      "y": 0,
+      "z": -1
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": -4,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": -4,
+      "y": 0,
+      "z": 1
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": -3,
+      "y": 0,
+      "z": -1
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": -3,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": -3,
+      "y": 0,
+      "z": 1
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": -2,
+      "y": 0,
+      "z": -1
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": -2,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": -2,
+      "y": 0,
+      "z": 1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -4,
+      "y": -1,
+      "z": -1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -4,
+      "y": -1,
+      "z": 0
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -4,
+      "y": -1,
+      "z": 1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -3,
+      "y": -1,
+      "z": -1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -3,
+      "y": -1,
+      "z": 0
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -3,
+      "y": -1,
+      "z": 1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -2,
+      "y": -1,
+      "z": -1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -2,
+      "y": -1,
+      "z": 0
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -2,
+      "y": -1,
+      "z": 1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -4,
+      "y": -2,
+      "z": -1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -4,
+      "y": -2,
+      "z": 0
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -4,
+      "y": -2,
+      "z": 1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -3,
+      "y": -2,
+      "z": -1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -3,
+      "y": -2,
+      "z": 0
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -3,
+      "y": -2,
+      "z": 1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -2,
+      "y": -2,
+      "z": -1
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -2,
+      "y": -2,
+      "z": 0
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -2,
+      "y": -2,
+      "z": 1
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": -1,
+      "y": 0,
+      "z": -4
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": -1,
+      "y": 0,
+      "z": -3
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": -1,
+      "y": 0,
+      "z": -2
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": 0,
+      "y": 0,
+      "z": -4
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": 0,
+      "y": 0,
+      "z": -3
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": 0,
+      "y": 0,
+      "z": -2
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": 1,
+      "y": 0,
+      "z": -4
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": 1,
+      "y": 0,
+      "z": -3
+    },
+    {
+      "id": "minecraft:grass",
+      "meta": 0,
+      "x": 1,
+      "y": 0,
+      "z": -2
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -1,
+      "y": -1,
+      "z": -4
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -1,
+      "y": -1,
+      "z": -3
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -1,
+      "y": -1,
+      "z": -2
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 0,
+      "y": -1,
+      "z": -4
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 0,
+      "y": -1,
+      "z": -3
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 0,
+      "y": -1,
+      "z": -2
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 1,
+      "y": -1,
+      "z": -4
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 1,
+      "y": -1,
+      "z": -3
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 1,
+      "y": -1,
+      "z": -2
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -1,
+      "y": -2,
+      "z": -4
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -1,
+      "y": -2,
+      "z": -3
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": -1,
+      "y": -2,
+      "z": -2
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 0,
+      "y": -2,
+      "z": -4
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 0,
+      "y": -2,
+      "z": -3
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 0,
+      "y": -2,
+      "z": -2
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 1,
+      "y": -2,
+      "z": -4
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 1,
+      "y": -2,
+      "z": -3
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "x": 1,
+      "y": -2,
+      "z": -2
+    },
+    {
+      "id": "minecraft:chest",
+      "meta": 5,
+      "x": -4,
+      "y": 1,
+      "z": 0,
+      "contents": [
+        {
+          "id": "minecraft:lava_bucket",
+          "meta": 0,
+          "count": 1,
+          "slot": -1
+        },
+        {
+          "id": "minecraft:ice",
+          "meta": 0,
+          "count": 1,
+          "slot": -1
+        }
+      ]
+    },
+    {
+      "id": "minecraft:log",
+      "meta": 0,
+      "x": 1,
+      "y": 1,
+      "z": -4
+    },
+    {
+      "id": "minecraft:log",
+      "meta": 0,
+      "x": 1,
+      "y": 2,
+      "z": -4
+    },
+    {
+      "id": "minecraft:log",
+      "meta": 0,
+      "x": 1,
+      "y": 3,
+      "z": -4
+    },
+    {
+      "id": "minecraft:log",
+      "meta": 0,
+      "x": 1,
+      "y": 4,
+      "z": -4
+    },
+    {
+      "id": "minecraft:log",
+      "meta": 0,
+      "x": 1,
+      "y": 5,
+      "z": -4
+    },
+    {
+      "id": "minecraft:log",
+      "meta": 0,
+      "x": 1,
+      "y": 6,
+      "z": -4
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": -1,
+      "y": 4,
+      "z": -3
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": -1,
+      "y": 4,
+      "z": -4
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": -1,
+      "y": 4,
+      "z": -5
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": -1,
+      "y": 4,
+      "z": -6
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 0,
+      "y": 4,
+      "z": -2
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 0,
+      "y": 4,
+      "z": -3
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 0,
+      "y": 4,
+      "z": -4
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 0,
+      "y": 4,
+      "z": -5
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 0,
+      "y": 4,
+      "z": -6
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 1,
+      "y": 4,
+      "z": -2
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 1,
+      "y": 4,
+      "z": -3
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 1,
+      "y": 4,
+      "z": -5
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 1,
+      "y": 4,
+      "z": -6
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 2,
+      "y": 4,
+      "z": -2
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 2,
+      "y": 4,
+      "z": -3
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 2,
+      "y": 4,
+      "z": -4
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 2,
+      "y": 4,
+      "z": -5
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 2,
+      "y": 4,
+      "z": -6
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 3,
+      "y": 4,
+      "z": -2
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 3,
+      "y": 4,
+      "z": -3
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 3,
+      "y": 4,
+      "z": -4
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 3,
+      "y": 4,
+      "z": -5
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": -1,
+      "y": 5,
+      "z": -3
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": -1,
+      "y": 5,
+      "z": -4
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": -1,
+      "y": 5,
+      "z": -5
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 0,
+      "y": 5,
+      "z": -2
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 0,
+      "y": 5,
+      "z": -3
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 0,
+      "y": 5,
+      "z": -4
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 0,
+      "y": 5,
+      "z": -5
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 0,
+      "y": 5,
+      "z": -6
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 1,
+      "y": 5,
+      "z": -2
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 1,
+      "y": 5,
+      "z": -3
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 1,
+      "y": 5,
+      "z": -5
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 1,
+      "y": 5,
+      "z": -6
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 2,
+      "y": 5,
+      "z": -2
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 2,
+      "y": 5,
+      "z": -3
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 2,
+      "y": 5,
+      "z": -4
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 2,
+      "y": 5,
+      "z": -5
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 2,
+      "y": 5,
+      "z": -6
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 3,
+      "y": 5,
+      "z": -3
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 3,
+      "y": 5,
+      "z": -4
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 3,
+      "y": 5,
+      "z": -5
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 0,
+      "y": 6,
+      "z": -3
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 0,
+      "y": 6,
+      "z": -4
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 1,
+      "y": 6,
+      "z": -3
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 1,
+      "y": 6,
+      "z": -5
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 2,
+      "y": 6,
+      "z": -4
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 0,
+      "y": 7,
+      "z": -4
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 1,
+      "y": 7,
+      "z": -3
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 1,
+      "y": 7,
+      "z": -4
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 1,
+      "y": 7,
+      "z": -5
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "x": 2,
+      "y": 7,
+      "z": -4
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 66,
+      "y": 0,
+      "z": -1
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 66,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 66,
+      "y": 0,
+      "z": 1
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 65,
+      "y": 0,
+      "z": -1
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 65,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 65,
+      "y": 0,
+      "z": 1
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 64,
+      "y": 0,
+      "z": -1
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 64,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 64,
+      "y": 0,
+      "z": 1
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 66,
+      "y": -1,
+      "z": -1
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 66,
+      "y": -1,
+      "z": 0
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 66,
+      "y": -1,
+      "z": 1
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 65,
+      "y": -1,
+      "z": -1
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 65,
+      "y": -1,
+      "z": 0
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 65,
+      "y": -1,
+      "z": 1
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 64,
+      "y": -1,
+      "z": -1
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 64,
+      "y": -1,
+      "z": 0
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 64,
+      "y": -1,
+      "z": 1
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 66,
+      "y": -2,
+      "z": -1
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 66,
+      "y": -2,
+      "z": 0
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 66,
+      "y": -2,
+      "z": 1
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 65,
+      "y": -2,
+      "z": -1
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 65,
+      "y": -2,
+      "z": 0
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 65,
+      "y": -2,
+      "z": 1
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 64,
+      "y": -2,
+      "z": -1
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 64,
+      "y": -2,
+      "z": 0
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "x": 64,
+      "y": -2,
+      "z": 1
+    },
+    {
+      "id": "minecraft:chest",
+      "meta": 4,
+      "x": 65,
+      "y": 1,
+      "z": 0,
+      "contents": [
+        {
+          "id": "minecraft:obsidian",
+          "meta": 0,
+          "count": 10,
+          "slot": -1
+        },
+        {
+          "id": "minecraft:melon",
+          "meta": 0,
+          "count": 1,
+          "slot": -1
+        },
+        {
+          "id": "minecraft:pumpkin_seeds",
+          "meta": 0,
+          "count": 1,
+          "slot": -1
+        }
+      ]
+    },
+    {
+      "id": "minecraft:cactus",
+      "meta": 0,
+      "x": 66,
+      "y": 1,
+      "z": -1
+    }
+  ]
+}

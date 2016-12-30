@@ -1,0 +1,14 @@
+{
+  "recipes": [
+    {
+      "block": "minecraft:furnace_lit",
+      "meta": -1,
+      "heat": 12
+    },
+    {
+      "block": "minecraft:fire",
+      "meta": -1,
+      "heat": 20
+    }
+  ]
+}

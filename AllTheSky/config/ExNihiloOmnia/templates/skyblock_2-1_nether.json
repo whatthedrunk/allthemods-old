@@ -1,0 +1,221 @@
+{
+  "spawnYLevel": 50,
+  "blocks": [
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": -1,
+      "y": 0,
+      "z": -1
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": -1,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": -1,
+      "y": 0,
+      "z": 1
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": 0,
+      "y": 0,
+      "z": -1
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": 0,
+      "y": 0,
+      "z": 1
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": 1,
+      "y": 0,
+      "z": -1
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": 1,
+      "y": 0,
+      "z": 1
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": -1,
+      "y": -1,
+      "z": -1
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": -1,
+      "y": -1,
+      "z": 0
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": -1,
+      "y": -1,
+      "z": 1
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": 0,
+      "y": -1,
+      "z": -1
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": 0,
+      "y": -1,
+      "z": 0
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": 0,
+      "y": -1,
+      "z": 1
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": 1,
+      "y": -1,
+      "z": -1
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": 1,
+      "y": -1,
+      "z": 0
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": 1,
+      "y": -1,
+      "z": 1
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": -1,
+      "y": -2,
+      "z": -1
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": -1,
+      "y": -2,
+      "z": 0
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": -1,
+      "y": -2,
+      "z": 1
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": 0,
+      "y": -2,
+      "z": -1
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": 0,
+      "y": -2,
+      "z": 0
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": 0,
+      "y": -2,
+      "z": 1
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": 1,
+      "y": -2,
+      "z": -1
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": 1,
+      "y": -2,
+      "z": 0
+    },
+    {
+      "id": "minecraft:glowstone",
+      "meta": 0,
+      "x": 1,
+      "y": -2,
+      "z": 1
+    },
+    {
+      "id": "minecraft:chest",
+      "meta": 0,
+      "x": 0,
+      "y": 1,
+      "z": 0,
+      "contents": [
+        {
+          "id": "minecraft:sapling",
+          "meta": 2,
+          "count": 1,
+          "slot": -1
+        },
+        {
+          "id": "minecraft:reeds",
+          "meta": 0,
+          "count": 1,
+          "slot": -1
+        },
+        {
+          "id": "minecraft:ice",
+          "meta": 0,
+          "count": 1,
+          "slot": -1
+        }
+      ]
+    }
+  ]
+}

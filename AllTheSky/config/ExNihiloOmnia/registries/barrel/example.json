@@ -1,0 +1,18 @@
+{
+  "recipes": [
+    {
+      "fluid": "lava",
+      "input": "minecraft:stick",
+      "inputMeta": 0,
+      "output": "minecraft:gunpowder",
+      "outputMeta": 0
+    },
+    {
+      "fluid": "witchwater",
+      "input": "minecraft:emerald",
+      "inputMeta": 0,
+      "output": "minecraft:diamond",
+      "outputMeta": 0
+    }
+  ]
+}

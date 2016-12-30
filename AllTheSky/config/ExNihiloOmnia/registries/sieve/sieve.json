@@ -1,0 +1,148 @@
+{
+  "recipes": [
+    {
+      "id": "exnihiloomnia:dust",
+      "meta": 1,
+      "behavior": "meta_specific",
+      "rewards": [
+        {
+          "id": "ic2:sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+	    {
+          "id": "mysticalagriculture:inferium_essence",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 7
+        },
+	    {
+          "id": "bigreactors:dustMetals",
+          "meta": 0,
+          "amount": 1,
+          "baseChance":15
+        }
+      ]
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 0,
+      "behavior": "meta_specific",
+      "rewards": [
+        {
+          "id": "minecraft:dye",
+          "meta": 15,
+          "amount": 1,
+          "baseChance": 7
+        },
+        {
+          "id": "exnihiloomnia:seeds_cactus",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 7
+        },
+        {
+          "id": "exnihiloomnia:seeds_sugarcane",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+		{
+          "id": "mysticalagriculture:prosperity_shard",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        },
+	    {
+          "id": "appliedenergistics2:material",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        }
+      ]
+    },
+	{
+      "id": "exnihiloomnia:gravel_ender",
+      "meta": 0,
+      "behavior": "meta_specific",
+      "rewards": [
+        {
+          "id": "draconicevolution:draconium_dust",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 10
+        }
+      ]
+    },
+    {
+      "id": "minecraft:sand",
+      "meta": 1,
+      "behavior": "meta_specific",
+      "rewards": [
+        {
+          "id": "appliedenergistics2:material",
+          "meta": 45,
+          "amount": 1,
+          "baseChance": 30
+        },
+		{
+          "id": "minecraft:prismarine_shard",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 15
+        }
+      ]
+    },
+    {
+      "id": "minecraft:obsidian",
+      "meta": 0,
+      "behavior": "meta_specific",
+      "rewards": [
+        {
+          "id": "techreborn:dust",
+          "meta": 4,
+          "amount": 2,
+          "baseChance": 50
+        },
+		{
+          "id": "substratum:dust",
+          "meta": 21,
+          "amount": 4,
+          "baseChance": 30
+        }
+      ]
+    },
+    {
+      "id": "minecraft:dirt",
+      "meta": 0,
+      "behavior": "meta_specific",
+      "rewards": [
+        {
+          "id": "actuallyadditions:itemCoffeeSeed",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 15
+        },
+		{
+          "id": "actuallyadditions:itemRiceSeed",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 15
+        },
+		{
+          "id": "actuallyadditions:itemCanolaSeed",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 15
+        },
+		{
+          "id": "actuallyadditions:itemFlaxSeed",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 15
+        }		
+      ]
+    }	
+  ]
+}

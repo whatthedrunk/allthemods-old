@@ -4,7 +4,7 @@
 #Cables
 val FisrtCable = <solarfluxreborn:wire_1>;
 val SecondCable = <solarfluxreborn:wire_2>;
-val LastCable = <solarfluxreborn:wire_3>;
+#val LastCable = <solarfluxreborn:wire_3>;
 
 #Items
 val RedStone = <minecraft:redstone>;
@@ -30,8 +30,8 @@ recipes.addShaped(SecondCable * 4,
 [Signalum, Signalum, Signalum]]);
 
 #LastCable
-recipes.remove(LastCable);
-recipes.addShaped(LastCable * 4,
-[[Enderingot, EnderEye, Enderingot],
-[SecondCable, SecondCable, SecondCable],
-[Enderingot, EnderEye, Enderingot]]);
+#recipes.remove(LastCable);
+#recipes.addShaped(LastCable * 4,
+#[[Enderingot, EnderEye, Enderingot],
+#[SecondCable, SecondCable, SecondCable],
+#[Enderingot, EnderEye, Enderingot]]);

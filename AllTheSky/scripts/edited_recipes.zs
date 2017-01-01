@@ -51,7 +51,7 @@ recipes.addShaped(GlowBread,
 [Glowstone, Dough, Glowstone]]);
 
 #Blaze Fix
-mods.calculator.flawless.removeRecipe(blazePowder,blazePowder,blazePowder,blazePowder);
+#mods.calculator.flawless.removeRecipe(blazePowder, blazePowder, blazePowder, blazePowder);
 
 #Ladders
 recipes.remove(<minecraft:ladder>);

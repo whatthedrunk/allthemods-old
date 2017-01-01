@@ -7,7 +7,7 @@
     {
       "questID": 0,
       "name": "Worms Are Good ",
-      "description": "silkworm are from use a crook on leaves",
+      "description": "Silworms are great! You can only get them by using a crook on the leaves, and they will occassionally drop a silkworm. Use that silkworm on the leaves and watch them \"infest\" your leaves. Then, use the crook again to get string!\n\nYou can also cook them for a tasty treat!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -89,8 +89,8 @@
     },
     {
       "questID": 1,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Getting the Good Stuff",
+      "description": "The almighty Sieve! It can sift through dirt, gravel, sand, dust, crushed netherrack, and more to give you all the goodies you need to rebuild your world!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -113,7 +113,21 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "exnihiloomnia:sieve_wood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         4,
@@ -123,7 +137,7 @@
     {
       "questID": 2,
       "name": "Go Get Me a Sapling",
-      "description": "Look you Have a sapling (Starting kit)",
+      "description": "To get your first sapling, simply check the quest above this one!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -150,7 +164,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -181,7 +195,7 @@
     {
       "questID": 3,
       "name": "String",
-      "description": "Get From Infested Leaves",
+      "description": "Use the worm from the previous step to infest leaves. A fully infested leaf block will spread the worm infestation 1 more block. Over time, your entire tree will become infested.Be careful though, because you will not get any saplings from infested leaves. Always make sure to keep at least one sapling behind!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -252,8 +266,8 @@
     },
     {
       "questID": 4,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Mesh",
+      "description": "There\u0027s a lot of things you can do with the newly gained String, but your first priority should be to make something that will sift through dirt to get the really good stuff. For that, you\u0027re going to need a Silk Mesh. You\u0027re going to need 3 of them to get started.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -276,16 +290,42 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "exnihiloomnia:mesh_silk_white",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:toastItem",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         3
       ]
     },
     {
       "questID": 5,
-      "name": "The start of Tinker",
-      "description": "No Description",
+      "name": "The Start of Tinker",
+      "description": "Now that you have some templates, you\u0027re going to need to do something with them. Use the Stencil Table to create new templates. Use the Part Builder to, well, build parts. Finally, use the Tinkers Tool Station to assemble and modify your tools.\n\nHelpful hint: If you line them all up in a row, then you\u0027ll be able to access all the respective blocks through the tabs at the top.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -315,7 +355,47 @@
         }
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "tconstruct:tooltables",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "textureBlock": {
+                  "id": "minecraft:planks",
+                  "Count": 1,
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "id": "tconstruct:tooltables",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "textureBlock": {
+                  "id": "minecraft:log",
+                  "Count": 1,
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "id": "tconstruct:tooltables",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         752
@@ -323,8 +403,8 @@
     },
     {
       "questID": 6,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Porcelain Bucket",
+      "description": "You\u0027re going to need to move liquids around, including liquids that are extremely hot(like lava). Wooden bowls are not well suited for transporting lava, so you\u0027re going to need something a little more temperature tolerant.\n\nFirst, create an unfired bucket using 3 Porcelain Clay, then put that bucket in a furnace to get a fired Bucket.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -347,8 +427,36 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "exnihiloomnia:bucket_porcelain_empty",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:mushroom_stew",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         187
       ]
@@ -356,7 +464,7 @@
     {
       "questID": 7,
       "name": "Go and hit a tree",
-      "description": "Get orks logs ",
+      "description": "With your sapling, you can start to grow some trees. If you just plant the tree and walk away(or, well, as far away as you can on a 3x3 island) then you\u0027ll be waiting a very long time. Try crouching multiple times to make the tree grow faster. Then, puch tree, get wood!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -444,8 +552,8 @@
     },
     {
       "questID": 8,
-      "name": "Crafting Table You will love one",
-      "description": "Get a Crafttable",
+      "name": "Crafting Table",
+      "description": "Ummm, it\u0027s a crafting table... simple as that!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -472,7 +580,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "autoConsume": false,
           "requiredItems": [
             {
@@ -527,8 +635,8 @@
     },
     {
       "questID": 9,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Cobblegen!",
+      "description": "As I said before, you\u0027re going to need a cobblestone generator. The concept of a cobblegen is rather straightforward, you need to place a lava source block 1 block away from water, but the water can not touch the lava, otherwise the lava will turn to obsidian. So, with that in mind, place a water source block down and let one side flow down so you have running water. Leave an empty space between the flowing water and place the lava down. The lava will flow towards the running water and turn into Cobblestone.\n\nOh, and in case you missed it before, lava will burn anything it can, so don\u0027t make your cobblestone generator out of wood.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -545,54 +653,106 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "excompressum:compressed_hammer_iron",
+        "id": "minecraft:stonebrick",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "blocks": [
+            {
+              "blockID": "minecraft:cobblestone",
+              "meta": -1,
+              "nbt": {},
+              "amount": 1,
+              "oreDict": ""
+            }
+          ],
+          "taskID": "bq_standard:block_break"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:fireworks",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
+      "preRequisites": [
+        6,
+        112
+      ]
+    },
+    {
+      "questID": 10,
+      "name": "Storage",
+      "description": "Well, at this point, your inventory might be getting a bit crowded. To help you with this problem, you should craft some chests.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:chest",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "ironchest:woodIronUpgrade",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
-        687
-      ]
-    },
-    {
-      "questID": 10,
-      "name": "New Quest",
-      "description": "No Description",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "minecraft:dye",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 15
-      },
-      "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": [
-        20
+        8
       ]
     },
     {
       "questID": 11,
       "name": "Gravel",
-      "description": "Get be Hammering CobbleStone",
+      "description": "Hammer Cobblestone to get Gravel",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -615,7 +775,23 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:gravel",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         605
@@ -623,8 +799,8 @@
     },
     {
       "questID": 12,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Do You Have the Stones?",
+      "description": "Well, not much to say about this one... It\u0027s Cobblestone!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -647,16 +823,42 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:cobblestone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:cobblestone",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
-        16
+        82
       ]
     },
     {
       "questID": 13,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Sand",
+      "description": "Hammer Gravel to get Sand",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -679,10 +881,26 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:sand",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
-        11
+        605
       ]
     },
     {
@@ -719,8 +937,8 @@
     },
     {
       "questID": 15,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Barrels O\u0027 Fun",
+      "description": "Barrels are helpful in many ways. First of all, you can throw leaves, saplings, apples and other fermentable things in there to make more Dirt. Second of all, you can leave them out in the rain and they will collect water, which you can then collect using a bucket. And finally, if a barrel is full of water, then you can put some Dust in there and it will turn into Clay.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -743,16 +961,42 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "exnihiloomnia:barrel_wood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:sapling",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         8
       ]
     },
     {
       "questID": 16,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Getting Dirty",
+      "description": "With the barrel loaded full of leaves, sapling, and other things, you can start making dirt. ",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -775,10 +1019,38 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:dirt",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:dirt",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
-        1
+        15
       ]
     },
     {
@@ -877,8 +1149,8 @@
     },
     {
       "questID": 20,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Volcanic Ash",
+      "description": "Hammer Sand to get Volcanic Ash",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -901,16 +1173,32 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "exnihiloomnia:dust",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
-        13
+        605
       ]
     },
     {
       "questID": 21,
       "name": "The Kits To start",
-      "description": "A Starter Kit for you\nPlaying on SkyLands Comes with an in-game guide! (Default: Press G or change it in the controls) \n\n(Hit: Do Not Use The Egg you will need for a Quest)",
+      "description": "A Starter Kit for you!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -2363,8 +2651,8 @@
     },
     {
       "questID": 68,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Bigger Chest",
+      "description": "Did you ask for a bigger chest? Well, here you go!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -2381,16 +2669,42 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "excompressum:compressed_hammer_diamond",
+        "id": "actuallyadditions:blockGiantChest",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:blockGiantChest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "lootbags:itemlootbag",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
-        688
+        10
       ]
     },
     {
@@ -2785,8 +3099,8 @@
     },
     {
       "questID": 82,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "All Cobbled Up",
+      "description": "By sieving dirt, you get Small Stones. 9 of those in a crafting table will make 1 cobbstone.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -2803,16 +3117,44 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "progressiveautomation:CobbleUpgrade",
+        "id": "exnihiloomnia:stone",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "exnihiloomnia:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "exnihiloomnia:stone",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
-        166
+        16
       ]
     },
     {
@@ -3687,8 +4029,8 @@
     },
     {
       "questID": 112,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Going Through the Crucible",
+      "description": "You\u0027re going to need lava, and the best way to do that is to use the crucible. The crucible will slowly melt 4 Cobblestone into 1 bucket of Lava if the crucible is over a heat source. Heat sources include Torches, Lava, and an Open Fire(use a Flint and Steel on Netherrack to create an infinite flame source). Each heat source has different melting speeds, so you might want to move the crucible on top of something better as soon as you can.\n\nTo create the crucible, first you\u0027ll need to make an Unfired Crucible using 7 Porcelain Clay in a U shape. Then, place the Unfired Crucible in the furnace to get a regular Crucible.\n\nOh, and if you built your platform out of wood, you might want to keep the lava or open flame as far away as possible! (Unless, of course, you just like to watch the world burn)",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -3711,8 +4053,36 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "exnihiloomnia:crucible",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:cobblestone",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         187
       ]
@@ -5309,8 +5679,8 @@
     },
     {
       "questID": 166,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Spores",
+      "description": "Spores come from sifting sand through a sieve. Spores are incredibly useful because with them, you can create Mycelium. More will be covered once you have attained your first spore.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -5327,16 +5697,32 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "exnihiloomnia:bucket_porcelain_lava",
+        "id": "exnihiloomnia:spores",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "exnihiloomnia:spores",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
-        112
+        13
       ]
     },
     {
@@ -5942,7 +6328,7 @@
     {
       "questID": 187,
       "name": "Porcelain Clay",
-      "description": "No Description",
+      "description": "You\u0027re going to need to get a cobble gen up and running at some point, which means you\u0027re going to need some lava, and a way to move that lava around. Porcelain Clay will help you get what you need.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -5965,8 +6351,34 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "exnihiloomnia:porcelain",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:pumpkin_pie",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         260
       ]
@@ -6423,8 +6835,8 @@
     },
     {
       "questID": 203,
-      "name": "Water",
-      "description": "Just Get 1000mb Of water",
+      "name": "Mycelium",
+      "description": "The most basic usage of Mycelium is to allow mushrooms to grow at any light level, but perhaps one of the more useful features of Mycelium is that if you put a Barrel full of Water near a Mycelium block, the water will turn into Witchwater. If you put sand into Witchwater while the witchwater is still in the barrel, then you\u0027ll get Soul Sand.\n\nPro tip: Don\u0027t place a bucket of Witchwater in the overworld. It will spawn Ghasts and then you\u0027ll have to fight those Ghasts... and let\u0027s face it, you\u0027re not prepared to go up against an angry horde of Ghasts at this point... or maybe you are!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -6441,7 +6853,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:water_bucket",
+        "id": "minecraft:mycelium",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -6449,20 +6861,28 @@
       "visibility": "NORMAL",
       "tasks": [
         {
-          "consume": true,
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
           "autoConsume": false,
-          "requiredFluids": [
+          "requiredItems": [
             {
-              "FluidName": "water",
-              "Amount": 1000
+              "id": "forge:bucketFilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName": "witchwater",
+                "Amount": 1000
+              }
             }
           ],
-          "taskID": "bq_standard:fluid"
+          "taskID": "bq_standard:retrieval"
         }
       ],
       "rewards": [],
       "preRequisites": [
-        6
+        166
       ]
     },
     {
@@ -8148,7 +8568,7 @@
     {
       "questID": 260,
       "name": "Clay",
-      "description": "No Description",
+      "description": "Place a few barrels somewhere in the open where rain can fall on it, or, alternatively you can just put water in by using buckets, but I\u0027m going out on a ledge here and assuming you don\u0027t have a bucket for the first time you\u0027ll be doing this. Then, wait for rain.\n\nOnce it rains, the barrels will fill with water. Place some Volcanic Ash in with the water to get clay.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -8171,8 +8591,36 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:clay",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:clay",
+              "Count": 5,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         15
       ]
@@ -17864,8 +18312,8 @@
     },
     {
       "questID": 583,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Burn Baby, Burn",
+      "description": "Well, with all that cobble you\u0027re getting, might as well make a furnace. You\u0027re going to need it to progress anyway.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -17888,8 +18336,34 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:furnace",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "actuallyadditions:itemMisc",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 11
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         12
       ]
@@ -17956,8 +18430,8 @@
     },
     {
       "questID": 586,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "There\u0027s a Light...",
+      "description": "By now, your base must be getting bigger. Those few torches we gave you earlier are probably not enough to cover the whole ground. Why don\u0027t you go ahead and craft a few torches to get some lighting going on.\n\nHit F7 to see where your light may be low. Anything with a yellow dot on it means mobs can spawn at night. Anything with a red dot on it means mobs can spawn at any time.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -17980,8 +18454,34 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:torch",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:rabbit_stew",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         583
       ]
@@ -18528,8 +19028,8 @@
     },
     {
       "questID": 605,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Hammer Time!",
+      "description": "Hammer Cobblestone to get Gravel. Hammer Gravel to get Sand. Hammer Sand to get Volcanic Ash. \n\nStop... Hammer Time!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -18552,7 +19052,21 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "exnihiloomnia:hammer_stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         12
@@ -20836,8 +21350,8 @@
     },
     {
       "questID": 681,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Compressed Gravel",
+      "description": "Yes, you can compress Gravel. \n\nIf you put this is a Heavy Sieve, you can sift through 9 blocks of Gravel at a time. \n\nYou can also hit it with a Compressed Hammer to get 9 blocks of Sand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -20860,16 +21374,30 @@
         "Damage": 2
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "excompressum:compressed_block",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
-        11
+        685
       ]
     },
     {
       "questID": 682,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Compressed Sand",
+      "description": "Yes, you can compress Sand. \n\nYou can sieve this in a Heavy Sieve to sift through 9 blocks of Sand at once. \n\nJust like with the Gravel counterpart, you can also whack this with a Compressed Hammer to get 9 Volcanic Ash.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -20892,16 +21420,30 @@
         "Damage": 3
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "extrautils2:CompressedSand",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
-        13
+        685
       ]
     },
     {
       "questID": 683,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Compressed Volcanic Ash",
+      "description": "Yup, you can even compress Volcanic Ash. \n\nJust like Compressed Gravel and Compressed Sand, if you put this in a Heavy Sieve, you can sift through 9 blocks of Volcanic Ash at a time.\n\nHowever, whacking this with a Compressed Hammer does nothing.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -20927,13 +21469,13 @@
       "tasks": [],
       "rewards": [],
       "preRequisites": [
-        20
+        685
       ]
     },
     {
       "questID": 684,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Compressed Cobble",
+      "description": "Compressed Cobble is a great way to save on inventory space. Plus, it\u0027ll come in handy later when you get the more advanced Hammer.\n\nPro Tip: If you have a crafting table open, hover your mouse over any uncompressed cobble and press \u003cshift\u003e + K.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -20964,8 +21506,8 @@
     },
     {
       "questID": 685,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Bigger Hammer",
+      "description": "The regular hammer is nice and all, but you really don\u0027t want to spend all your time hammering down all the things you\u0027re going to need. So, craft yourself one of these, then whack some Compressed Cobblestone and notice you get 9 Gravel back! You can then do the same for any compressed material.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -20988,8 +21530,46 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "excompressum:compressed_hammer_stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "extrautils2:CompressedCobblestone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "excompressum:compressed_block",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "excompressum:compressed_block",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         605
       ]
@@ -20997,7 +21577,7 @@
     {
       "questID": 686,
       "name": "Crook Make it ",
-      "description": "Make a Upside down L patten in a crafttable",
+      "description": "Simply breaking leaves with your hand(or whatever tool happens to be in your hand) is not going to get you very many Saplings, and let\u0027s face it, you\u0027re going to need a lot of Saplings. To get you started, build this Crook!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -21074,8 +21654,52 @@
     },
     {
       "questID": 687,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "To Get Started",
+      "description": "Welcome to the wonderful world of Actually Additions. This mod contains many things. Too many things to list in a simple intro, so let\u0027s get started. \n\nThe first thing you\u0027re going to need is a piece of Black Quartz.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:itemMisc",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:itemMisc",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 688,
+      "name": "Dirty Power",
+      "description": "It\u0027s a Coal Generator. Nothing special. Put Coal in, and power comes out. It also works with Charcoal.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -21092,54 +21716,36 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "exnihiloomnia:hammer_iron",
+        "id": "actuallyadditions:blockCoalGenerator",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:blockCoalGenerator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         730
       ]
     },
     {
-      "questID": 688,
-      "name": "New Quest",
-      "description": "No Description",
-      "isMain": false,
-      "isSilent": false,
-      "lockedProgress": false,
-      "simultaneous": false,
-      "globalParticipation": 0.0,
-      "globalQuest": false,
-      "globalShare": true,
-      "autoClaim": false,
-      "repeatTime": -1,
-      "sounds": {
-        "complete": "random.levelup",
-        "update": "random.levelup"
-      },
-      "logic": "AND",
-      "taskLogic": "AND",
-      "icon": {
-        "id": "exnihiloomnia:hammer_diamond",
-        "Count": 1,
-        "OreDict": "",
-        "Damage": 0
-      },
-      "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
-      "preRequisites": [
-        733
-      ]
-    },
-    {
       "questID": 689,
-      "name": "Get A big Crook",
-      "description": "Take four Crook in a upside down L patten in a crafttable",
+      "name": "Get a Faster Crook",
+      "description": "The standard crok is slow. You\u0027ll need something that will go a bit faster! Take 4 crooks and put them in an upside-down L shape and you\u0027ll get something that will go a bit faster.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -22487,9 +23093,9 @@
     },
     {
       "questID": 730,
-      "name": "Broken Ores",
-      "description": "Sieveing Grave of hammer Grave",
-      "isMain": false,
+      "name": "Atomically Reconstructing Things",
+      "description": "The Atomic Reconstructor is the core machine for this mod. It allows you to create the various crystals you will need in order to continue.\n\nIt does take power, and depending on what it is re-constructing, that could be a little power or a lot of power.\n\nThe way you use it is by placing it so that is faces a block. It will eventually fire a pulse if given power and if the block the pulse hits is something that can be reconstructed, then it is transformed. It will also transform items around it, like redstone or coal that has been dropped on the ground, so just be aware of that.\n\nBy default, it is set to continually pulse. Simply right clicking on the Atomic Reconstructor with a Redstone Torch will change it so that it requires a redstone pulse. Place a button down next to it, then start crytallizing!",
+      "isMain": true,
       "isSilent": false,
       "lockedProgress": false,
       "simultaneous": false,
@@ -22505,8 +23111,8 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "exnihiloomnia:ore_broken",
-        "Count": 64,
+        "id": "actuallyadditions:blockAtomicReconstructor",
+        "Count": 1,
         "OreDict": "",
         "Damage": 0
       },
@@ -22515,82 +23121,26 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:stone",
+              "id": "actuallyadditions:blockAtomicReconstructor",
               "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:stone",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:stone",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:stone",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:stone",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:stone",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:stone",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:stone",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:stone",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "exnihiloomnia:ore_broken",
-              "Count": 16,
               "OreDict": "",
               "Damage": 0
             }
           ],
-          "taskID": "bq_standard:retrieval"
+          "taskID": "bq_standard:crafting"
         }
       ],
       "rewards": [],
       "preRequisites": [
-        11
+        687
       ]
     },
     {
       "questID": 731,
-      "name": "Crushed Ores",
-      "description": "Sieveing Sand Will give you Crushed ores or hammering gravel",
+      "name": "New Quest",
+      "description": "No Description",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -22607,86 +23157,16 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "exnihiloomnia:ore_crushed",
-        "Count": 16,
+        "id": "actuallyadditions:blockLaserRelay",
+        "Count": 1,
         "OreDict": "",
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "exnihiloomnia:ore_crushed",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "exnihiloomnia:ore_crushed",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 1
-            },
-            {
-              "id": "exnihiloomnia:ore_crushed",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 2
-            },
-            {
-              "id": "exnihiloomnia:ore_crushed",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 3
-            },
-            {
-              "id": "exnihiloomnia:ore_crushed",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 4
-            },
-            {
-              "id": "exnihiloomnia:ore_crushed",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 5
-            },
-            {
-              "id": "exnihiloomnia:ore_crushed",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 6
-            },
-            {
-              "id": "exnihiloomnia:ore_crushed",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 7
-            },
-            {
-              "id": "exnihiloomnia:ore_crushed",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 8
-            },
-            {
-              "id": "exnihiloomnia:ore_crushed",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 9
-            }
-          ],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
+      "tasks": [],
       "rewards": [],
       "preRequisites": [
-        13
+        734
       ]
     },
     {
@@ -22739,7 +23219,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:diamond",
+        "id": "actuallyadditions:blockLaserRelayFluids",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -22748,7 +23228,7 @@
       "tasks": [],
       "rewards": [],
       "preRequisites": [
-        11
+        734
       ]
     },
     {
@@ -22771,31 +23251,22 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "exnihiloomnia:spores",
+        "id": "actuallyadditions:itemLaserWrench",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "autoConsume": false,
-          "requiredItems": [],
-          "taskID": "bq_standard:retrieval"
-        }
-      ],
+      "tasks": [],
       "rewards": [],
       "preRequisites": [
-        13
+        816
       ]
     },
     {
       "questID": 735,
-      "name": "Powder Ores",
-      "description": "Get Be Hammer Sand or sieveing Volcanic ash",
+      "name": "Restonia",
+      "description": "Simply drop some Redstone in front of the Atomic Reconstructor.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -22812,8 +23283,8 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "exnihiloomnia:ore_powder",
-        "Count": 16,
+        "id": "actuallyadditions:itemCrystal",
+        "Count": 1,
         "OreDict": "",
         "Damage": 0
       },
@@ -22826,64 +23297,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "exnihiloomnia:ore_powder",
-              "Count": 16,
+              "id": "actuallyadditions:itemCrystal",
+              "Count": 1,
               "OreDict": "",
               "Damage": 0
-            },
-            {
-              "id": "exnihiloomnia:ore_powder",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 1
-            },
-            {
-              "id": "exnihiloomnia:ore_powder",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 2
-            },
-            {
-              "id": "exnihiloomnia:ore_powder",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 3
-            },
-            {
-              "id": "exnihiloomnia:ore_powder",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 4
-            },
-            {
-              "id": "exnihiloomnia:ore_powder",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 5
-            },
-            {
-              "id": "exnihiloomnia:ore_powder",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 6
-            },
-            {
-              "id": "exnihiloomnia:ore_powder",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 7
-            },
-            {
-              "id": "exnihiloomnia:ore_powder",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 8
-            },
-            {
-              "id": "exnihiloomnia:ore_powder",
-              "Count": 16,
-              "OreDict": "",
-              "Damage": 9
             }
           ],
           "taskID": "bq_standard:retrieval"
@@ -22891,13 +23308,13 @@
       ],
       "rewards": [],
       "preRequisites": [
-        20
+        730
       ]
     },
     {
       "questID": 736,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Compressed Dirt",
+      "description": "So what are you going to do with all your new found dirt? You could, of course, make a farm, plant a few trees, or you could gather 9 of them in a crafting grid to create Compressed Dirt.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -22920,16 +23337,42 @@
         "Damage": 4
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "excompressum:compressed_block",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "excompressum:compressed_block",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         16
       ]
     },
     {
       "questID": 737,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Growing Hunger",
+      "description": "By now, your hunger bar may be looking rather thin(unless you\u0027ve been eating all your rewards). By sieving Dirt, you have a chance to get all sorts of seeds. By planting these seeds on tilled dirt, you can get wheat...\n\nI sense another quest following this one...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -22952,10 +23395,51 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:wheat_seeds",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:applejuiceItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:orangejuiceItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:melonjuiceItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
-        16
+        16,
+        1
       ]
     },
     {
@@ -22990,8 +23474,8 @@
     },
     {
       "questID": 739,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Making Bread",
+      "description": "Bread is filling, but be careful, if you eat too much of it, all the benefits of all that saturation will go away. You\u0027ll need to vary your diet with whatever other edible things you can think of.\n\nBread is a good start though!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -23014,16 +23498,42 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:bread",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:toastItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         737
       ]
     },
     {
       "questID": 740,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Bulk Processing",
+      "description": "The standard sieve is nice and all, but we can do this faster. Try putting together one of these sieves! You can only use compressed gravel, sand and other items, and you do loose a bit in the process, but the speed is well worth it!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -23046,16 +23556,54 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "excompressum:heavy_sieve",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "excompressum:compressed_block",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "excompressum:compressed_block",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "excompressum:compressed_block",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         741
       ]
     },
     {
       "questID": 741,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Stronger Mesh",
+      "description": "You may have noticed that the durability of the Silky Mesh leaves a lot to be desired. If you\u0027re going to be sieving a lot(which you will) then you\u0027re going to need something a bit stronger.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -23078,16 +23626,48 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "excompressum:iron_mesh",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "chancecubes:chance_Cube",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:spagettiItem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice"
+        }
+      ],
       "preRequisites": [
         1
       ]
     },
     {
       "questID": 742,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Stronger Barrel",
+      "description": "Wooden barrels are great, but they can\u0027t hold lava. We need to put lava in barrels for the next part.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -23110,7 +23690,21 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "exnihiloomnia:barrel_stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         15
@@ -23118,8 +23712,8 @@
     },
     {
       "questID": 743,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Obsidian",
+      "description": "Obsidian is useful for many crafting recipes, so we\u0027re going to need a way to synthesize it. By placing a bucket of lava in a Stone Barrel, then placing some water above the barrel, that will make obsidian for us. The best part is we don\u0027t have to mine it!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -23142,7 +23736,23 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:obsidian",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         742
@@ -23150,8 +23760,8 @@
     },
     {
       "questID": 744,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Natherrack",
+      "description": "To get Netherrack, all you need to do is fill a Stone Barrel with lava, then right click it with a piece of Redstone. Viola!",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -23174,7 +23784,23 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:netherrack",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         742
@@ -23182,8 +23808,8 @@
     },
     {
       "questID": 745,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Soul Sand",
+      "description": "Soul Sand is a tricky one to get. First of all, you need to make sure you place a barrel down next to some Mycelium. Fill that barrel with water and wait. After a certain amount of time, the barrel will convert the water inside to Witchwater. Once you have the Witchwater, just right click with a piece of Sand and that will give you Soul Sand.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -23206,7 +23832,23 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:soul_sand",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         742
@@ -23214,8 +23856,8 @@
     },
     {
       "questID": 746,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "End Stone",
+      "description": "If you\u0027ve done Netherrack, then you\u0027ll know how this goes. Put a bucket of lava into a Stone Barrel and then right click with a piece of Glowstone to get yourself a block of End Stone.",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -23238,7 +23880,23 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:end_stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         742
@@ -23264,7 +23922,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "minecraft:mycelium",
+        "id": "actuallyadditions:blockLaserRelayItem",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -23406,8 +24064,8 @@
     },
     {
       "questID": 752,
-      "name": "New Quest",
-      "description": "No Description",
+      "name": "Tinker\u0027s Template",
+      "description": "It\u0027s time to get you started on thinking about what kind of tools you may need...",
       "isMain": false,
       "isSilent": false,
       "lockedProgress": false,
@@ -23430,8 +24088,73 @@
         "Damage": 0
       },
       "visibility": "NORMAL",
-      "tasks": [],
-      "rewards": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "tconstruct:pattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "tconstruct:pattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "PartType": "tconstruct:tool_rod"
+              }
+            },
+            {
+              "id": "tconstruct:pattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "PartType": "tconstruct:axe_head"
+              }
+            },
+            {
+              "id": "tconstruct:pattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "PartType": "tconstruct:shovel_head"
+              }
+            },
+            {
+              "id": "tconstruct:pattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "PartType": "tconstruct:pick_head"
+              }
+            },
+            {
+              "id": "tconstruct:pattern",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "PartType": "tconstruct:binding"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item"
+        }
+      ],
       "preRequisites": [
         8
       ]
@@ -23456,7 +24179,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "extrautils2:PassiveGenerator",
+        "id": "actuallyadditions:blockLaserRelayItemWhitelist",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -23465,7 +24188,7 @@
       "tasks": [],
       "rewards": [],
       "preRequisites": [
-        166
+        747
       ]
     },
     {
@@ -23488,7 +24211,7 @@
       "logic": "AND",
       "taskLogic": "AND",
       "icon": {
-        "id": "extrautils2:Grocket",
+        "id": "actuallyadditions:blockLaserRelayAdvanced",
         "Count": 1,
         "OreDict": "",
         "Damage": 0
@@ -23497,7 +24220,7 @@
       "tasks": [],
       "rewards": [],
       "preRequisites": [
-        166
+        731
       ]
     },
     {
@@ -25052,292 +25775,3206 @@
         786,
         791
       ]
+    },
+    {
+      "questID": 803,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:itemFilter",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        747
+      ]
+    },
+    {
+      "questID": 804,
+      "name": "Auto-Placing",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockPlacer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        815,
+        810
+      ]
+    },
+    {
+      "questID": 805,
+      "name": "Auto-Breakage",
+      "description": "It breaks blocks and stores the blocks in the internal inventory. Nuff said.\n\nThis is perfect for automating those early game cobble generators. It doesn\u0027t require power and it will just keep going until its internal inventory is full.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockBreaker",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:blockBreaker",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        814,
+        810
+      ]
+    },
+    {
+      "questID": 806,
+      "name": "Fluid Collecting",
+      "description": "Same as the Block Breaker, but for liquids. Try placing this in front of an infinite water source and see what happens!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockFluidCollector",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:blockFluidCollector",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        805
+      ]
+    },
+    {
+      "questID": 807,
+      "name": "Canola MKI",
+      "description": "Canola can be a powerful energy source, especially early to mid-game. If you place the canola in a press and then ferment the output, it creates oil, which will give you a substantial power output.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:itemCanolaSeed",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:itemMisc",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 808,
+      "name": "Remote Breaking",
+      "description": "There may be situations where you can\u0027t quite put down a block breaker. In those cases, we\u0027ve got you covered with a Phantom Block Breaker. Place it down, then using the Phantom wrench, right click to select the block you want to be broken, then right click on the Phantom Block Breaker to set that block. \n\nIt works even through walls of Reinforced Obsidian!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockPhantomBreaker",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:blockPhantomBreaker",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        805
+      ]
+    },
+    {
+      "questID": 809,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockPhantomPlacer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        804
+      ]
+    },
+    {
+      "questID": 810,
+      "name": "Coils",
+      "description": "With a few pieces of Restonia, you\u0027ll be able to craft your very first Coil. Coils are used in a lot of the machines, so be prepared to make a lot of them if you\u0027re going to be making a lot of machines.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:itemMisc",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 7
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:itemMisc",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        735
+      ]
+    },
+    {
+      "questID": 811,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockFluidPlacer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        804
+      ]
+    },
+    {
+      "questID": 812,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockGrinder",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        810
+      ]
+    },
+    {
+      "questID": 813,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockFurnaceDouble",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        810
+      ]
+    },
+    {
+      "questID": 814,
+      "name": "Void",
+      "description": "Simply drop some Coal in front of the Atomic Reconstructor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:itemCrystal",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:itemCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        730
+      ]
+    },
+    {
+      "questID": 815,
+      "name": "Palis",
+      "description": "Simply drop some Lapis Lazuli in front of the Atmomic Reconstructor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:itemCrystal",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:itemCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        730
+      ]
+    },
+    {
+      "questID": 816,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:itemMisc",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        810
+      ]
+    },
+    {
+      "questID": 817,
+      "name": "Canola MKII",
+      "description": "Okay, so the default Canola works fine and all, but there\u0027s an even more powerful version of it. Simply place oil in the world and then drop a Crystallized Canola Seed in it and that will create Crystallized Canola, which will give you a substantial power boost.\n\nTo get the Chrystallized Canola Seed, just place it in front of an Atomic Reconstructor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:itemMisc",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 23
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:itemMisc",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 23
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        807
+      ]
+    },
+    {
+      "questID": 818,
+      "name": "Canola MKIII",
+      "description": "And for the ultimate in Canola Power, you\u0027re going to need an Empowerer. Once you get the Empowered Canola Seed, simply place down a bucket of Chrystallized Canola Oil and drop the seed in and now you have Empowered Canola.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:itemMisc",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 24
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:itemMisc",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 24
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        817
+      ]
+    },
+    {
+      "questID": 819,
+      "name": "Oil!",
+      "description": "With your newly found Canola, you\u0027re going to need to process it into oil. These machines will hlp you do that.\n\nPlace the Canola in the Canola Press, then place the Fermenting Barrels down next to it. It should automatically pipe the Canola Oil into the Fermenting Barrel, and you can then pipe the output of the Fermenting Barrel directly into an Oil Generator.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockFermentingBarrel",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:blockCanolaPress",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "actuallyadditions:blockFermentingBarrel",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        807
+      ]
+    },
+    {
+      "questID": 820,
+      "name": "Power For the Masses",
+      "description": "Okay, so we made some oil, and now we want to make that into power. Well, here\u0027s how you\u0027ll do just that.\n\nSimply make the Oil Generator, then find a means of piping the Oil from the Fermenter to the Oil Generator, then you\u0027ll be making power!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockOilGenerator",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:blockOilGenerator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        819
+      ]
+    },
+    {
+      "questID": 821,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:itemDrill",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3,
+        "tag": {
+          "Energy": 500000
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        816
+      ]
+    },
+    {
+      "questID": 822,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:itemBatteryDouble",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0,
+        "tag": {
+          "Energy": 2000000
+        }
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        816
+      ]
+    },
+    {
+      "questID": 823,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockDisplayStand",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        816
+      ]
+    },
+    {
+      "questID": 824,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockEmpowerer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        823
+      ]
+    },
+    {
+      "questID": 825,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockPhantomface",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        830
+      ]
+    },
+    {
+      "questID": 826,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockPhantomRedstoneface",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        825
+      ]
+    },
+    {
+      "questID": 827,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockPhantomEnergyface",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        825
+      ]
+    },
+    {
+      "questID": 828,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockPhantomLiquiface",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        825
+      ]
+    },
+    {
+      "questID": 829,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockItemViewer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        747
+      ]
+    },
+    {
+      "questID": 830,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:itemCrystalEmpowered",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        824
+      ]
+    },
+    {
+      "questID": 831,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockPlayerInterface",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        830
+      ]
+    },
+    {
+      "questID": 832,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockItemRepairer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        830
+      ]
+    },
+    {
+      "questID": 833,
+      "name": "Enori",
+      "description": "Simply drop some Iron Ingots in front of the Atomic Reconstructor.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:itemCrystal",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:itemCrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        730
+      ]
+    },
+    {
+      "questID": 834,
+      "name": "Automated Farming!",
+      "description": "Okay, now we\u0027re talking. A block that will farm in a 9x9 area in front of it. It does use a considerable amount of power, so I hope you have something better than a Coal Generator to back it up.",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockFarmer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        833
+      ]
+    },
+    {
+      "questID": 835,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockDropper",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        816
+      ]
+    },
+    {
+      "questID": 836,
+      "name": "Ranged Collection",
+      "description": "Need the ability to automatically pick up things that have been tossed on the ground? Then this is your guy!\n\nVery handy for mob farms. Just remember to set it to blacklist mode!",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "actuallyadditions:blockRangedCollector",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:blockRangedCollector",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        814
+      ]
+    },
+    {
+      "questID": 837,
+      "name": "Chopping Trees",
+      "description": "You can create one of these nifty blocks to help you out early game. \n\nProgressive Automation, as it\u0027s name implies, is a mod where you progress to different tiers of machines. You have to use the current level machine to make the next level machine and so forth. However, it\u0027s worth noting that the only difference between the tiers is the type of tools they can use. A wooden machine can only take wooden tools, and a stone machine can take wooden tools as well as stone tools. The benefit of this is that as you progress, the tools will last longer and longer.\n\nSince all it takes to make this level is some cobble and some wood, you should be able to get started at this level fairly easily.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "progressiveautomation:Chopper",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "progressiveautomation:Chopper",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 838,
+      "name": "Farming for Dummies",
+      "description": "Tired of having to go over to your farm to harvest your crops? Well, then, this is the block for you. Place this underneath the dirt block, feed it with some fuel, and give it a hoe, and you\u0027re all set to go. You can easily extend the range of this by adding in upgrades.",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "progressiveautomation:Planter",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "requiredItems": [
+            {
+              "id": "progressiveautomation:Planter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting"
+        }
+      ],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 839,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "extrautils2:Grocket",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        844
+      ]
+    },
+    {
+      "questID": 840,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "extrautils2:PassiveGenerator",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 7
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        845
+      ]
+    },
+    {
+      "questID": 841,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "progressiveautomation:WoodUpgrade",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 842,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "extrautils2:Ingredients",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 8
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        843,
+        839
+      ]
+    },
+    {
+      "questID": 843,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "extrautils2:Resonator",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        845
+      ]
+    },
+    {
+      "questID": 844,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "extrautils2:pipe",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 845,
+      "name": "Extra Utilities",
+      "description": "ExtraUtils2 has some automatic item transfer capabilities with filtering. To get started through, you\u0027re going to need to get an Ender Pearl. Good luck!",
+      "isMain": true,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "extrautils2:Ingredients",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 846,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "progressiveautomation:RFEngine",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 847,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "progressiveautomation:ChopperStone",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        837
+      ]
+    },
+    {
+      "questID": 848,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "progressiveautomation:PlanterStone",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        838
+      ]
+    },
+    {
+      "questID": 849,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "extrautils2:PassiveGenerator",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        840
+      ]
+    },
+    {
+      "questID": 850,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemBasicFilterUpgrade",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        867
+      ]
+    },
+    {
+      "questID": 851,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:blockAlloySmelter",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        873
+      ]
+    },
+    {
+      "questID": 852,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:blockSagMill",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        873
+      ]
+    },
+    {
+      "questID": 853,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemAlloy",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 4
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        851
+      ]
+    },
+    {
+      "questID": 854,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemAlloy",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        853
+      ]
+    },
+    {
+      "questID": 855,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemAlloy",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 5
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        853
+      ]
+    },
+    {
+      "questID": 856,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemAlloy",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        853
+      ]
+    },
+    {
+      "questID": 857,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemAlloy",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 7
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        853
+      ]
+    },
+    {
+      "questID": 858,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemAlloy",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 3
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        853
+      ]
+    },
+    {
+      "questID": 859,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemAlloy",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 6
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        853
+      ]
+    },
+    {
+      "questID": 860,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemAlloy",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        853
+      ]
+    },
+    {
+      "questID": 861,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemBasicCapacitor",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        851
+      ]
+    },
+    {
+      "questID": 862,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemBasicCapacitor",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        861
+      ]
+    },
+    {
+      "questID": 863,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemBasicCapacitor",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        862
+      ]
+    },
+    {
+      "questID": 864,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemMaterial",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        851
+      ]
+    },
+    {
+      "questID": 865,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemPowerConduit",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        864
+      ]
+    },
+    {
+      "questID": 866,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemLiquidConduit",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        864
+      ]
+    },
+    {
+      "questID": 867,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemItemConduit",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        864
+      ]
+    },
+    {
+      "questID": 868,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemRedstoneConduit",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        864
+      ]
+    },
+    {
+      "questID": 869,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemPowerConduit",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        865
+      ]
+    },
+    {
+      "questID": 870,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemLiquidConduit",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        866
+      ]
+    },
+    {
+      "questID": 871,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemPowerConduit",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        869
+      ]
+    },
+    {
+      "questID": 872,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemLiquidConduit",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 2
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        870
+      ]
+    },
+    {
+      "questID": 873,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "minecraft:nether_star",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 874,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:blockSoulBinder",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        873
+      ]
+    },
+    {
+      "questID": 875,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:blockSliceAndSplice",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        873
+      ]
+    },
+    {
+      "questID": 876,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:blockFarmStation",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        875
+      ]
+    },
+    {
+      "questID": 877,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:blockPoweredSpawner",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        874
+      ]
+    },
+    {
+      "questID": 878,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:blockVat",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        873
+      ]
+    },
+    {
+      "questID": 879,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:blockCombustionGenerator",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        878
+      ]
+    },
+    {
+      "questID": 880,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:blockKillerJoe",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        878
+      ]
+    },
+    {
+      "questID": 881,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "enderio:itemBasicFilterUpgrade",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 1
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        850
+      ]
+    },
+    {
+      "questID": 882,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "excompressum:auto_hammer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 883,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "excompressum:auto_sieve",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": []
+    },
+    {
+      "questID": 884,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "excompressum:auto_compressed_hammer",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        882
+      ]
+    },
+    {
+      "questID": 885,
+      "name": "New Quest",
+      "description": "No Description",
+      "isMain": false,
+      "isSilent": false,
+      "lockedProgress": false,
+      "simultaneous": false,
+      "globalParticipation": 0.0,
+      "globalQuest": false,
+      "globalShare": true,
+      "autoClaim": false,
+      "repeatTime": -1,
+      "sounds": {
+        "complete": "random.levelup",
+        "update": "random.levelup"
+      },
+      "logic": "AND",
+      "taskLogic": "AND",
+      "icon": {
+        "id": "excompressum:auto_heavy_sieve",
+        "Count": 1,
+        "OreDict": "",
+        "Damage": 0
+      },
+      "visibility": "NORMAL",
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        883
+      ]
     }
   ],
   "questLines": [
     {
-      "name": "In The beginning(WIP)",
-      "description": "The starting of AllTheSky",
+      "name": "In The beginning",
+      "description": "It all begins here...",
       "quests": [
         {
           "id": 2,
-          "x": 48,
-          "y": 48
+          "x": 0,
+          "y": 32
         },
         {
           "id": 7,
-          "x": 80,
-          "y": 48
+          "x": 40,
+          "y": 32
         },
         {
           "id": 0,
-          "x": 144,
+          "x": 112,
           "y": 0
         },
         {
           "id": 3,
-          "x": 176,
+          "x": 148,
           "y": 0
         },
         {
           "id": 4,
-          "x": 208,
+          "x": 184,
           "y": 0
         },
         {
           "id": 8,
-          "x": 112,
-          "y": 48
+          "x": 76,
+          "y": 32
         },
         {
           "id": 15,
           "x": 112,
-          "y": 96
+          "y": 64
         },
         {
           "id": 16,
-          "x": 208,
-          "y": 96
+          "x": 148,
+          "y": 64
         },
         {
           "id": 1,
-          "x": 208,
-          "y": 48
+          "x": 184,
+          "y": 32
         },
         {
           "id": 6,
           "x": 128,
-          "y": 160
-        },
-        {
-          "id": 10,
-          "x": 312,
-          "y": 312
+          "y": 164
         },
         {
           "id": 11,
-          "x": 344,
-          "y": 168
+          "x": 220,
+          "y": 164
         },
         {
           "id": 12,
-          "x": 344,
+          "x": 220,
           "y": 96
         },
         {
           "id": 13,
-          "x": 344,
-          "y": 232
+          "x": 256,
+          "y": 164
         },
         {
           "id": 20,
-          "x": 344,
-          "y": 296
+          "x": 292,
+          "y": 164
         },
         {
           "id": 5,
-          "x": 176,
+          "x": 0,
           "y": 64
         },
         {
-          "id": 82,
-          "x": 132,
-          "y": 228
-        },
-        {
           "id": 112,
-          "x": 160,
-          "y": 160
-        },
-        {
-          "id": 166,
-          "x": 160,
-          "y": 192
+          "x": 168,
+          "y": 164
         },
         {
           "id": 187,
-          "x": 144,
+          "x": 148,
           "y": 128
         },
         {
-          "id": 203,
-          "x": 128,
-          "y": 192
-        },
-        {
           "id": 260,
-          "x": 144,
+          "x": 112,
           "y": 96
         },
         {
           "id": 583,
-          "x": 376,
+          "x": 256,
           "y": 96
         },
         {
           "id": 586,
-          "x": 408,
+          "x": 292,
           "y": 96
         },
         {
           "id": 605,
-          "x": 344,
+          "x": 256,
           "y": 128
         },
         {
           "id": 21,
           "x": 0,
-          "y": 8
+          "y": 0
         },
         {
           "id": 681,
-          "x": 376,
-          "y": 168
+          "x": 332,
+          "y": 164
         },
         {
           "id": 682,
-          "x": 376,
-          "y": 232
+          "x": 364,
+          "y": 164
         },
         {
           "id": 683,
-          "x": 376,
-          "y": 296
+          "x": 396,
+          "y": 164
         },
         {
           "id": 684,
-          "x": 344,
-          "y": 64
+          "x": 220,
+          "y": 128
         },
         {
           "id": 685,
-          "x": 376,
+          "x": 364,
           "y": 128
         },
         {
           "id": 686,
-          "x": 112,
+          "x": 76,
           "y": 0
-        },
-        {
-          "id": 9,
-          "x": 248,
-          "y": 152
-        },
-        {
-          "id": 68,
-          "x": 248,
-          "y": 184
-        },
-        {
-          "id": 687,
-          "x": 280,
-          "y": 152
-        },
-        {
-          "id": 688,
-          "x": 280,
-          "y": 184
         },
         {
           "id": 689,
-          "x": 80,
+          "x": 40,
           "y": 0
         },
         {
-          "id": 730,
-          "x": 312,
-          "y": 152
-        },
-        {
-          "id": 731,
-          "x": 312,
-          "y": 248
-        },
-        {
-          "id": 733,
-          "x": 312,
-          "y": 184
-        },
-        {
-          "id": 734,
-          "x": 312,
-          "y": 216
-        },
-        {
-          "id": 735,
-          "x": 312,
-          "y": 280
-        },
-        {
           "id": 736,
-          "x": 176,
+          "x": 148,
           "y": 96
         },
         {
           "id": 742,
           "x": 40,
-          "y": 112
+          "y": 152
         },
         {
           "id": 741,
-          "x": 240,
-          "y": 48
+          "x": 220,
+          "y": 32
         },
         {
           "id": 737,
-          "x": 208,
-          "y": 128
-        },
-        {
-          "id": 739,
-          "x": 208,
-          "y": 168
-        },
-        {
-          "id": 740,
-          "x": 272,
-          "y": 48
-        },
-        {
-          "id": 743,
-          "x": 40,
-          "y": 80
-        },
-        {
-          "id": 744,
-          "x": 8,
-          "y": 96
-        },
-        {
-          "id": 745,
-          "x": 8,
-          "y": 128
-        },
-        {
-          "id": 746,
-          "x": 40,
-          "y": 144
-        },
-        {
-          "id": 747,
-          "x": 280,
-          "y": 216
-        },
-        {
-          "id": 752,
-          "x": 144,
+          "x": 184,
           "y": 64
         },
         {
-          "id": 753,
-          "x": 162,
-          "y": 228
+          "id": 739,
+          "x": 220,
+          "y": 64
         },
         {
-          "id": 754,
-          "x": 192,
-          "y": 228
+          "id": 740,
+          "x": 256,
+          "y": 32
+        },
+        {
+          "id": 743,
+          "x": 8,
+          "y": 152
+        },
+        {
+          "id": 744,
+          "x": 24,
+          "y": 184
+        },
+        {
+          "id": 745,
+          "x": 72,
+          "y": 152
+        },
+        {
+          "id": 746,
+          "x": 56,
+          "y": 184
+        },
+        {
+          "id": 752,
+          "x": 40,
+          "y": 64
+        },
+        {
+          "id": 82,
+          "x": 184,
+          "y": 96
+        },
+        {
+          "id": 9,
+          "x": 148,
+          "y": 204
+        },
+        {
+          "id": 10,
+          "x": 76,
+          "y": 64
+        },
+        {
+          "id": 68,
+          "x": 40,
+          "y": 100
+        },
+        {
+          "id": 166,
+          "x": 256,
+          "y": 192
+        },
+        {
+          "id": 203,
+          "x": 256,
+          "y": 220
+        }
+      ]
+    },
+    {
+      "name": "Starting Automation",
+      "description": "No description",
+      "quests": [
+        {
+          "id": 837,
+          "x": 32,
+          "y": 0
+        },
+        {
+          "id": 838,
+          "x": 32,
+          "y": 36
+        },
+        {
+          "id": 841,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 842,
+          "x": 64,
+          "y": 128
+        },
+        {
+          "id": 843,
+          "x": 32,
+          "y": 128
+        },
+        {
+          "id": 844,
+          "x": 0,
+          "y": 160
+        },
+        {
+          "id": 845,
+          "x": 0,
+          "y": 128
+        },
+        {
+          "id": 846,
+          "x": 0,
+          "y": 36
+        },
+        {
+          "id": 847,
+          "x": 64,
+          "y": 0
+        },
+        {
+          "id": 848,
+          "x": 64,
+          "y": 36
+        },
+        {
+          "id": 839,
+          "x": 32,
+          "y": 160
+        },
+        {
+          "id": 840,
+          "x": 0,
+          "y": 96
+        },
+        {
+          "id": 849,
+          "x": 32,
+          "y": 96
+        },
+        {
+          "id": 882,
+          "x": 132,
+          "y": 0
+        },
+        {
+          "id": 883,
+          "x": 168,
+          "y": 0
+        },
+        {
+          "id": 884,
+          "x": 132,
+          "y": 36
+        },
+        {
+          "id": 885,
+          "x": 168,
+          "y": 36
         }
       ]
     },
@@ -25918,6 +29555,403 @@
           "y": 168
         }
       ]
+    },
+    {
+      "name": "Actually Additions",
+      "description": "May be the most powerful Drill in the game!",
+      "quests": [
+        {
+          "id": 687,
+          "x": 0,
+          "y": 112
+        },
+        {
+          "id": 688,
+          "x": 56,
+          "y": 80
+        },
+        {
+          "id": 730,
+          "x": 56,
+          "y": 112
+        },
+        {
+          "id": 731,
+          "x": 228,
+          "y": 184
+        },
+        {
+          "id": 733,
+          "x": 264,
+          "y": 220
+        },
+        {
+          "id": 734,
+          "x": 264,
+          "y": 184
+        },
+        {
+          "id": 735,
+          "x": 92,
+          "y": 112
+        },
+        {
+          "id": 747,
+          "x": 300,
+          "y": 184
+        },
+        {
+          "id": 753,
+          "x": 300,
+          "y": 220
+        },
+        {
+          "id": 754,
+          "x": 228,
+          "y": 220
+        },
+        {
+          "id": 803,
+          "x": 336,
+          "y": 184
+        },
+        {
+          "id": 804,
+          "x": 128,
+          "y": 80
+        },
+        {
+          "id": 805,
+          "x": 128,
+          "y": 144
+        },
+        {
+          "id": 806,
+          "x": 108,
+          "y": 180
+        },
+        {
+          "id": 807,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": 808,
+          "x": 148,
+          "y": 180
+        },
+        {
+          "id": 809,
+          "x": 148,
+          "y": 44
+        },
+        {
+          "id": 810,
+          "x": 128,
+          "y": 112
+        },
+        {
+          "id": 811,
+          "x": 112,
+          "y": 44
+        },
+        {
+          "id": 812,
+          "x": 164,
+          "y": 96
+        },
+        {
+          "id": 813,
+          "x": 164,
+          "y": 132
+        },
+        {
+          "id": 814,
+          "x": 92,
+          "y": 144
+        },
+        {
+          "id": 815,
+          "x": 92,
+          "y": 80
+        },
+        {
+          "id": 816,
+          "x": 264,
+          "y": 112
+        },
+        {
+          "id": 817,
+          "x": 32,
+          "y": 32
+        },
+        {
+          "id": 818,
+          "x": 64,
+          "y": 32
+        },
+        {
+          "id": 819,
+          "x": 32,
+          "y": 0
+        },
+        {
+          "id": 820,
+          "x": 64,
+          "y": 0
+        },
+        {
+          "id": 821,
+          "x": 300,
+          "y": 148
+        },
+        {
+          "id": 822,
+          "x": 300,
+          "y": 76
+        },
+        {
+          "id": 823,
+          "x": 300,
+          "y": 112
+        },
+        {
+          "id": 824,
+          "x": 388,
+          "y": 112
+        },
+        {
+          "id": 825,
+          "x": 388,
+          "y": 40
+        },
+        {
+          "id": 826,
+          "x": 416,
+          "y": 12
+        },
+        {
+          "id": 827,
+          "x": 388,
+          "y": 12
+        },
+        {
+          "id": 828,
+          "x": 360,
+          "y": 12
+        },
+        {
+          "id": 829,
+          "x": 336,
+          "y": 220
+        },
+        {
+          "id": 830,
+          "x": 388,
+          "y": 76
+        },
+        {
+          "id": 831,
+          "x": 352,
+          "y": 48
+        },
+        {
+          "id": 832,
+          "x": 424,
+          "y": 48
+        },
+        {
+          "id": 833,
+          "x": 56,
+          "y": 144
+        },
+        {
+          "id": 834,
+          "x": 56,
+          "y": 180
+        },
+        {
+          "id": 835,
+          "x": 264,
+          "y": 76
+        },
+        {
+          "id": 836,
+          "x": 92,
+          "y": 212
+        }
+      ]
+    },
+    {
+      "name": "EnderIO",
+      "description": "No description",
+      "quests": [
+        {
+          "id": 851,
+          "x": 132,
+          "y": 136
+        },
+        {
+          "id": 852,
+          "x": 132,
+          "y": 0
+        },
+        {
+          "id": 853,
+          "x": 48,
+          "y": 136
+        },
+        {
+          "id": 854,
+          "x": 84,
+          "y": 100
+        },
+        {
+          "id": 855,
+          "x": 48,
+          "y": 88
+        },
+        {
+          "id": 856,
+          "x": 12,
+          "y": 100
+        },
+        {
+          "id": 857,
+          "x": 0,
+          "y": 136
+        },
+        {
+          "id": 858,
+          "x": 12,
+          "y": 172
+        },
+        {
+          "id": 859,
+          "x": 48,
+          "y": 184
+        },
+        {
+          "id": 860,
+          "x": 84,
+          "y": 172
+        },
+        {
+          "id": 861,
+          "x": 132,
+          "y": 172
+        },
+        {
+          "id": 862,
+          "x": 132,
+          "y": 208
+        },
+        {
+          "id": 863,
+          "x": 132,
+          "y": 244
+        },
+        {
+          "id": 864,
+          "x": 168,
+          "y": 136
+        },
+        {
+          "id": 865,
+          "x": 204,
+          "y": 120
+        },
+        {
+          "id": 866,
+          "x": 204,
+          "y": 156
+        },
+        {
+          "id": 867,
+          "x": 168,
+          "y": 172
+        },
+        {
+          "id": 868,
+          "x": 168,
+          "y": 100
+        },
+        {
+          "id": 869,
+          "x": 236,
+          "y": 120
+        },
+        {
+          "id": 870,
+          "x": 236,
+          "y": 156
+        },
+        {
+          "id": 871,
+          "x": 268,
+          "y": 120
+        },
+        {
+          "id": 872,
+          "x": 268,
+          "y": 156
+        },
+        {
+          "id": 873,
+          "x": 132,
+          "y": 36
+        },
+        {
+          "id": 874,
+          "x": 96,
+          "y": 8
+        },
+        {
+          "id": 875,
+          "x": 168,
+          "y": 8
+        },
+        {
+          "id": 876,
+          "x": 204,
+          "y": 8
+        },
+        {
+          "id": 877,
+          "x": 60,
+          "y": 8
+        },
+        {
+          "id": 878,
+          "x": 168,
+          "y": 64
+        },
+        {
+          "id": 879,
+          "x": 204,
+          "y": 44
+        },
+        {
+          "id": 880,
+          "x": 204,
+          "y": 84
+        },
+        {
+          "id": 850,
+          "x": 168,
+          "y": 208
+        },
+        {
+          "id": 881,
+          "x": 168,
+          "y": 244
+        }
+      ]
+    },
+    {
+      "name": "Mekanism",
+      "description": "Time to get started on your ore processing!",
+      "quests": []
     }
   ]
 }

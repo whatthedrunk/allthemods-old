@@ -6,7 +6,10 @@
     "excompressum:compressed_sand": true,
     "ExtraUtils2:CompressedCobblestone": true,
     "ExtraUtils2:CompressedGravel": true,
-    "ExtraUtils2:CompressedSand": true
+    "ExtraUtils2:CompressedSand": true,
+    "excompressum:compressed_netherrack": true,
+    "excompressum:compressed_end_stone": true,
+    "ExtraUtils2:CompressedNetherrack": true
   },
   "custom": {
     "__comment": "You can define additional blocks to be hammered by Compressed Hammers here. Use * as a wildcard for metadata. Use prefix ore: in name to query the Ore Dictionary.",

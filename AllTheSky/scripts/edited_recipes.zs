@@ -6,76 +6,117 @@ print("--- loading edited_recipes.zs ---");
 #   but it outputs the same count (2) as the furnace recipe.
 
 #Ores
-val oreCopper = <substratum:ore:0>;
-val oreNickel = <substratum:ore:2>;
-val oreZinc = <substratum:ore:3>;
-val oreSilver = <substratum:ore:4>;
-val oreLead = <substratum:ore:5>;
-val orePlatinum = <substratum:ore:6>;
-val oreOsmium = <mekanism:OreBlock:0>;
-val oreTin = <substratum:ore:1>;
-val bauxite = <ore:oreBauxite>;
-val aluminum = <ore:oreAluminum>;
+	val oreCopper = <substratum:ore:0>;
+	val oreNickel = <substratum:ore:2>;
+	val oreZinc = <substratum:ore:3>;
+	val oreSilver = <substratum:ore:4>;
+	val oreLead = <substratum:ore:5>;
+	val orePlatinum = <substratum:ore:6>;
+	val oreOsmium = <mekanism:OreBlock:0>;
+	val oreTin = <substratum:ore:1>;
+	val bauxite = <ore:oreBauxite>;
+	val aluminum = <ore:oreAluminum>;
 
 #Rubbers
-val TRRubber = <ore:materialRubber>;
-val IC2Rubber = <ore:itemRubber>;
+	val TRRubber = <ore:materialRubber>;
+	val IC2Rubber = <ore:itemRubber>;
 
 #Dusts
-val blazePowder = <minecraft:blaze_powder>;
-val Glowstone = <minecraft:glowstone_dust>;
-val RedStone = <minecraft:redstone>;
-val GunPowder = <minecraft:gunpowder>;
+	val blazePowder = <minecraft:blaze_powder>;
+	val Glowstone = <minecraft:glowstone_dust>;
+	val RedStone = <minecraft:redstone>;
+	val GunPowder = <minecraft:gunpowder>;
 
 #Parts
-val WaterPotion = <minecraft:potion>.withTag({Potion: "minecraft:water"});
-val GlowWater = <xreliquary:glowing_water>;
+	val WaterPotion = <minecraft:potion>.withTag({Potion: "minecraft:water"});
+	val GlowWater = <xreliquary:glowing_water>;
 
 #Food
-val GlowBread = <xreliquary:glowing_bread>;
-val Dough = <harvestcraft:doughItem>;
-val NetherWart = <minecraft:nether_wart>;
+	val GlowBread = <xreliquary:glowing_bread>;
+	val Dough = <harvestcraft:doughItem>;
+	val NetherWart = <minecraft:nether_wart>;
+
+#CobbleMisc
+	var cobble = <minecraft:cobblestone>;
+	var pebble = <botania:manaResource:21>;
+	var orepebble = <ore:pebble>;
+
+#End Cake Stuff
+	val EndCake = <exnihiloomnia:end_cake>;
+	val EndermanEssence = <mysticalagriculture:enderman_chunk>;
+	val EndDiamond = <calculator:EndDiamond>;
+	val SentientEnder = <enderio:itemFrankenSkull:4>;
+	val ChocSprinkleCake = <harvestcraft:chocolatesprinklecakeItem>;
+	val MCcake = <minecraft:cake>;
+	val EpicBacon = <harvestcraft:epicbaconItem>;
+
+	
+	
+#End Cake Becomes "BACON CAKE OF THE VOID"
+#=======================================
+	recipes.remove(EndCake);
+	recipes.addShaped(EndCake,
+		[
+		[EpicBacon,			ChocSprinkleCake,	EpicBacon],
+		[EndermanEssence,	SentientEnder,		EndermanEssence],
+		[EpicBacon,			EndDiamond,			EpicBacon]
+		]);
+
+	EndCake.displayName = "Bacon Cake of the Void";
+
+
+
+
+#FixPebblesEZCobble
+#==================
+	recipes.removeShapeless(cobble, [orepebble, orepebble, orepebble, orepebble]);
+	recipes.removeShapeless(cobble, [pebble, pebble, pebble, pebble]); //Just in case
+
+	recipes.addShapeless(cobble * 2, [orepebble, orepebble, orepebble, orepebble, cobble, orepebble, orepebble, orepebble, orepebble]);
+	recipes.addShapeless(cobble * 2, [cobble, orepebble, orepebble, orepebble, orepebble, orepebble, orepebble, orepebble, orepebble]);
+
 
 
 
 
 #GlowWater
-recipes.remove(GlowWater);
-mods.actuallyadditions.Empowerer.addRecipe(WaterPotion, GlowWater,NetherWart,GunPowder,RedStone,Glowstone, 100, 200, 255, 255, 0);
+	recipes.remove(GlowWater);
+	mods.actuallyadditions.Empowerer.addRecipe(WaterPotion, GlowWater,NetherWart,GunPowder,RedStone,Glowstone, 100, 200, 255, 255, 0);
 
 #GlowBread
-recipes.remove(GlowBread);
-recipes.addShaped(GlowBread,
-[[Glowstone, Dough,Glowstone],
-[Dough, GlowWater, Dough],
-[Glowstone, Dough, Glowstone]]);
+	recipes.remove(GlowBread);
+	recipes.addShaped(GlowBread,
+	[[Glowstone, Dough,Glowstone],
+	[Dough, GlowWater, Dough],
+	[Glowstone, Dough, Glowstone]]);
 
 #Blaze Fix
-#mods.calculator.flawless.removeRecipe(blazePowder, blazePowder, blazePowder, blazePowder);
+	#mods.calculator.flawless.removeRecipe(blazePowder, blazePowder, blazePowder, blazePowder);
 
 #Ladders
-recipes.remove(<minecraft:ladder>);
-recipes.addShaped(<minecraft:ladder> *8,
-[[<minecraft:stick>, null, <minecraft:stick>],
-[<minecraft:stick>, <exnihiloomnia:mesh_wood>, <minecraft:stick>],
-[<minecraft:stick>, null, <minecraft:stick>]]);
+	recipes.remove(<minecraft:ladder>);
+	recipes.addShaped(<minecraft:ladder> *8,
+	[[<minecraft:stick>, null, <minecraft:stick>],
+	[<minecraft:stick>, <exnihiloomnia:mesh_wood>, <minecraft:stick>],
+	[<minecraft:stick>, null, <minecraft:stick>]]);
 
 #ModTomes
-recipes.remove(<xreliquary:alkahestry_tome:1001>); 
-recipes.remove(<actuallyadditions:itemMisc>);
-recipes.addShaped(<actuallyadditions:itemMisc>,
-[[<minecraft:paper>, null, <minecraft:paper>],
- [<minecraft:paper>, null, <minecraft:paper>],
- [null, <minecraft:paper>, null]]);
- 
-recipes.remove(<mobtotems:sacred_light>);
-recipes.addShaped(<mobtotems:sacred_light>,
-[[null, <minecraft:daylight_detector>, null],
- [<minecraft:log>, <randomthings:quartzLamp>, <minecraft:log>],
- [<minecraft:log>, <enderio:itemFrankenSkull:3>, <minecraft:log>]]);
- 
+	recipes.remove(<xreliquary:alkahestry_tome:1001>); 
+	recipes.remove(<actuallyadditions:itemMisc>);
+	recipes.addShaped(<actuallyadditions:itemMisc>,
+	[[<minecraft:paper>, null, <minecraft:paper>],
+	 [<minecraft:paper>, null, <minecraft:paper>],
+	 [null, <minecraft:paper>, null]]);
+	 
+	recipes.remove(<mobtotems:sacred_light>);
+	recipes.addShaped(<mobtotems:sacred_light>,
+	[[null, <minecraft:daylight_detector>, null],
+	 [<minecraft:log>, <randomthings:quartzLamp>, <minecraft:log>],
+	 [<minecraft:log>, <enderio:itemFrankenSkull:3>, <minecraft:log>]]);
+
+
 #MoreWands
-recipes.remove(<notenoughwands:protection_wand>);
+	recipes.remove(<notenoughwands:protection_wand>);
 
 #Signals
 recipes.remove(<signals:limiter_rail>);

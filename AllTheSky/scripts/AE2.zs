@@ -30,6 +30,7 @@ val Glass = <mekanism:BasicBlock:10>;
 val BatBox = <ic2:te:72>;
 val EnergyCell = <appliedenergistics2:energy_cell>;
 val DenseEnergy = <appliedenergistics2:dense_energy_cell>;
+val EnergyCube = <mekanism:EnergyCube>;
 
 
 //Ingots
@@ -72,7 +73,6 @@ recipes.addShaped(EnergyCell,
 [PureCryst, PureFluix, PureCryst]]);
 
 
-
 //====QuartzGlass===
 recipes.remove(QuartzGlass);
 recipes.addShaped(QuartzGlass * 4,
@@ -89,12 +89,14 @@ recipes.addShaped(Inscriber,
 [Piston, MachineCase, Piston],
 [SkyStones, Piston, SkyStones]]);
 
+
 //====EnergyAcc===
 recipes.remove(EnergyAcc);
 recipes.addShaped(EnergyAcc,
-[[HVWire, QuartzGlass, HVWire],
-[QuartzGlass, BatBox, QuartzGlass],
-[HVWire, QuartzGlass, HVWire]]);
+[[QuartzGlass, CookSkyBlock, QuartzGlass],
+[CookSkyBlock, BatBox, CookSkyBlock],
+[HVWire, EnergyCube, HVWire]]);
+
 
 
 //====FluixBlock===

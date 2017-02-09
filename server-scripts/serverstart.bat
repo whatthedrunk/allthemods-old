@@ -1,4 +1,4 @@
-@ECHO OFF
+@ECHO on
 SETLOCAL
 ::::
 :::: Minecraft-Forge Server install/launcher script
@@ -86,7 +86,7 @@ SET MC_SERVER_FORGEURL=DISABLE
 :::: Don't modify unless you pwn dragons ::::
 :::::::::::::::::::::::::::::::::::::::::::::
 
-::Internal Scripty stuff
+REM Internal Scripty stuff
 REM default an error code in case error block is ran without this var being defined first
 SET MC_SERVER_ERROR_REASON=Unspecified
 REM this is a temp variable to use for intermidiate calculations and such
@@ -101,8 +101,9 @@ SET MC_SERVER_CRASH_HHMMSS=%time:~0,2%%time:~3,2%%time:~6,2%
 :BEGIN
 REM delete log if already exists to start a fresh one
 IF EXIST serverstart.log DEL /F /Q serverstart.log
-ECHO . 1>> serverstart.log 2>&1
-ECHO . 1>> serverstart.log 2>&1
+ECHO. 1>> serverstart.log 2>&1
+ECHO. 1>> serverstart.log 2>&1
+ECHO. 1>> serverstart.log 2>&1
 ECHO ----------------------------------------------------------------- 1>> serverstart.log 2>&1
 ECHO INFO: Starting batch at %MC_SERVER_CRASH_YYYYMMDD%:%MC_SERVER_CRASH_HHMMSS% 1>> serverstart.log 2>&1
 ECHO ----------------------------------------------------------------- 1>> serverstart.log 2>&1
@@ -205,8 +206,8 @@ IF %ERRORLEVEL% EQU 0 (
 	ECHO WARN: Ping of "8.8.8.8" Failed 1>> serverstart.log 2>&1
 )
 
+REM If Google ping failed try one more time with L3 just in case
 IF MC_SERVER_TMP_FLAG EQU 1 (
-	REM Try one more time with L3 just in case
 	PING -n 2 -w 1000 4.2.2.1 | find "bytes="
 	IF %ERRORLEVEL% EQU 0 (
 		SET MC_SERVER_TMP_FLAG=0
@@ -217,8 +218,8 @@ IF MC_SERVER_TMP_FLAG EQU 1 (
 	)
 )
 
+REM Possibly no internet connection...
 IF MC_SERVER_TMP_FLAG EQU 1 (
-	REM Possibly no internet connection...
 	ECHO ERROR: No internet connectivity found
 	ECHO ERROR: No internet connectivity found 1>> serverstart.log 2>&1
 	SET MC_SERVER_ERROR_REASON=NoInternetConnectivity
@@ -253,13 +254,15 @@ IF NOT EXIST "%CD%\libraries" (
 
 
 :STARTSERVER
+ECHO.
+ECHO.
 ECHO Starting Server...
 ECHO INFO: Starting Server... 1>> serverstart.log 2>&1
 
-:: Batch will wait here indefinetly while MC server is running
+REM Batch will wait here indefinetly while MC server is running
 java %MC_SERVER_JVM_ARGS% -jar %MC_SERVER_FORGE_JAR% nogui
 
-::If server is exited or crashes, restart...
+REM If server is exited or crashes, restart...
 ECHO WARN: Server was stopped (possibly crashed)...
 GOTO RESTARTER
 
@@ -268,17 +271,20 @@ GOTO RESTARTER
 ECHO Clearing old files and installing forge/minecraft...
 ECHO INFO: Clearing and installing forge/minecraft... 1>> serverstart.log 2>&1
 
+REM Just in case there's anything pending or dupe-named before starting...
 bitsadmin /reset
 
+REM Check for existing/included forge-installer and run it instead of downloading
 IF EXIST forge-installer.jar (
 	ECHO Existing forge-installer.jar already found...
 	ECHO Default is to use this installer and not re-download
-	CHOICE /M:"Use Existing Installer JAR (Y) or Download new from forge (N)" /T:8 /D:Y
+	
+	REM Short 5-second choice if user wants to download anyway
+	CHOICE /M:"Use Existing Installer JAR (Y) or Download new from forge (N)" /T:5 /D:Y
 	IF %ERRORLEVEL% EQU 0 (
 		GOTO RUNINSTALLER
 	) ELSE (
 		DEL /F /Q forge-installer.jar 
-	)
 	)
 )
 
@@ -299,15 +305,14 @@ IF NOT EXIST forge-%MC_SERVER_MCVER%.html (
 )
 
 REM Simple search for matching text to make sure we got the correct webpage/html (and not a 404, for example)
-FIND /c:"%MC_SERVER_FORGEVER%" "%CD%\forge-%MC_SERVER_MCVER%.html"
 ECHO DEBUG: Simple pattern match for forge ver errorlevel: %ERRORLEVEL% 1>> serverstart.log 2>&1
+FIND /c:"%MC_SERVER_FORGEVER%" "%CD%\forge-%MC_SERVER_MCVER%.html" 1>> serverstart.log 2>&1
 IF %ERRORLEVEL% EQU 0 (
 	SET MC_SERVER_ERROR_REASON=ForgeDownloadURLNotFound
 	GOTO ERROR
 )
 
-REM Magic wannabe-regex voodoo
-REM findstr /ir "http:\/\/files.*13.20.0.2226.*installer.jar" "forge-1.11.2.html"
+REM More complex wannabe-regex (aka magic)
 FOR /f tokens^=^5^ delims^=^=^<^>^" %%G in ('findstr /ir "http:\/\/files.*%MC_SERVER_FORGEVER%.*installer.jar" "%CD%\forge-%MC_SERVER_MCVER%.html"') DO SET MC_SERVER_FORGEURL=%%G
 
 if "%MC_SERVER_FORGEURL%"=="%MC_SERVER_FORGEURL:installer.jar=%" (
@@ -319,13 +324,17 @@ if "%MC_SERVER_FORGEURL%"=="%MC_SERVER_FORGEURL:installer.jar=%" (
 :DOWNLOADINSTALLER
 ECHO Attempting to download "%MC_SERVER_FORGEURL%" 
 ECHO DEBUG: Attempting to download "%MC_SERVER_FORGEURL%" 1>> serverstart.log 2>&1
+
+REM Attempt to download installer to a temp download
 bitsadmin /rawreturn /nowrap /transfer dlforgeinstaller /download /priority normal "%MC_SERVER_FORGEURL%" "%CD%\forge-installer-temp.jar" 
 
+REM Check that temp-download installer was downloaded
 IF NOT EXIST "%CD%\forge-installer-temp.jar" (
 	SET MC_SERVER_ERROR_REASON=ForgeInstallerDownloadFailed
 	GOTO ERROR
 )
 
+REM Rename temp installer to proper installer, replacing one that was there already
 DEL /F /Q forge-installer.jar
 REN forge-installer-temp.jar forge-installer.jar
 
@@ -333,19 +342,28 @@ REN forge-installer-temp.jar forge-installer.jar
 :RUNINSTALLER
 java -jar forge-installer.jar --installServer  
 
+REM I'm not sure how to check if the forge-install failed or not...
 ECHO DEBUG: ERRORLEVEL after running forge installer: %ERRORLEVEL% 1>> serverstart.log 2>&1
 IF NOT %errorlevel% equ 0 (
 	SET MC_SERVER_ERROR_REASON=ForgeInstallFailed
-	DEL /F /Q forge-installer.jar 
 	GOTO ERROR
 )
 
+REM File cleanup
 REN forge*universal.jar %MC_SERVER_FORGE_JAR%
-REM DEL /F /Q forge-installer.jar
+DEL /F /Q forge-installer.jar
 DEL /F /Q forge-%MC_SERVER_MCVER%.html
 
-ECHO Forge/Minecraft Download/Install complete...
+REM Todo... maybe add check for libraries, minecraft and forge jar confirming install success?
+
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO Forge and Minecraft Download/Install complete!
 ECHO INFO: Download/Install complete... 1>> serverstart.log 2>&1
+ECHO.
+TIMEOUT 5
 
 GOTO STARTSERVER
 
@@ -354,23 +372,24 @@ GOTO STARTSERVER
 ECHO There was an Error...
 ECHO Error returned was "%MC_SERVER_ERROR_REASON%"
 ECHO ERROR: Error flagged, reason is: "%MC_SERVER_ERROR_REASON%" 1>> serverstart.log 2>&1
+ECHO.
 GOTO CLEANUP
 
 
 :RESTARTER
-REM CLS
 ECHO ERROR: At %MC_SERVER_CRASH_YYYYMMDD%:%MC_SERVER_CRASH_HHMMSS% Server has stopped. 1>> serverstart.log 2>&1
 ECHO At %MC_SERVER_CRASH_YYYYMMDD%:%MC_SERVER_CRASH_HHMMSS% Server has stopped.
 ECHO Server has %MC_SERVER_CRASH_COUNTER% consecutive stops, each within %MC_SERVER_CRASH_TIMER% seconds of eachother...
 ECHO DEBUG: Server has %MC_SERVER_CRASH_COUNTER% consecutive stops, each within %MC_SERVER_CRASH_TIMER% seconds of eachother... 1>> serverstart.log 2>&1
-ECHO
+ECHO.
 
-::Arithmetic to check DAYS since last crash
+REM Arithmetic to check DAYS since last crash
+REM Testing working in USA region. Hoping other regional formats don't mess it up
 SET /a MC_SERVER_TMP_FLAG="%date:~10,4%%date:~4,2%%date:~7,2%-%MC_SERVER_CRASH_YYYYMMDD%"
 
-:: If more than one calendar day, reset timer/counter.
-:: Yes, this means over new-years it gets wonky
-:: Oh well.		
+REM If more than one calendar day, reset timer/counter.
+REM Yes, this means over midnight it's not accurate.
+REM Nobody's perfect.
 IF %MC_SERVER_TMP_FLAG% GTR 0 (
 	ECHO More than one day since last crash/restart... resetting counter/timer
 	ECHO INFO: More than one day since last crash/restart... resetting counter/timer 1>> serverstart.log 2>&1
@@ -380,12 +399,10 @@ IF %MC_SERVER_TMP_FLAG% GTR 0 (
 	GOTO STARTSERVER
 )
 
-::Arithmetic to check SECONDS since last crash
+REM Arithmetic to check SECONDS since last crash
 SET /a MC_SERVER_TMP_FLAG="%time:~0,2%%time:~3,2%%time:~6,2%-%MC_SERVER_CRASH_HHMMSS%"
 
-:: If more than one specified seconds, reset timer/counter.
-:: Yes, this means over midnight it's not correct time difference.
-:: Oh well.		
+REM If more than specified seconds (from config variable), reset timer/counter.	
 IF %MC_SERVER_TMP_FLAG% GTR %MC_SERVER_CRASH_TIMER% (
 	ECHO Last crash/startup was %MC_SERVER_TMP_FLAG%+ seconds ago
 	ECHO INFO: Last crash/startup was %MC_SERVER_TMP_FLAG%+ seconds ago 1>> serverstart.log 2>&1
@@ -397,8 +414,8 @@ IF %MC_SERVER_TMP_FLAG% GTR %MC_SERVER_CRASH_TIMER% (
 	GOTO STARTSERVER
 )
 
-::If we are still here, time difference is within threshold to increment counter
-::Check if already max failures:
+REM If we are still here, time difference is within threshold to increment counter
+REM Check if already max failures:
 IF %MC_SERVER_CRASH_COUNTER% GEQ %MC_SERVER_MAX_CRASH% (
 	ECHO INFO: Last crash/startup was %MC_SERVER_TMP_FLAG%+ seconds ago 1>> serverstart.log 2>&1
 	ECHO ERROR: Server has stopped/crashed too many times!
@@ -408,7 +425,7 @@ IF %MC_SERVER_CRASH_COUNTER% GEQ %MC_SERVER_MAX_CRASH% (
 	GOTO CLEANUP
 	)
 
-::Still under threshold so lets increment and restart
+REM Still under threshold so lets increment and restart
 ECHO INFO: Last crash/startup was %MC_SERVER_TMP_FLAG%+ seconds ago 1>> serverstart.log 2>&1
 SET /a "MC_SERVER_CRASH_COUNTER=%MC_SERVER_CRASH_COUNTER%+1"
 SET MC_SERVER_CRASH_YYYYMMDD=%date:~10,4%%date:~4,2%%date:~7,2%
@@ -416,8 +433,10 @@ SET MC_SERVER_CRASH_HHMMSS=%time:~0,2%%time:~3,2%%time:~6,2%
 
 REM ECHO Total consecutive crash/stops within time threshold: %MC_SERVER_CRASH_COUNTER%
 REM ECHO DEBUG: Total consecutive crash/stops within time threshold: %MC_SERVER_CRASH_COUNTER% 1>> serverstart.log 2>&1
-ECHO
-ECHO
+ECHO.
+ECHO.
+ECHO.
+ECHO.
 ECHO Server will re-start *automatically* in less than 30 seconds...
 CHOICE /M:"Restart now (Y) or Exit (N)" /T:30 /D:Y
 IF %ERRORLEVEL% GEQ 2 (
@@ -450,7 +469,7 @@ DIR 1>> serverstart.log 2>&1
 ECHO DEBUG: JAVA version output (java -d64 -version): 1>> serverstart.log 2>&1
 java -d64 -version 1>> serverstart.log 2>&1
 
-:: Clear variables -- probably not necessary in batch file
+REM Clear variables -- probably not necessary since we SETLOCAL but doesn't hurt either
 SET MC_SERVER_MAX_RAM=
 SET MC_SERVER_FORGE_JAR=
 SET MC_SERVER_JVM_ARGS=
@@ -467,7 +486,7 @@ SET MC_SERVER_CRASH_COUNTER=
 SET MC_SERVER_CRASH_YYYYMMDD=
 SET MC_SERVER_CRASH_HHMMSS=
 
-::Reset bitsadmin in case things got hung or errored
+REM Reset bitsadmin in case things got hung or errored
 bitsadmin /reset
 
 

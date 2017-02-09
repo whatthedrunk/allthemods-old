@@ -1,4 +1,4 @@
-@ECHO on
+@ECHO OFF
 SETLOCAL
 ::::
 :::: Minecraft-Forge Server install/launcher script

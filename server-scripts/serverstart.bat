@@ -340,7 +340,10 @@ REN forge-installer-temp.jar forge-installer.jar
 
 
 :RUNINSTALLER
-java -jar forge-installer.jar --installServer  
+ECHO.
+ECHO Installing Forge now, please wait...
+ECHO INFO: Starting Forge install now, details below: 1>> serverstart.log 2>&1
+java -jar forge-installer.jar --installServer 1>> serverstart.log 2>&1
 
 REM I'm not sure how to check if the forge-install failed or not...
 ECHO DEBUG: ERRORLEVEL after running forge installer: %ERRORLEVEL% 1>> serverstart.log 2>&1

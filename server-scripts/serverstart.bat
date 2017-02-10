@@ -13,8 +13,6 @@ SETLOCAL
 :::: download/install and launch server directly (with 
 :::: auto-restart-after-crash logic as well)
 ::::
-:::: and creates a  file to help troubleshoot errors.
-::::
 :::: IF THERE ARE ANY ISSUES
 :::: Please make a report on the AllTheMods github:
 :::: https://github.com/whatthedrunk/allthemods/issues
@@ -22,7 +20,9 @@ SETLOCAL
 ::::
 :::: or come find us on Discord: https://discord.gg/FdFDVWb
 ::::
-
+:::: Special thanks to all the code I Frankensteined from google
+:::: There are many sources and references I should have kept
+:::: record of but was not diligent. Apologies and thanks all around
 
 
 ::::::::::::::::::::::::::::::::::::

@@ -13,7 +13,7 @@ Steps to reproduce:
 3.
 ...
 
-Version of All the Mods:
+The Version of All the Mods:
 
 Added mods (Optifine, Fastcraft, etc.):
 

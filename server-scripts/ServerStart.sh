@@ -75,7 +75,7 @@ install_server(){
 		echo "DEBUG: installer.jar found in current directory" >>serverstart.log 2>&1
 		export answer="n"
 		read -t 8 -p "Installer found. Use it (y) or download again (n)?  " answer
-		if [ $answer = "y" ] || [ $answer = "Y" ] || [ $answer = "yes" ] || [ $answer = "YES" ]; then
+		if [[ "$answer" =~ ^([yY][eE][sS]|[yY])+$ ]]; then
 			echo "INFO: Skipping download. Using existing installer.jar" >>serverstart.log 2>&1
 			echo "Skipping download. Using existing installer.jar"
 		fi
@@ -234,7 +234,7 @@ ls -s1h >>serverstart.log 2>&1
 export answer="n"
 echo ""
 read -t 6 -p "About to start server. Force re-install (y/n)?  " answer
-if [ $answer = "y" ] || [ $answer = "Y" ] || [ $answer = "yes" ] || [ $answer = "YES" ]; then
+if [[ "$answer" =~ ^([yY][eE][sS]|[yY])+$ ]]; then
 	echo "INFO: User chose to manually re-install server files"  >>serverstart.log 2>&1
 	echo "User chose to manually re-install server files"
 	install_server
@@ -271,7 +271,7 @@ while true ; do
 	export answer="y"
 	echo "Server will restart in ~10 seconds. No input needed..."
 	read -t 12 -p "Restart now (y) or exit to shell (n)?  " answer
-	if [ $answer = "n" ] || [ $answer = "N" ] || [ $answer = "no" ] || [ $answer = "NO" ]; then
+	if [[ "$answer" =~ ^([yY][eE][sS]|[yY])+$ ]]; then
 		echo "INFO: User cancelled restart; exiting to shell" >>serverstart.log 2>&1
 		exit 0
 	fi

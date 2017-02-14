@@ -7,6 +7,9 @@ SETLOCAL
 ::::
 :::: Originally created for use in "All The Mods" modpacks
 ::::
+:::: Latest version:
+:::: https://github.com/whatthedrunk/allthemods/blob/master/server-scripts/serverstart.bat
+:::: 
 :::: This script will fetch the appropriate forge installer
 :::: and run it to instal forge AND fetch Minecraft (from Mojang)
 :::: If Forge and Minecraft are already installed it will skip

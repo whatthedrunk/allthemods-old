@@ -18,7 +18,7 @@ val Poppy = <minecraft:red_flower>;
 
 #Blocks
 val PrismarineBlock = <minecraft:prismarine>;
-val StoneBurnt = <extrautils2:DecorativeSolid:3>;
+val StoneBurnt = <extrautils2:decorativesolid:3>;
 val HardStone = <environmentaltech:hardened_stone>;
 val GreenBlock = <actuallyadditions:blockTestifiBucksGreenWall>;
 val RedBlock = <actuallyadditions:blockCrystal>;

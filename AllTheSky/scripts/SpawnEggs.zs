@@ -44,7 +44,7 @@ val PrismarineCry = <minecraft:prismarine_crystals>;
 
 #Ingots
 val AlchemtIngot = <skyresources:AlchemyItemComponent:5>;
-val YelloriumIngot = <bigreactors:ingotMetals>;
+val YelloriumIngot = <bigreactors:ingotmetals>;
 val MudIngot = <tconstruct:materials:1>;
 
 

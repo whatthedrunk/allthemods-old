@@ -1,0 +1,46 @@
+[
+  {
+    "fluidName": "water",
+    "input": {
+      "name": "exnihiloadscensio:blockDust",
+      "meta": 0
+    },
+    "output": {
+      "name": "minecraft:clay",
+      "meta": 0
+    }
+  },
+  {
+    "fluidName": "lava",
+    "input": {
+      "name": "minecraft:redstone",
+      "meta": 0
+    },
+    "output": {
+      "name": "minecraft:netherrack",
+      "meta": 0
+    }
+  },
+  {
+    "fluidName": "lava",
+    "input": {
+      "name": "minecraft:glowstone_dust",
+      "meta": 0
+    },
+    "output": {
+      "name": "minecraft:end_stone",
+      "meta": 0
+    }
+  },
+  {
+    "fluidName": "witchwater",
+    "input": {
+      "name": "minecraft:sand",
+      "meta": 0
+    },
+    "output": {
+      "name": "minecraft:soul_sand",
+      "meta": 0
+    }
+  }
+]

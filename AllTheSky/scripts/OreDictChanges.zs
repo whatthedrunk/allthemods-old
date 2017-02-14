@@ -1,6 +1,6 @@
 //======OreDictStuff======\\
 
-	val DeepDarkPortal = <extrautils2:Teleporter:1>;
+	val DeepDarkPortal = <extrautils2:teleporter:1>;
 	val Chest = <ore:chest>;
 	val ChestWood = <ore:chestWood>;
 	val ChestTrapped = <ore:chestTrapped>;

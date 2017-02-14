@@ -1,0 +1,62 @@
+{
+  "minecraft:netherrack:0": [
+    {
+      "stack": {
+        "name": "exnihiloadscensio:blockNetherrackCrushed",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:end_stone:0": [
+    {
+      "stack": {
+        "name": "exnihiloadscensio:blockEndstoneCrushed",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:cobblestone:0": [
+    {
+      "stack": {
+        "name": "minecraft:gravel",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:sand:0": [
+    {
+      "stack": {
+        "name": "exnihiloadscensio:blockDust",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:gravel:0": [
+    {
+      "stack": {
+        "name": "minecraft:sand",
+        "amount": 1,
+        "meta": 0
+      },
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ]
+}

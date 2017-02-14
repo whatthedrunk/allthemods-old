@@ -15,7 +15,7 @@
     "__comment": "You can define additional blocks to be hammered by Compressed Hammers here. Use * as a wildcard for metadata. Use prefix ore: in name to query the Ore Dictionary.",
     "entries": [
       {
-        "name": "extrautils2:CompressedNetherrack",
+        "name": "extrautils2:compressednetherrack",
         "metadata": "0",
         "rewards": [
           {

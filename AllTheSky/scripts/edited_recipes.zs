@@ -189,9 +189,9 @@ IC2Rubber.add(<techreborn:part:32>);
 ##Solar Panel (Only generates 8 rf/t)
 recipes.remove(<actuallyadditions:blockFurnaceSolar>);
 recipes.addShaped(<actuallyadditions:blockFurnaceSolar>,
-[[<ore:gemLapis>, <extrautils2:Machine>, <ore:gemLapis>],
-[<extrautils2:Machine>, <ore:gemDiamond>, <extrautils2:Machine>],
-[<ore:gemLapis>, <extrautils2:Machine>, <ore:gemLapis>]]);
+[[<ore:gemLapis>, <extrautils2:machine>, <ore:gemLapis>],
+[<extrautils2:machine>, <ore:gemDiamond>, <extrautils2:machine>],
+[<ore:gemLapis>, <extrautils2:machine>, <ore:gemLapis>]]);
 
 #WoodAsh
 mods.immersiveengineering.Crusher.addRecipe(<mekanism:Sawdust> * 1, <minecraft:stick> *1, 500, <exnihiloomnia:ash>, 0.8);

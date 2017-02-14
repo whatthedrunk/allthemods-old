@@ -1,7 +1,7 @@
 //====Extra Utilities 2====\\
 
 #Vars for the deep dark portal
-	val DeepDarkPortal = <extrautils2:Teleporter:1>;
+	val DeepDarkPortal = <extrautils2:teleporter:1>;
 	val EnderCasing = <actuallyadditions:blockMisc:8>;
 	val TripleCobble = <ore:compressed3xCobblestone>;
 	val DarkMatter = <skyresources:BaseItemComponent:5>;
@@ -11,7 +11,7 @@
 
 #Vars for mining upgrade
 	val ExU2MiningOreDict = <ore:xuUpgradeMining>;
-	val ExU2Mining = <extrautils2:Ingredients:8>;
+	val ExU2Mining = <extrautils2:ingredients:8>;
 	val UpgBase = <ore:xuUpgradeBlank>;
 	val ProgAutoCobbleUpg = <progressiveautomation:CobbleUpgrade>;
 	val RFTPumpCard = <rftools:shape_card:8>;

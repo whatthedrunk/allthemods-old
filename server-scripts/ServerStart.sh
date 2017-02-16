@@ -68,7 +68,7 @@
 #
 # Make sure users aren't trying to run script via sh directly (won't work)
 if [ ! "$BASH_VERSION" ] ; then
-    echo "Please do not use sh to run this script ($0), just execute it directly" 1>&2
+    echo "Please do not use sh to run this script ($0). Use bash instead (or execute it directly)" 1>&2
     exit 1
 fi
 

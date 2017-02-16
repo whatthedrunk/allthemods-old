@@ -200,7 +200,7 @@ ECHO Checking for basic internet connectivity...
 ECHO INFO: Checking for basic internet connectivity... 1>> serverstart.log 2>&1
 
 REM Try with Google DNS
-PING -n 2 -w 1000 8.8.8.8 | find "bytes="
+PING -n 2 -w 1000 8.8.8.8 | find "bytes="  1>> serverstart.log 2>&1
 IF %ERRORLEVEL% EQU 0 (
     SET MC_SERVER_TMP_FLAG=0
 	ECHO INFO: Ping of "8.8.8.8" Successfull 1>> serverstart.log 2>&1
@@ -211,7 +211,7 @@ IF %ERRORLEVEL% EQU 0 (
 
 REM If Google ping failed try one more time with L3 just in case
 IF MC_SERVER_TMP_FLAG EQU 1 (
-	PING -n 2 -w 1000 4.2.2.1 | find "bytes="
+	PING -n 2 -w 1000 4.2.2.1 | find "bytes="  1>> serverstart.log 2>&1
 	IF %ERRORLEVEL% EQU 0 (
 		SET MC_SERVER_TMP_FLAG=0
 		INFO: Ping of "4.4.2.1" Successfull 1>> serverstart.log 2>&1
@@ -287,20 +287,20 @@ IF EXIST forge-installer.jar (
 	IF %ERRORLEVEL% EQU 0 (
 		GOTO RUNINSTALLER
 	) ELSE (
-		DEL /F /Q forge-installer.jar 
+		DEL /F /Q forge-installer.jar 1>> serverstart.log 2>&1
 	)
 )
 
-DEL /F /Q "%CD%\forge-index.html"  
-DEL /F /Q "%CD%\%MC_SERVER_FORGE_JAR%"  
-DEL /F /Q "%CD%\forge-installer-temp.jar"
-RMDIR /S /Q "%CD%\libraries"  
+DEL /F /Q "%CD%\forge-index.html" 1>> serverstart.log 2>&1
+DEL /F /Q "%CD%\%MC_SERVER_FORGE_JAR%" 1>> serverstart.log 2>&1
+DEL /F /Q "%CD%\forge-installer-temp.jar"  1>> serverstart.log 2>&1
+RMDIR /S /Q "%CD%\libraries"  1>> serverstart.log 2>&1
 
 REM Check if direct forge URL is specified in config
 IF NOT %MC_SERVER_FORGEURL%==DISABLE GOTO DOWNLOADINSTALLER
 
 REM Download Forge Download Index HTML to parse the URL for the direct download
-bitsadmin /rawreturn /nowrap /transfer dlforgehtml /download /priority normal "https://files.minecraftforge.net/maven/net/minecraftforge/forge/index_%MC_SERVER_MCVER%.html" "%CD%\forge-%MC_SERVER_MCVER%.html"
+bitsadmin /rawreturn /nowrap /transfer dlforgehtml /download /priority normal "https://files.minecraftforge.net/maven/net/minecraftforge/forge/index_%MC_SERVER_MCVER%.html" "%CD%\forge-%MC_SERVER_MCVER%.html"  1>> serverstart.log 2>&1
 
 IF NOT EXIST forge-%MC_SERVER_MCVER%.html (
 	SET MC_SERVER_ERROR_REASON=ForgeIndexNotFound
@@ -325,11 +325,11 @@ if "%MC_SERVER_FORGEURL%"=="%MC_SERVER_FORGEURL:installer.jar=%" (
 
 
 :DOWNLOADINSTALLER
-ECHO Attempting to download "%MC_SERVER_FORGEURL%" 
+ECHO Attempting to download "%MC_SERVER_FORGEURL%... this can take a moment, please wait." 
 ECHO DEBUG: Attempting to download "%MC_SERVER_FORGEURL%" 1>> serverstart.log 2>&1
 
 REM Attempt to download installer to a temp download
-bitsadmin /rawreturn /nowrap /transfer dlforgeinstaller /download /priority normal "%MC_SERVER_FORGEURL%" "%CD%\forge-installer-temp.jar" 
+bitsadmin /rawreturn /nowrap /transfer dlforgeinstaller /download /priority normal "%MC_SERVER_FORGEURL%" "%CD%\forge-installer-temp.jar"  1>> serverstart.log 2>&1
 
 REM Check that temp-download installer was downloaded
 IF NOT EXIST "%CD%\forge-installer-temp.jar" (
@@ -338,8 +338,8 @@ IF NOT EXIST "%CD%\forge-installer-temp.jar" (
 )
 
 REM Rename temp installer to proper installer, replacing one that was there already
-DEL /F /Q forge-installer.jar
-REN forge-installer-temp.jar forge-installer.jar
+DEL /F /Q forge-installer.jar  1>> serverstart.log 2>&1
+REN forge-installer-temp.jar forge-installer.jar  1>> serverstart.log 2>&1
 
 
 :RUNINSTALLER
@@ -356,9 +356,9 @@ IF NOT %errorlevel% equ 0 (
 )
 
 REM File cleanup
-REN forge*universal.jar %MC_SERVER_FORGE_JAR%
-DEL /F /Q forge-installer.jar
-DEL /F /Q forge-%MC_SERVER_MCVER%.html
+REN forge*universal.jar %MC_SERVER_FORGE_JAR%  1>> serverstart.log 2>&1
+DEL /F /Q forge-installer.jar  1>> serverstart.log 2>&1
+DEL /F /Q forge-%MC_SERVER_MCVER%.html  1>> serverstart.log 2>&1
 
 REM Todo... maybe add check for libraries, minecraft and forge jar confirming install success?
 

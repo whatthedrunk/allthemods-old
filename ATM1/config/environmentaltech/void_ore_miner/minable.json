@@ -6,6 +6,12 @@
       "meta": 0,
       "focusColor": "white",
       "weight": 4
+    },
+    {
+      "id": "mysticalagriculture:prosperity_ore",
+      "meta": 0,
+      "focusColor": "white",
+      "weight": 8
     }
   ],
   "oreDict": [

@@ -1,0 +1,950 @@
+{
+  "name": "Start of a Modpack",
+  "description": "The typical beginning, but watch out, you can\u0027t always follow your plan...",
+  "quests": [
+    {
+      "uuid": "c7ae8ffe-bf01-4949-9fa5-c8ea523b8a42",
+      "name": "Compressed",
+      "description": "Compress it to the best!",
+      "x": 234,
+      "y": 122,
+      "icon": {
+        "id": "extrautils2:CompressedDirt"
+      },
+      "prerequisites": [
+        "b8190427-c651-43ed-832d-53ca5639fbb7"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "extrautils2:CompressedDirt"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "extrautils2:CompressedCobblestone"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "extrautils2:CompressedSand"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "extrautils2:CompressedGravel"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "extrautils2:CompressedNetherrack"
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:crated.dirt",
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "extrautils2:CompressedDirt",
+          "damage": 1,
+          "amount": 2
+        },
+        {
+          "id": "extrautils2:CompressedNetherrack",
+          "damage": 1,
+          "amount": 2
+        },
+        {
+          "id": "extrautils2:CompressedCobblestone",
+          "damage": 1,
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f4c3b424-36e2-491b-a876-e000b9589d37",
+      "name": "Ore Spawn",
+      "description": "No, not the mod!",
+      "x": 120,
+      "y": 15,
+      "icon": {
+        "id": "minecraft:redstone"
+      },
+      "prerequisites": [
+        "b38c14ac-90bc-4845-b760-8fb26c62ddba"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "minecraft:gold_ingot"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:diamond"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:bronzePickaxe"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "techreborn:techreborn.ore",
+          "damage": 12,
+          "amount": 16
+        },
+        {
+          "id": "substratum:ore",
+          "damage": 2,
+          "amount": 16
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "542b3ef5-444d-43bb-869e-a95a586a3388",
+      "name": "Mourning Wood",
+      "description": "Very upsetting wooden logs... Hopefully with those new tools this should be easy to get.",
+      "x": 57,
+      "y": 86,
+      "icon": {
+        "id": "minecraft:log",
+        "damage": 1
+      },
+      "prerequisites": [
+        "b38c14ac-90bc-4845-b760-8fb26c62ddba"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:log"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "minecraft:log2",
+                "damage": 1
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "minecraft:log",
+                "damage": 1
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "minecraft:log",
+                "damage": 2
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "minecraft:log2"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "minecraft:log",
+                "damage": 3
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "biomesoplenty:sapling_1",
+          "damage": 7,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "biomesoplenty:sapling_0",
+          "damage": 2,
+          "amount": 4
+        },
+        {
+          "id": "biomesoplenty:sapling_1",
+          "damage": 2,
+          "amount": 4
+        },
+        {
+          "id": "biomesoplenty:sapling_0",
+          "damage": 7,
+          "amount": 4
+        },
+        {
+          "id": "biomesoplenty:sapling_2",
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "afcb330a-ea9f-4fa3-8d14-3a7f0763318f",
+      "name": "Death by Numbers",
+      "description": "Don\u0027t die! Well, maybe.",
+      "x": 253,
+      "y": 22,
+      "icon": {
+        "id": "minecraft:skull"
+      },
+      "prerequisites": [
+        "87cee5d5-9fed-4a06-9540-b0b09a2da16a"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "tombmanygraves:DeathList"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:skull",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:skull",
+          "damage": 2,
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:bone",
+          "amount": 32
+        },
+        {
+          "id": "tconstruct:soil",
+          "damage": 3,
+          "amount": 16
+        },
+        {
+          "id": "biomesoplenty:soul",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bad304a6-f5e1-4228-a3ab-b6c8bee98f4c",
+      "name": "Simple Gifts",
+      "description": "Bread \u0026 Wine is all you need.",
+      "x": 90,
+      "y": 182,
+      "icon": {
+        "id": "minecraft:bread"
+      },
+      "prerequisites": [
+        "dc7dd902-5dc8-4774-9232-eb1256f98f6a"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bread"
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "minecraft:potion",
+                "nbt": "{Potion:\"minecraft:water\"}"
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:cooked_fish",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:bread",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:apple",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b2693f3d-895c-406f-a639-f8fab99cfb76",
+      "name": "Flower Power",
+      "description": "Power Puff girls unite!",
+      "x": 92,
+      "y": 136,
+      "icon": {
+        "id": "botania:flower",
+        "damage": 15
+      },
+      "prerequisites": [
+        "542b3ef5-444d-43bb-869e-a95a586a3388"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:flower"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "botania:flower",
+                "damage": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "botania:flower",
+                "damage": 14
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "botania:flower",
+                "damage": 15
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:pool"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "botania:blackLotus",
+          "amount": 4
+        },
+        {
+          "id": "botania:miniIsland",
+          "damage": 7,
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "88df2457-5ec7-4d8b-8a37-088cc004ff4a",
+      "name": "Fleshy",
+      "description": "Hopefully that poke stick of yours can handle a hoard of monsters?",
+      "x": 140,
+      "y": 51,
+      "icon": {
+        "id": "minecraft:rotten_flesh"
+      },
+      "prerequisites": [
+        "b38c14ac-90bc-4845-b760-8fb26c62ddba"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:rotten_flesh"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:bone"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:string"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:gunpowder"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:ender_pearl"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "armorplus:WitherBone",
+          "amount": 5
+        },
+        {
+          "id": "tconstruct:materials",
+          "damage": 17,
+          "amount": 12
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dc7dd902-5dc8-4774-9232-eb1256f98f6a",
+      "name": "Bee Happy",
+      "description": "Buzz... Buzz...",
+      "x": 36,
+      "y": 143,
+      "icon": {
+        "id": "forestry:beeDroneGE",
+        "nbt": "{MaxH:35,Mate:{Chromosomes:[0:{UID1:\"Forestry.speciesMajestic\",UID0:\"Forestry.speciesMajestic\",Slot:0b},1:{UID1:\"Forestry.speedNormal\",UID0:\"Forestry.speedNormal\",Slot:1b},2:{UID1:\"Forestry.lifespanShortened\",UID0:\"Forestry.lifespanShortened\",Slot:2b},3:{UID1:\"Forestry.fertilityMaximum\",UID0:\"Forestry.fertilityMaximum\",Slot:3b},4:{UID1:\"Forestry.toleranceNone\",UID0:\"Forestry.toleranceNone\",Slot:4b},5:{UID1:\"Forestry.boolFalse\",UID0:\"Forestry.boolFalse\",Slot:5b},6:{UID1:\"Forestry.toleranceNone\",UID0:\"Forestry.toleranceNone\",Slot:6b},7:{UID1:\"Forestry.boolFalse\",UID0:\"Forestry.boolFalse\",Slot:7b},8:{UID1:\"Forestry.boolFalse\",UID0:\"Forestry.boolFalse\",Slot:8b},9:{UID1:\"Forestry.flowersVanilla\",UID0:\"Forestry.flowersVanilla\",Slot:9b},10:{UID1:\"Forestry.floweringSlowest\",UID0:\"Forestry.floweringSlowest\",Slot:10b},11:{UID1:\"Forestry.territoryAverage\",UID0:\"Forestry.territoryAverage\",Slot:11b},12:{UID1:\"Forestry.effectNone\",UID0:\"Forestry.effectNone\",Slot:12b}]},Health:35,IsAnalyzed:0b,Genome:{Chromosomes:[0:{UID1:\"Forestry.speciesMajestic\",UID0:\"Forestry.speciesMajestic\",Slot:0b},1:{UID1:\"Forestry.speedNormal\",UID0:\"Forestry.speedNormal\",Slot:1b},2:{UID1:\"Forestry.lifespanShortened\",UID0:\"Forestry.lifespanShortened\",Slot:2b},3:{UID1:\"Forestry.fertilityMaximum\",UID0:\"Forestry.fertilityMaximum\",Slot:3b},4:{UID1:\"Forestry.toleranceNone\",UID0:\"Forestry.toleranceNone\",Slot:4b},5:{UID1:\"Forestry.boolFalse\",UID0:\"Forestry.boolFalse\",Slot:5b},6:{UID1:\"Forestry.toleranceNone\",UID0:\"Forestry.toleranceNone\",Slot:6b},7:{UID1:\"Forestry.boolFalse\",UID0:\"Forestry.boolFalse\",Slot:7b},8:{UID1:\"Forestry.boolFalse\",UID0:\"Forestry.boolFalse\",Slot:8b},9:{UID1:\"Forestry.flowersVanilla\",UID0:\"Forestry.flowersVanilla\",Slot:9b},10:{UID1:\"Forestry.floweringSlowest\",UID0:\"Forestry.floweringSlowest\",Slot:10b},11:{UID1:\"Forestry.territoryAverage\",UID0:\"Forestry.territoryAverage\",Slot:11b},12:{UID1:\"Forestry.effectNone\",UID0:\"Forestry.effectNone\",Slot:12b}]}}"
+      },
+      "prerequisites": [
+        "542b3ef5-444d-43bb-869e-a95a586a3388"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:smoker"
+              }
+            },
+            {
+              "item": {
+                "id": "forestry:scoop"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "biomesoplenty:jar_filled",
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:crated.forestry.beeswax.0",
+          "amount": 4
+        },
+        {
+          "id": "forestry:royalJelly",
+          "amount": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b38c14ac-90bc-4845-b760-8fb26c62ddba",
+      "name": "Dull Rocks",
+      "description": "Who likes diamonds anyway?",
+      "x": 88,
+      "y": 45,
+      "icon": {
+        "id": "minecraft:diamond_pickaxe"
+      },
+      "prerequisites": [
+        "22eec61a-c318-4a7b-8627-bd251fad0061"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond_sword"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:diamond_pickaxe"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:diamond_axe"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:diamond_shovel"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond_horse_armor"
+        },
+        {
+          "id": "chisel:diamond",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "botania:manaResource",
+          "damage": 2,
+          "amount": 4
+        },
+        {
+          "id": "techreborn:plates",
+          "damage": 31,
+          "amount": 4
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b8190427-c651-43ed-832d-53ca5639fbb7",
+      "name": "Chiseled Jaw",
+      "description": "Don\u0027t ruin the entire marble chunk!",
+      "x": 148,
+      "y": 131,
+      "icon": {
+        "id": "chisel:chisel_iron"
+      },
+      "prerequisites": [
+        "7a4629fc-e13c-46b7-bde2-20fc117083d2"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:marble"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "chisel:limestone"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "chisel:chisel_iron"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chisel:marble",
+          "damage": 1,
+          "amount": 64
+        },
+        {
+          "id": "chisel:marble",
+          "damage": 3,
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "chisel:blockAluminum",
+          "damage": 2,
+          "amount": 16
+        },
+        {
+          "id": "chisel:blockAluminum",
+          "damage": 3,
+          "amount": 16
+        },
+        {
+          "id": "chisel:blockAluminum",
+          "damage": 6,
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7a4629fc-e13c-46b7-bde2-20fc117083d2",
+      "name": "Rock Hard",
+      "description": "These stones are really tough to break, surely with that rock hard pick you can mine them all?",
+      "x": 111,
+      "y": 94,
+      "icon": {
+        "id": "minecraft:stone"
+      },
+      "prerequisites": [
+        "b38c14ac-90bc-4845-b760-8fb26c62ddba"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cobblestone"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "minecraft:stone",
+                "damage": 1
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "minecraft:stone",
+                "damage": 3
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "minecraft:stone",
+                "damage": 5
+              },
+              "required": 64
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:clay"
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "minecraft:gravel"
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "minecraft:sand"
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:monster_egg",
+          "damage": 2,
+          "amount": 127
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:iron_ore",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:diamond_ore"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "22eec61a-c318-4a7b-8627-bd251fad0061",
+      "name": "Basic Start",
+      "description": "Hopefully you know how to get this far!",
+      "x": 38,
+      "y": 29,
+      "icon": {
+        "id": "minecraft:iron_pickaxe"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_sword"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_pickaxe"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_axe"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_shovel"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:apple",
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags"
+        },
+        {
+          "id": "hardcorequesting:bags"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": [
+        "/say @p Has begun their journey dwelling into All the Mods!"
+      ]
+    },
+    {
+      "uuid": "aaa6f8c8-3673-4b72-8c26-226c09498a8f",
+      "name": "Unusual Species",
+      "description": "You don\u0027t see this everyday.",
+      "x": 186,
+      "y": 90,
+      "icon": {
+        "id": "enderzoo:blockConcussionCharge"
+      },
+      "prerequisites": [
+        "87cee5d5-9fed-4a06-9540-b0b09a2da16a"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "enderzoo:enderFragment"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderzoo:confusingDust"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderzoo:owlEgg"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderzoo:witheringDust"
+              },
+              "required": 8
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "enderzoo:blockConfusingCharge"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "enderzoo:blockEnderCharge"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "enderzoo:blockConcussionCharge"
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "enderio:blockSolarPanel"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "enderzoo:blockConfusingCharge",
+          "amount": 64
+        },
+        {
+          "id": "enderzoo:blockEnderCharge",
+          "amount": 64
+        },
+        {
+          "id": "enderzoo:blockConcussionCharge",
+          "amount": 64
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "87cee5d5-9fed-4a06-9540-b0b09a2da16a",
+      "name": "Creepy Crawlies",
+      "description": "Careful, they bite...",
+      "x": 195,
+      "y": 39,
+      "icon": {
+        "id": "minecraft:web"
+      },
+      "prerequisites": [
+        "88df2457-5ec7-4d8b-8a37-088cc004ff4a"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:string"
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "minecraft:web"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:spider_eye"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "nbt": "{Potion:\"minecraft:strong_poison\"}"
+        },
+        {
+          "id": "minecraft:poisonous_potato",
+          "amount": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:tipped_arrow",
+          "amount": 16,
+          "nbt": "{Potion:\"minecraft:long_poison\"}"
+        },
+        {
+          "id": "biomesoplenty:dart",
+          "damage": 1,
+          "amount": 16
+        },
+        {
+          "id": "biomesoplenty:poison_bucket"
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

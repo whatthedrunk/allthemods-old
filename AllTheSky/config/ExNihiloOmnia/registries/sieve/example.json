@@ -1,0 +1,30 @@
+{
+  "recipes": [
+    {
+      "id": "minecraft:gravel",
+      "meta": 0,
+      "behavior": "meta_ignored",
+      "rewards": [
+        {
+          "id": "minecraft:flint",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 100
+        }
+      ]
+    },
+    {
+      "id": "minecraft:leaves",
+      "meta": 0,
+      "behavior": "meta_specific",
+      "rewards": [
+        {
+          "id": "minecraft:sapling",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 50
+        }
+      ]
+    }
+  ]
+}

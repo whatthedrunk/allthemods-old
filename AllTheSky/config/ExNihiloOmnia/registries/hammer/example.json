@@ -1,0 +1,46 @@
+{
+  "recipes": [
+    {
+      "id": "minecraft:coal_block",
+      "meta": 0,
+      "behavior": "meta_ignored",
+      "rewards": [
+        {
+          "id": "minecraft:coal",
+          "meta": 0,
+          "amount": 9,
+          "baseChance": 100,
+          "fortuneModifier": 0
+        }
+      ]
+    },
+    {
+      "id": "minecraft:log",
+      "meta": 0,
+      "behavior": "meta_specific",
+      "rewards": [
+        {
+          "id": "minecraft:stick",
+          "meta": 0,
+          "amount": 7,
+          "baseChance": 100,
+          "fortuneModifier": 0
+        },
+        {
+          "id": "minecraft:stick",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 75,
+          "fortuneModifier": 5
+        },
+        {
+          "id": "minecraft:stick",
+          "meta": 0,
+          "amount": 1,
+          "baseChance": 25,
+          "fortuneModifier": 10
+        }
+      ]
+    }
+  ]
+}

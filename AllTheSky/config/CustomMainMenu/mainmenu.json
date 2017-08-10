@@ -1,0 +1,157 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:AllTheSkyLogo.png",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 0,
+            "height" : 0,
+            "alignment" : "center"
+        },
+		"ButtonBg":
+        {
+            "image" : "mainmenu:Backgroundbutt2.png",
+            "posX" : 435,
+            "posY" : 0,
+            "width" : 150,
+            "height" : 329,
+            "alignment" : "top_left"
+        }		
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "texture" :"mainmenu:btn.png",
+			"normalTextColor" : 16773632,			
+            "posX" : 150,
+            "posY" : -10,
+            "width" : 80,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+			"texture" : "mainmenu:btn.png",	
+			"normalTextColor" : 16773632,			
+            "posX" : 150,
+            "posY" : 20,
+            "width" : 80,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+			"texture" : "mainmenu:btn.png",	
+			"normalTextColor" : 16773632,			
+            "posX" : 150,
+            "posY" : 50,
+            "width" : 80,
+            "height" : 20,			
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+			"texture" : "mainmenu:btn.png",	
+			"normalTextColor" : 16773632,			
+            "posX" : 150,
+            "posY" : 80,
+            "width" : 80,
+            "height" : 20,			
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+			"texture" : "mainmenu:btn.png",		
+			"normalTextColor" : 16773632,			
+            "posX" : 150,
+            "posY" : 110,
+            "width" : 80,
+            "height" : 20,		
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "Languages",
+			"texture" : "mainmenu:btn.png",	
+			"normalTextColor" : 16773632,			
+            "posX" : 150,
+            "posY" : 140,
+            "width" : 80,
+            "height" : 20,				
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        }		
+        
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "AllTheSky v1.0.6",
+            "posX" : -170,
+            "posY" : -10,
+            "color" : 16773632,
+            "alignment" : "bottom_right"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : 16773632,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+       "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : ["mainmenu:AllTheSkyLog4.png"],
+                "displayDuration" : 6000,
+                "fadeDuration" : 40
+            }
+        }
+    }
+}

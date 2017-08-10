@@ -1,0 +1,62 @@
+{
+  "enabled": true,
+  "path": "defaults/resource/plants/nitorwart_plant.json",
+  "id": "nitorwart_plant",
+  "plant_name": "Nitorwart",
+  "seed_name": "Burning Spores",
+  "seed_items": [
+    "agricraft:agri_seed"
+  ],
+  "description": {
+    "translations": {},
+    "default": "It sure seems to like to glow."
+  },
+  "growth_chance": 0.9,
+  "bonemeal": false,
+  "tier": 1,
+  "weedable": false,
+  "aggressive": false,
+  "spread_chance": 0.1,
+  "spawn_chance": 0.0,
+  "products": {
+    "products": [
+      {
+        "min": 1,
+        "max": 4,
+        "chance": 0.9,
+        "required": true,
+        "item": "minecraft:glowstone_dust",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": false,
+        "useOreDict": false
+      }
+    ]
+  },
+  "requirement": {
+    "min_light": 10,
+    "max_light": 16,
+    "soils": [
+      "minecraft:soul_sand"
+    ],
+    "bases": [
+      "minecraft:glowstone"
+    ],
+    "nearby": {}
+  },
+  "texture": {
+    "render_type": "hash",
+    "seed_texture": "agricraft:items/seedNitorWart",
+    "plant_textures": [
+      "agricraft:blocks/cropNitorWart1",
+      "agricraft:blocks/cropNitorWart1",
+      "agricraft:blocks/cropNitorWart1",
+      "agricraft:blocks/cropNitorWart2",
+      "agricraft:blocks/cropNitorWart2",
+      "agricraft:blocks/cropNitorWart3",
+      "agricraft:blocks/cropNitorWart3",
+      "agricraft:blocks/cropNitorWart4"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "overrides": [
+    {
+      "itemID": "minecraft:wooden_pickaxe",
+      "metadata": -1,
+      "speed": 1,
+      "limit": 0,
+      "range": 0,
+      "exaustion": 0.1,
+      "experience": 0
+    },
+    {
+      "itemID": "minecraft:wooden_shovel",
+      "metadata": -1,
+      "speed": 1,
+      "limit": 0,
+      "range": 0,
+      "exaustion": 0.1,
+      "experience": 0
+    },
+    {
+      "itemID": "minecraft:wooden_axe",
+      "metadata": -1,
+      "speed": 1,
+      "limit": 0,
+      "range": 0,
+      "exaustion": 0.1,
+      "experience": 0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "recipes": [
+    {
+      "id": "minecraft:apple",
+      "meta": 0,
+      "behavior": "meta_ignored",
+      "value": 100,
+      "color": "FFF68F"
+    },
+    {
+      "id": "minecraft:sapling",
+      "meta": 1,
+      "behavior": "meta_specific",
+      "value": 125,
+      "color": "2E8042"
+    }
+  ]
+}

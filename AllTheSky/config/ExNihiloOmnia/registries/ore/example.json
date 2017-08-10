@@ -1,0 +1,39 @@
+{
+  "entries": [
+    {
+      "name": "steel",
+      "color": "F2AB7C",
+      "rarity": 30,
+      "hasGravel": true,
+      "hasNether": false,
+      "hasEnd": false,
+      "ingotMeta": 0,
+      "oreDictNames": [
+        "ingotHardIron"
+      ]
+    },
+    {
+      "name": "thingy",
+      "color": "F2AFCC",
+      "rarity": 100,
+      "hasGravel": true,
+      "hasNether": true,
+      "hasEnd": true,
+      "ingot": "minecraft:acacia_boat",
+      "ingotMeta": 0,
+      "oreDictNames": [
+        "nuggetWow"
+      ]
+    },
+    {
+      "name": "meatal",
+      "color": "E47ABC",
+      "rarity": 2,
+      "hasGravel": true,
+      "hasNether": false,
+      "hasEnd": false,
+      "ingotMeta": 0,
+      "oreDictNames": []
+    }
+  ]
+}

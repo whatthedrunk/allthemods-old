@@ -1,0 +1,8 @@
+{
+  "dimID": -1,
+  "genTop": true,
+  "genBottom": true,
+  "retroGenTop": false,
+  "retroGenBottom": false,
+  "fillBlock": "minecraft:netherrack"
+}

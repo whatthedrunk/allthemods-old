@@ -1,0 +1,1090 @@
+{
+  "name": "Snack in between Packs",
+  "description": "Don\u0027t eat dessert before dinner! Working on modpacks can sure work up a hunger.",
+  "quests": [
+    {
+      "uuid": "aaa6dedb-8b3a-4515-9ac7-27a853fe6717",
+      "name": "Breakfast in Bed",
+      "description": "For when you are making modpacks in the morning.",
+      "x": 78,
+      "y": 37,
+      "icon": {
+        "id": "fe:itemFriedEgg"
+      },
+      "prerequisites": [
+        "5773092d-0ca5-4152-9ecf-1b5745b7ac55"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "fe:itemFriedEgg"
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "fe:itemCookedBacon"
+              },
+              "required": 16
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "fe:itemBaconAndEgg"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "cookingforblockheads:toast"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderio:itemEnderFood"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:apple",
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:cooked_beef",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:baked_potato",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d0756399-0853-41b1-8cf9-32064f78786b",
+      "name": "Pucker Up",
+      "description": "It\u0027s not so sour... !",
+      "x": 260,
+      "y": 35,
+      "icon": {
+        "id": "forestry:fruits",
+        "damage": 3
+      },
+      "prerequisites": [
+        "3f837ac8-d6b6-4ea4-b69c-2e1ea98b1c28"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:fruits",
+                "damage": 3
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:crated.forestry.fruits.3",
+          "amount": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a730f11f-02ba-4748-98dd-a1a046710dfa",
+      "name": "Old People Snack",
+      "description": "Seriously why are you eating this...",
+      "x": 260,
+      "y": 120,
+      "icon": {
+        "id": "forestry:fruits",
+        "damage": 5
+      },
+      "prerequisites": [
+        "a77ebe3b-1741-407b-b165-ada8527b8b00"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:fruits",
+                "damage": 5
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:crated.forestry.fruits.5",
+          "amount": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ec214a76-64f8-41cd-bfd9-a482a442c33b",
+      "name": "Quick Lunch",
+      "description": "Lunch is the most useless meal of the day.",
+      "x": 118,
+      "y": 37,
+      "icon": {
+        "id": "quantumflux:hamCheese"
+      },
+      "prerequisites": [
+        "aaa6dedb-8b3a-4515-9ac7-27a853fe6717"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "quantumflux:hamCheese"
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "botania:manaBottle"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:bread",
+          "amount": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "substratum:bottleLiquid"
+        },
+        {
+          "id": "substratum:bottleLiquid",
+          "damage": 1
+        },
+        {
+          "id": "substratum:bottleLiquid",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4ca17d35-505f-4568-a829-e561355428cf",
+      "name": "Papaya Maya",
+      "description": "The sweetest of all!",
+      "x": 260,
+      "y": 163,
+      "icon": {
+        "id": "forestry:fruits",
+        "damage": 6
+      },
+      "prerequisites": [
+        "a730f11f-02ba-4748-98dd-a1a046710dfa"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:fruits",
+                "damage": 6
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:crated.forestry.fruits.6",
+          "amount": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "66779165-3cbb-4430-a72d-685292f1f0ce",
+      "name": "Cherry Picking",
+      "description": "Stop cherry picking! It\u0027s only a fruit for god\u0027s sake!",
+      "x": 291,
+      "y": 34,
+      "icon": {
+        "id": "forestry:fruits"
+      },
+      "prerequisites": [
+        "d0756399-0853-41b1-8cf9-32064f78786b"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:fruits"
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:crated.forestry.fruits.0",
+          "amount": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5773092d-0ca5-4152-9ecf-1b5745b7ac55",
+      "name": "Martha Stewart",
+      "description": "Only cook with the best cookware!",
+      "x": 38,
+      "y": 36,
+      "icon": {
+        "id": "cookingforblockheads:oven"
+      },
+      "prerequisites": [
+        "bad304a6-f5e1-4228-a3ab-b6c8bee98f4c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "cookingforblockheads:recipeBook"
+              }
+            },
+            {
+              "item": {
+                "id": "cookingforblockheads:recipeBook",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "cookingforblockheads:recipeBook",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "cookingforblockheads:cookingTable"
+              }
+            },
+            {
+              "item": {
+                "id": "cookingforblockheads:oven"
+              }
+            },
+            {
+              "item": {
+                "id": "cookingforblockheads:fridge"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "cookingforblockheads:sink"
+              }
+            },
+            {
+              "item": {
+                "id": "cookingforblockheads:toolRack"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:golden_apple"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:ice",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:snow",
+          "amount": 64
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ce86dbd7-d1ae-4b6b-bed3-a30034f842f6",
+      "name": "An Odd Sweet Tooth",
+      "description": "Better brush your teeth!",
+      "x": 157,
+      "y": 161,
+      "icon": {
+        "id": "fe:itemJelly"
+      },
+      "prerequisites": [
+        "a29b2185-9c13-48e9-b42d-9883c586ac1f"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "fe:itemJelly"
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "fe:itemMelonSalad"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "fe:itemChocolateBar"
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "fe:itemCarrotPie"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "darkutils:cake_eplus"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a77ebe3b-1741-407b-b165-ada8527b8b00",
+      "name": "Portable Poo",
+      "description": "Hope you have a toilet around...",
+      "x": 260,
+      "y": 74,
+      "icon": {
+        "id": "forestry:fruits",
+        "damage": 4
+      },
+      "prerequisites": [
+        "d0756399-0853-41b1-8cf9-32064f78786b"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:fruits",
+                "damage": 4
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:crated.forestry.fruits.4",
+          "amount": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "870510b7-5920-4e79-aef8-6983efbc12e0",
+      "name": "Watery Soup",
+      "description": "A bit gamey...",
+      "x": 117,
+      "y": 79,
+      "icon": {
+        "id": "minecraft:rabbit_stew"
+      },
+      "prerequisites": [
+        "ec214a76-64f8-41cd-bfd9-a482a442c33b"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:mushroom_stew"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:rabbit_stew"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "fe:itemSpiderSoup"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "fe:itemNetherWartSoup"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "randomthings:beanStew"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:beetroot_soup"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "fe:itemCarrotSeedSoup"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "fe:itemBlazeCream"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "77744ce1-9ee2-47b5-b675-85be8865d300",
+      "name": "Diabetes",
+      "description": "It\u0027s even sweeter than the fruits! Let\u0027s eat all of it!",
+      "x": 292,
+      "y": 162,
+      "icon": {
+        "id": "forestry:honeyedSlice"
+      },
+      "prerequisites": [
+        "4ca17d35-505f-4568-a829-e561355428cf"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:honeyedSlice"
+              },
+              "required": 128
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "biomesoplenty:jar_filled",
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:honeyPot",
+          "amount": 16
+        },
+        {
+          "id": "forestry:crated.forestry.honeydew.0",
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3f837ac8-d6b6-4ea4-b69c-2e1ea98b1c28",
+      "name": "Simple Fruits",
+      "description": "Picked from the finest dirt hut!",
+      "x": 197,
+      "y": 127,
+      "icon": {
+        "id": "minecraft:melon"
+      },
+      "prerequisites": [
+        "ae15d8f6-bcee-46ab-8d14-8a5149bc3fde",
+        "ce86dbd7-d1ae-4b6b-bed3-a30034f842f6"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:melon"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "minecraft:chorus_fruit"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "fe:itemCactusFruit"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "biomesoplenty:saladfruit"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "biomesoplenty:saladfruit",
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:chorus_fruit_popped",
+          "amount": 64
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4a241bc4-c9ed-4e4b-8c30-08f72996a9a6",
+      "name": "The Drunken Carrot",
+      "description": "The Ultimate Task",
+      "x": 68,
+      "y": 75,
+      "bigicon": true,
+      "icon": {
+        "id": "fe:itemCarrotPie"
+      },
+      "prerequisites": [
+        "6f33754e-c136-43d3-8097-f3ff072dd0ae"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:carrot"
+              },
+              "required": 1920
+            },
+            {
+              "item": {
+                "id": "forestry:beverage"
+              },
+              "required": 320
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:beverage",
+          "damage": 1,
+          "amount": 20
+        },
+        {
+          "id": "fe:itemCarrotPie",
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "fe:itemStarvingFruit"
+        },
+        {
+          "id": "fe:itemForbiddenFruit"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a29b2185-9c13-48e9-b42d-9883c586ac1f",
+      "name": "An Odd Fine Dine",
+      "description": "A feast fit for a king!",
+      "x": 117,
+      "y": 160,
+      "icon": {
+        "id": "fe:itemOcelotMeat"
+      },
+      "prerequisites": [
+        "7354c2a3-d14c-4adb-930b-ffba7283d9f2"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "fe:itemCookedSquid"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "fe:itemCookedOcelotMeat"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "fe:itemCookedWolfMeat"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "cookingforblockheads:fridge",
+          "amount": 6
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:cooked_beef",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:baked_potato",
+          "amount": 64
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9a0369b2-f3be-4363-8c62-b8819b2102e1",
+      "name": "Jerky Jerk",
+      "description": "He\u0027s a real jerk!",
+      "x": 158,
+      "y": 36,
+      "icon": {
+        "id": "tconstruct:edible",
+        "damage": 11
+      },
+      "prerequisites": [
+        "ec214a76-64f8-41cd-bfd9-a482a442c33b"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:edible",
+                "damage": 10
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "tconstruct:edible",
+                "damage": 11
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "tconstruct:edible",
+                "damage": 12
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "tconstruct:edible",
+                "damage": 13
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "tconstruct:edible",
+                "damage": 14
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "tconstruct:edible",
+                "damage": 15
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "tconstruct:edible",
+                "damage": 20
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tconstruct:edible",
+          "damage": 22,
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:edible",
+          "damage": 23,
+          "amount": 64
+        },
+        {
+          "id": "tconstruct:edible",
+          "damage": 21,
+          "amount": 64
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7354c2a3-d14c-4adb-930b-ffba7283d9f2",
+      "name": "An Odd Snack",
+      "description": "Still yummy...",
+      "x": 117,
+      "y": 121,
+      "icon": {
+        "id": "fe:itemCookedBatWing"
+      },
+      "prerequisites": [
+        "870510b7-5920-4e79-aef8-6983efbc12e0"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "fe:itemCompressedFlesh"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "fe:itemCookedBatWing"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "fe:itemCactusFruit"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "fe:itemBatWing",
+          "amount": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:cactus",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:rotten_flesh",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6f33754e-c136-43d3-8097-f3ff072dd0ae",
+      "name": "Slurping Delight",
+      "description": "*Gulp* - wait have how many drinks have you had?",
+      "x": 72,
+      "y": 121,
+      "icon": {
+        "id": "forestry:beverage"
+      },
+      "prerequisites": [
+        "7354c2a3-d14c-4adb-930b-ffba7283d9f2"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:beverage"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "forestry:beverage",
+                "damage": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:potion",
+                "nbt": "{Potion:\"minecraft:water\"}"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "techreborn:dynamicCell",
+          "amount": 16,
+          "nbt": "{FluidName:\"hootch\",Amount:1000}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "forestry:ambrosia",
+          "amount": 4
+        },
+        {
+          "id": "forestry:honeyPot",
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5734b587-006d-4250-be1b-df4e924b31e6",
+      "name": "Wall Hop",
+      "description": "It seems as if you\u0027ve hit a wall...",
+      "x": 291,
+      "y": 120,
+      "icon": {
+        "id": "forestry:fruits",
+        "damage": 1
+      },
+      "prerequisites": [
+        "a730f11f-02ba-4748-98dd-a1a046710dfa"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:fruits",
+                "damage": 1
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:crated.forestry.fruits.1",
+          "amount": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "93cf9812-3b68-4201-8393-deba84e6033b",
+      "name": "Okay Dine",
+      "description": "Not as good as the other one, but still tasty.",
+      "x": 197,
+      "y": 36,
+      "icon": {
+        "id": "minecraft:cooked_beef"
+      },
+      "prerequisites": [
+        "9a0369b2-f3be-4363-8c62-b8819b2102e1"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cooked_beef"
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "minecraft:baked_potato"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:cooked_chicken"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:cooked_porkchop"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:cooked_mutton"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b0557656-b8a2-41f8-a794-7cf0e0c7e1ba",
+      "name": "Chestnut Machiato",
+      "description": "Wait that\u0027s not a fruit...",
+      "x": 290,
+      "y": 73,
+      "icon": {
+        "id": "forestry:fruits",
+        "damage": 2
+      },
+      "prerequisites": [
+        "a77ebe3b-1741-407b-b165-ada8527b8b00"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "forestry:fruits",
+                "damage": 2
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "forestry:crated.forestry.fruits.2",
+          "amount": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ae15d8f6-bcee-46ab-8d14-8a5149bc3fde",
+      "name": "Sweet as Average",
+      "description": "Nothing special... an odd sweet tooth however, yum!",
+      "x": 197,
+      "y": 76,
+      "icon": {
+        "id": "minecraft:cake"
+      },
+      "prerequisites": [
+        "93cf9812-3b68-4201-8393-deba84e6033b"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cake"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:pumpkin_pie"
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:pumpkin",
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:speckled_melon",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:cake",
+          "amount": 64
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

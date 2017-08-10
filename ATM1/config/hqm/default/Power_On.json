@@ -1,0 +1,1714 @@
+{
+  "name": "Power On",
+  "description": "Start up your modpack using RF, GP, and everything in between!",
+  "quests": [
+    {
+      "uuid": "678a4c2f-c4e1-4aed-9c89-1b2ffcd189a5",
+      "name": "Conduit Plaza",
+      "description": "Fresh hot conduits right off the workbench!",
+      "x": 47,
+      "y": 49,
+      "icon": {
+        "id": "enderio:itemLiquidConduit",
+        "damage": 2
+      },
+      "prerequisites": [
+        "60eea484-d2fa-4f5c-8b3f-dbfa26d68e5e"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:itemPowerConduit"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderio:itemPowerConduit",
+                "damage": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderio:itemPowerConduit",
+                "damage": 2
+              },
+              "required": 16
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:itemLiquidConduit"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderio:itemLiquidConduit",
+                "damage": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderio:itemLiquidConduit",
+                "damage": 2
+              },
+              "required": 16
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:itemItemConduit"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:itemRedstoneConduit"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "enderio:itemMaterial",
+          "damage": 1,
+          "amount": 127
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "enderio:itemPowerConduit",
+          "damage": 2,
+          "amount": 32
+        },
+        {
+          "id": "enderio:itemItemConduit",
+          "amount": 32
+        },
+        {
+          "id": "enderio:itemLiquidConduit",
+          "damage": 2,
+          "amount": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c9b5991d-5226-41f5-85bc-ed82582c94c5",
+      "name": "Moar Powa",
+      "description": "With all this power coming in you need to store it somehow...",
+      "x": 98,
+      "y": 170,
+      "icon": {
+        "id": "enderio:blockCapBank",
+        "damage": 1
+      },
+      "prerequisites": [
+        "03f1632e-dfd3-4d56-a1f2-435e726b3e54"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:blockCapBank",
+                "damage": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderio:blockCapBank",
+                "damage": 2
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "enderio:blockCapBank",
+                "damage": 3
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "enderio:blockPowerMonitor"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "enderio:itemAlloy",
+          "damage": 6,
+          "amount": 8
+        },
+        {
+          "id": "enderio:itemAlloy",
+          "damage": 5,
+          "amount": 8
+        },
+        {
+          "id": "enderio:itemAlloy",
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cefbe94a-660f-443d-8395-4aed2ad6a125",
+      "name": "Progressive Overpowered",
+      "description": "Climb the ladder of OP generators!",
+      "x": 164,
+      "y": 124,
+      "icon": {
+        "id": "progressiveautomation:GeneratorDiamond"
+      },
+      "prerequisites": [
+        "03f1632e-dfd3-4d56-a1f2-435e726b3e54"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "progressiveautomation:Generator"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "progressiveautomation:GeneratorStone"
+              },
+              "required": 12
+            },
+            {
+              "item": {
+                "id": "progressiveautomation:GeneratorIron"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "progressiveautomation:GeneratorDiamond"
+              },
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "enderio:blockCapBank",
+          "damage": 2,
+          "nbt": "{storedEnergyRF:5000000}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "progressiveautomation:GeneratorDiamond"
+        },
+        {
+          "id": "enderio:blockZombieGenerator"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "01b378d3-7472-4518-96df-1f81c30a4088",
+      "name": "Manual Labor",
+      "description": "Blue collar jobs are rough!",
+      "x": 219,
+      "y": 36,
+      "icon": {
+        "id": "extrautils2:PassiveGenerator",
+        "damage": 7
+      },
+      "prerequisites": [
+        "248e4980-2ba0-460b-a0fb-ad9e1b76e431"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "extrautils2:PassiveGenerator",
+                "damage": 7
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "extrautils2:PassiveGenerator",
+          "amount": 32
+        },
+        {
+          "id": "extrautils2:PassiveGenerator",
+          "damage": 1,
+          "amount": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c2d7b1ac-d25b-41f6-9470-5d4cb58a2233",
+      "name": "GP Drainers",
+      "description": "Gotta use that power for something right?",
+      "x": 231,
+      "y": 103,
+      "icon": {
+        "id": "extrautils2:Spotlight"
+      },
+      "prerequisites": [
+        "dde73bcd-680e-49c9-8829-9e035c214daa"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "extrautils2:Spotlight"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "extrautils2:Indexer"
+              }
+            },
+            {
+              "item": {
+                "id": "extrautils2:Scanner"
+              }
+            },
+            {
+              "item": {
+                "id": "extrautils2:User"
+              }
+            },
+            {
+              "item": {
+                "id": "extrautils2:Miner"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "extrautils2:RedstoneClock",
+          "amount": 4
+        },
+        {
+          "id": "extrautils2:SoundMuffler",
+          "amount": 2
+        },
+        {
+          "id": "extrautils2:Crafter"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fb8e2ec4-63ff-43db-9a07-841b0a484bb8",
+      "name": "Death Machine",
+      "description": "Don\u0027t step on one of these...",
+      "x": 47,
+      "y": 144,
+      "icon": {
+        "id": "enderio:blockSagMill"
+      },
+      "prerequisites": [
+        "803d26e3-76fa-43bb-94af-0f860267bb90"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:blockSagMill"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:blockAlloySmelter"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "enderio:itemAlloy",
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "60eea484-d2fa-4f5c-8b3f-dbfa26d68e5e",
+      "name": "Binder",
+      "description": "Orangize your binder!",
+      "x": 32,
+      "y": 24,
+      "icon": {
+        "id": "enderio:itemMaterial",
+        "damage": 1
+      },
+      "prerequisites": [
+        "f4c3b424-36e2-491b-a876-e000b9589d37"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:itemMaterial",
+                "damage": 2
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "enderio:itemMaterial",
+                "damage": 1
+              },
+              "required": 128
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:clay_ball",
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:sand",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:gravel",
+          "amount": 64
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "16141874-64a7-4071-84a0-a3fbcd3d9327",
+      "name": "Obelisks",
+      "description": "Catch em\u0027 all!",
+      "x": 64,
+      "y": 189,
+      "icon": {
+        "id": "enderio:blockAttractor"
+      },
+      "prerequisites": [
+        "17ec8ea3-2dec-4bf6-96a8-cecda5e3eca2",
+        "03f1632e-dfd3-4d56-a1f2-435e726b3e54"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:blockAttractor"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:blockSpawnGuard"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:blockSpawnRelocator"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:blockExperienceObelisk"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:blockWeatherObelisk"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:blockInhibitorObelisk"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "enderio:itemAlloy",
+          "damage": 1,
+          "amount": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "enderio:itemMaterial",
+          "damage": 9,
+          "amount": 3
+        },
+        {
+          "id": "enderio:itemMaterial",
+          "damage": 8,
+          "amount": 4
+        },
+        {
+          "id": "enderio:itemMaterial",
+          "damage": 10,
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "17ec8ea3-2dec-4bf6-96a8-cecda5e3eca2",
+      "name": "The Others",
+      "description": "Bet you wish you had these earlier.",
+      "x": 32,
+      "y": 172,
+      "icon": {
+        "id": "enderio:blockPowerMonitor"
+      },
+      "prerequisites": [
+        "fb8e2ec4-63ff-43db-9a07-841b0a484bb8"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:blockCrafter"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:blockPainter"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:blockVat"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:blockPoweredSpawner"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:blockKillerJoe"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:blockSoulBinder"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:blockSliceAndSplice"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "enderio:itemAlloy",
+          "damage": 7,
+          "amount": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "enderio:blockSolarPanel",
+          "damage": 1,
+          "amount": 2
+        },
+        {
+          "id": "enderio:itemAlloy",
+          "damage": 6,
+          "amount": 16
+        },
+        {
+          "id": "enderio:itemAlloy",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e879f182-87c7-4efd-a52a-c3ad229c229e",
+      "name": "The Wither",
+      "x": 109,
+      "y": 101,
+      "icon": {
+        "id": "enderio:blockDarkIronBars"
+      },
+      "prerequisites": [
+        "444d7184-b364-4567-a725-4b530d6d62ce"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:blockReinforcedObsidian"
+              },
+              "required": 256
+            },
+            {
+              "item": {
+                "id": "enderio:blockDarkIronBars"
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:skull",
+          "damage": 1,
+          "amount": 3
+        },
+        {
+          "id": "minecraft:soul_sand",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:tipped_arrow",
+          "amount": 64,
+          "nbt": "{Potion:\"minecraft:witheringLong\"}"
+        },
+        {
+          "id": "minecraft:tipped_arrow",
+          "amount": 64,
+          "nbt": "{Potion:\"extrautils2:xu2.relapse\"}"
+        },
+        {
+          "id": "minecraft:tipped_arrow",
+          "amount": 64,
+          "nbt": "{Potion:\"minecraft:confusionLong\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "248e4980-2ba0-460b-a0fb-ad9e1b76e431",
+      "name": "Grid Power",
+      "description": "Stay off the grid!",
+      "x": 260,
+      "y": 55,
+      "icon": {
+        "id": "extrautils2:PassiveGenerator"
+      },
+      "prerequisites": [
+        "bd522eee-59ce-4804-ad4d-9e1ff5a79bf3"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "extrautils2:PassiveGenerator"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "extrautils2:PassiveGenerator",
+                "damage": 1
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "extrautils2:ChunkLoader"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "extrautils2:RedOrchid",
+          "amount": 3
+        },
+        {
+          "id": "extrautils2:EnderLilly"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0c520342-f3f8-4aad-a322-26644eb223b3",
+      "name": "AE",
+      "description": "Not quite....",
+      "x": 96,
+      "y": 72,
+      "icon": {
+        "id": "enderio:itemFunctionUpgrade"
+      },
+      "prerequisites": [
+        "dad19660-8517-434c-9b6b-612574fc9d22"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:itemItemConduit"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "enderio:itemFunctionUpgrade"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "enderio:blockInventoryPanel"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "enderio:itemFunctionUpgrade",
+          "amount": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 32
+        },
+        {
+          "id": "correlatedpotentialistics:misc",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "635c216c-1765-4698-9b66-a96529d409fe",
+      "name": "Capacitors",
+      "description": "The voltage on these is beyond real...",
+      "x": 31,
+      "y": 75,
+      "icon": {
+        "id": "enderio:itemBasicCapacitor",
+        "damage": 2
+      },
+      "prerequisites": [
+        "678a4c2f-c4e1-4aed-9c89-1b2ffcd189a5"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:itemBasicCapacitor"
+              },
+              "required": 32
+            },
+            {
+              "item": {
+                "id": "enderio:itemBasicCapacitor",
+                "damage": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderio:itemBasicCapacitor",
+                "damage": 2
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "enderio:itemMaterial",
+          "damage": 3,
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "enderio:itemBasicCapacitor",
+          "damage": 2,
+          "amount": 4
+        },
+        {
+          "id": "enderio:itemPowerConduit",
+          "damage": 2,
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bd522eee-59ce-4804-ad4d-9e1ff5a79bf3",
+      "name": "Red Lives Matter",
+      "description": "The one and only, Extra Utilites!",
+      "x": 274,
+      "y": 31,
+      "icon": {
+        "id": "extrautils2:Ingredients"
+      },
+      "prerequisites": [
+        "f4c3b424-36e2-491b-a876-e000b9589d37"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extrautils2:GlassCutter"
+              }
+            },
+            {
+              "item": {
+                "id": "extrautils2:EnderShard"
+              },
+              "required": 16
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extrautils2:Ingredients"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "extrautils2:Ingredients",
+                "damage": 1
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "extrautils2:Ingredients",
+          "amount": 16
+        },
+        {
+          "id": "extrautils2:Ingredients",
+          "damage": 1,
+          "amount": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "extrautils2:RedOrchid",
+          "amount": 8
+        },
+        {
+          "id": "extrautils2:EnderLilly"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d5e06a7c-98ef-4080-9df4-b24afcba3e59",
+      "name": "Tools of the Grid",
+      "description": "Things that may just help you around the grid...",
+      "x": 247,
+      "y": 127,
+      "icon": {
+        "id": "extrautils2:GoldenLasso",
+        "damage": 1
+      },
+      "prerequisites": [
+        "c2d7b1ac-d25b-41f6-9470-5d4cb58a2233"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "extrautils2:GoldenLasso"
+              }
+            },
+            {
+              "item": {
+                "id": "extrautils2:GoldenLasso",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "extrautils2:sickle_diamond"
+              }
+            },
+            {
+              "item": {
+                "id": "extrautils2:Wrench"
+              }
+            },
+            {
+              "item": {
+                "id": "extrautils2:WateringCan",
+                "damage": 1000
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "extrautils2:ItemBuildersWand"
+              }
+            },
+            {
+              "item": {
+                "id": "extrautils2:ItemDestructionWand"
+              }
+            },
+            {
+              "item": {
+                "id": "extrautils2:Boomerang"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "extrautils2:DecorativeSolidWood",
+          "damage": 1,
+          "amount": 16
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "extrautils2:GoldenLasso",
+          "amount": 2
+        },
+        {
+          "id": "extrautils2:GoldenLasso",
+          "damage": 1,
+          "amount": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dad19660-8517-434c-9b6b-612574fc9d22",
+      "name": "Pool Filter",
+      "description": "Accesories for your conduits.",
+      "x": 78,
+      "y": 48,
+      "icon": {
+        "id": "enderio:itemModItemFilter"
+      },
+      "prerequisites": [
+        "678a4c2f-c4e1-4aed-9c89-1b2ffcd189a5"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:itemBasicFilterUpgrade"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "enderio:itemBasicFilterUpgrade",
+                "damage": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "enderio:itemModItemFilter"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "enderio:itemPowerItemFilter"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "enderio:itemExistingItemFilter"
+              },
+              "required": 2
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:itemExtractSpeedUpgrade"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderio:itemExtractSpeedUpgrade",
+                "damage": 1
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "enderio:itemBasicFilterUpgrade",
+          "damage": 1,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "enderio:itemExtractSpeedUpgrade",
+          "amount": 16
+        },
+        {
+          "id": "enderio:itemExtractSpeedUpgrade",
+          "damage": 1,
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "444d7184-b364-4567-a725-4b530d6d62ce",
+      "name": "Enchanting Passion",
+      "description": "Who cares for random enchants when time is so limited? Use these for a quick and easy decision when enchanting!",
+      "x": 77,
+      "y": 101,
+      "icon": {
+        "id": "enderio:blockDarkSteelAnvil"
+      },
+      "prerequisites": [
+        "803d26e3-76fa-43bb-94af-0f860267bb90"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:blockDarkSteelAnvil"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:blockEnchanter"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:1s,id:70s}]}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:4s,id:0s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:1s,id:13s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:1s,id:33s}]}"
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "nbt": "{StoredEnchantments:[0:{lvl:5s,id:32s}]}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ed270712-4730-42b1-a162-e5c775e1a590",
+      "name": "Wings of the Gods",
+      "description": "Actually they\u0027re the wings of an angel but hey, who\u0027s counting...",
+      "x": 263,
+      "y": 152,
+      "icon": {
+        "id": "extrautils2:AngelRing",
+        "damage": 5
+      },
+      "prerequisites": [
+        "d5e06a7c-98ef-4080-9df4-b24afcba3e59"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "extrautils2:AngelRing"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "extrautils2:CursedEarth",
+          "amount": 16
+        },
+        {
+          "id": "extrautils2:Ingredients",
+          "damage": 10,
+          "amount": 16
+        },
+        {
+          "id": "extrautils2:Klein",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5c7a3aa6-9221-4ab9-8184-9dccbcb47de2",
+      "name": "Dark Misc.",
+      "description": "Things you don\u0027t see everyday.",
+      "x": 20,
+      "y": 129,
+      "icon": {
+        "id": "enderio:itemMaterial",
+        "damage": 7
+      },
+      "prerequisites": [
+        "803d26e3-76fa-43bb-94af-0f860267bb90"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:darkSteel_helmet"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:darkSteel_chestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:darkSteel_leggings"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:darkSteel_boots"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:darkSteel_sword"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:darkSteel_pickaxe"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:darkSteel_axe"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:itemMagnet"
+              }
+            },
+            {
+              "item": {
+                "id": "enderio:darkSteel_shears"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "enderio:blockEndermanSkull",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "enderio:darkSteel_helmet",
+          "nbt": "{enderio.darksteel.upgrade.soundDetector:{upgradeItem:{id:\"minecraft:noteblock\",Count:1b,Damage:0s},level_cost:10,unlocalized_name:\"enderio.darksteel.upgrade.sound\"},enderio.darksteel.upgrade.energyUpgrade:{upgradeItem:{id:\"enderio:itemBasicCapacitor\",Count:1b,Damage:2s},maxOuput:10000,level_cost:20,unlocalized_name:\"enderio.darksteel.upgrade.empowered_four\",maxInput:10000,capacity:1000000,energy:1000000},enderio.darksteel.upgrade.nightVision:{upgradeItem:{id:\"minecraft:potion\",Count:1b,tag:{Potion:\"minecraft:night_vision\"},Damage:0s},level_cost:10,unlocalized_name:\"enderio.darksteel.upgrade.nightVision\"},enderio.darksteel.upgrade.solar:{level:3b,upgradeItem:{id:\"enderio:blockSolarPanel\",Count:1b,Damage:2s},level_cost:40,unlocalized_name:\"enderio.darksteel.upgrade.solar_three\"}}"
+        },
+        {
+          "id": "enderio:darkSteel_chestplate",
+          "nbt": "{enderio.darksteel.upgrade.energyUpgrade:{upgradeItem:{id:\"enderio:itemBasicCapacitor\",Count:1b,Damage:2s},maxOuput:10000,level_cost:20,unlocalized_name:\"enderio.darksteel.upgrade.empowered_four\",maxInput:10000,capacity:1000000,energy:1000000},enderio.darksteel.upgrade.glide:{upgradeItem:{id:\"enderio:itemGliderWing\",Count:1b,Damage:1s},level_cost:10,unlocalized_name:\"enderio.darksteel.upgrade.glider\"}}"
+        },
+        {
+          "id": "enderio:darkSteel_leggings",
+          "nbt": "{enderio.darksteel.upgrade.energyUpgrade:{upgradeItem:{id:\"enderio:itemBasicCapacitor\",Count:1b,Damage:2s},maxOuput:10000,level_cost:20,unlocalized_name:\"enderio.darksteel.upgrade.empowered_four\",maxInput:10000,capacity:1000000,energy:1000000},enderio.darksteel.upgrade.speedBoost:{level:3s,upgradeItem:{id:\"minecraft:potion\",Count:1b,tag:{Potion:\"minecraft:long_swiftness\"},Damage:0s},multiplier:0.0f,level_cost:20,unlocalized_name:\"enderio.darksteel.upgrade.speed_three\"}}"
+        },
+        {
+          "id": "enderio:darkSteel_boots",
+          "nbt": "{enderio.darksteel.upgrade.jumpBoost:{level:3s,upgradeItem:{id:\"minecraft:piston\",Count:1b,Damage:0s},level_cost:20,unlocalized_name:\"enderio.darksteel.upgrade.jump_three\"},enderio.darksteel.upgrade.swim:{upgradeItem:{id:\"minecraft:waterlily\",Count:1b,Damage:0s},level_cost:10,unlocalized_name:\"enderio.darksteel.upgrade.swim\"},enderio.darksteel.upgrade.energyUpgrade:{upgradeItem:{id:\"enderio:itemBasicCapacitor\",Count:1b,Damage:2s},maxOuput:10000,level_cost:20,unlocalized_name:\"enderio.darksteel.upgrade.empowered_four\",maxInput:10000,capacity:1000000,energy:1000000}}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dde73bcd-680e-49c9-8829-9e035c214daa",
+      "name": "Burnt Stone",
+      "description": "What smells so burnt?",
+      "x": 245,
+      "y": 80,
+      "icon": {
+        "id": "extrautils2:Resonator"
+      },
+      "prerequisites": [
+        "248e4980-2ba0-460b-a0fb-ad9e1b76e431"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "extrautils2:DecorativeSolid",
+                "damage": 3
+              },
+              "required": 128
+            },
+            {
+              "item": {
+                "id": "extrautils2:Resonator"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "extrautils2:DecorativeSolid",
+          "damage": 3,
+          "amount": 64
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "extrautils2:Resonator",
+          "amount": 2
+        },
+        {
+          "id": "extrautils2:DecorativeSolid",
+          "damage": 3,
+          "amount": 64
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fa305f49-e6ca-4858-8618-abd0ad496be1",
+      "name": "Sun Powered",
+      "description": "Let\u0027s hope the sun doesn\u0027t explode anytime soon!",
+      "x": 122,
+      "y": 133,
+      "icon": {
+        "id": "enderio:blockSolarPanel",
+        "damage": 1
+      },
+      "prerequisites": [
+        "03f1632e-dfd3-4d56-a1f2-435e726b3e54"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:blockSolarPanel"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderio:blockSolarPanel",
+                "damage": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "enderio:blockSolarPanel",
+                "damage": 2
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "enderio:blockSolarPanel",
+          "damage": 2,
+          "amount": 4
+        },
+        {
+          "id": "enderio:blockTransceiver"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "enderio:itemAlloy",
+          "damage": 6,
+          "amount": 16
+        },
+        {
+          "id": "enderio:itemAlloy",
+          "damage": 2,
+          "amount": 16
+        },
+        {
+          "id": "enderio:itemAlloy",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "22daddbb-d6a8-449a-82d5-7bef54399442",
+      "name": "Give us Power!",
+      "description": "Turn in a full capacitor and you will be rewarded greatly...",
+      "x": 128,
+      "y": 171,
+      "icon": {
+        "id": "enderio:blockCapBank",
+        "damage": 3,
+        "nbt": "{storedEnergyRF:25000000}"
+      },
+      "prerequisites": [
+        "c9b5991d-5226-41f5-85bc-ed82582c94c5"
+      ],
+      "repeat": {
+        "type": "TIME",
+        "days": 5,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:blockCapBank",
+                "damage": 3,
+                "nbt": "{storedEnergyRF:25000000}"
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "enderio:blockCapBank",
+          "damage": 3,
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "enderio:blockSolarPanel",
+          "damage": 2,
+          "amount": 6
+        },
+        {
+          "id": "enderio:blockTransceiver",
+          "amount": 2
+        },
+        {
+          "id": "enderio:itemSoulVessel",
+          "damage": 1,
+          "amount": 4,
+          "nbt": "{isStub:1b,entityId:\"Enderman\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "803d26e3-76fa-43bb-94af-0f860267bb90",
+      "name": "Alloy Fusion",
+      "description": "It\u0027s not fusion but we can pretend...",
+      "x": 47,
+      "y": 99,
+      "icon": {
+        "id": "enderio:itemAlloy"
+      },
+      "prerequisites": [
+        "635c216c-1765-4698-9b66-a96529d409fe"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:itemAlloy"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderio:itemAlloy",
+                "damage": 5
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderio:itemAlloy",
+                "damage": 3
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderio:itemAlloy",
+                "damage": 6
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderio:itemAlloy",
+                "damage": 7
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderio:itemAlloy",
+                "damage": 4
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderio:itemAlloy",
+                "damage": 1
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "enderio:itemAlloy",
+                "damage": 2
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "enderio:blockIngotStorage",
+          "damage": 5,
+          "amount": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "enderio:blockIngotStorage",
+          "damage": 6,
+          "amount": 3
+        },
+        {
+          "id": "enderio:blockIngotStorage",
+          "damage": 2,
+          "amount": 3
+        },
+        {
+          "id": "enderio:blockIngotStorage",
+          "damage": 7,
+          "amount": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "03f1632e-dfd3-4d56-a1f2-435e726b3e54",
+      "name": "Power Rumble",
+      "description": "Don\u0027t touch these...",
+      "x": 78,
+      "y": 144,
+      "icon": {
+        "id": "enderio:blockStirlingGenerator"
+      },
+      "prerequisites": [
+        "fb8e2ec4-63ff-43db-9a07-841b0a484bb8"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "enderio:blockStirlingGenerator"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "enderio:blockCombustionGenerator"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "enderio:blockZombieGenerator"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "techreborn:dynamicCell",
+          "amount": 16,
+          "nbt": "{FluidName:\"rocket_fuel\",Amount:1000}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "41607fac-965a-440f-9668-a8a282d9a579",
+      "name": "Advanced Power",
+      "description": "Let\u0027s hope it gives off more power than those puny panels...",
+      "x": 206,
+      "y": 63,
+      "icon": {
+        "id": "extrautils2:PassiveGenerator",
+        "damage": 2
+      },
+      "prerequisites": [
+        "dde73bcd-680e-49c9-8829-9e035c214daa"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "extrautils2:PassiveGenerator",
+                "damage": 2
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "extrautils2:PassiveGenerator",
+                "damage": 5
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "extrautils2:PassiveGenerator",
+                "damage": 3
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "extrautils2:PassiveGenerator",
+                "damage": 4
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "extrautils2:PassiveGenerator",
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "extrautils2:PassiveGenerator",
+          "damage": 2,
+          "amount": 8
+        },
+        {
+          "id": "extrautils2:PassiveGenerator",
+          "damage": 5,
+          "amount": 8
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

@@ -1,0 +1,1174 @@
+{
+  "name": "Virus Protection",
+  "description": "When downloading hundreds of files a day, it\u0027s important to have some sort of protection. Armor in minecraft isn\u0027t any different!",
+  "quests": [
+    {
+      "uuid": "3ac3cfaf-b534-413f-ba64-7106661cbe5b",
+      "name": "Night Light",
+      "description": "Never see darkness again with this armor!",
+      "x": 100,
+      "y": 66,
+      "icon": {
+        "id": "armorplus:CoalChestplate"
+      },
+      "prerequisites": [
+        "b38c14ac-90bc-4845-b760-8fb26c62ddba"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:CoalHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:CoalChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:CoalLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:CoalBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dcb3dcfd-598f-4e6e-8c16-881a36f58fbf",
+      "name": "Ten Trillion",
+      "description": "Is the price you\u0027ll have to pay for this armor...",
+      "x": 145,
+      "y": 37,
+      "icon": {
+        "id": "armorplus:RDChestplate"
+      },
+      "prerequisites": [
+        "70ec5d89-8239-46f7-83e2-4dadd2ce2c7b"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:RDHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:RDChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:RDLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:RDBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "70ec5d89-8239-46f7-83e2-4dadd2ce2c7b",
+      "name": "Knight Hide",
+      "description": "The armor of a true knight.",
+      "x": 183,
+      "y": 12,
+      "icon": {
+        "id": "armorplus:RCChestplate"
+      },
+      "prerequisites": [
+        "b0548e13-396f-48ff-838b-70e9dc0f0771"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:RCHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:RCChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:RCLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:RCBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "90c130e3-eca0-4fc5-adb8-4b60f61588fe",
+      "name": "Pigsy Attire",
+      "description": "I told you not to dress like a pig!",
+      "x": 130,
+      "y": 190,
+      "icon": {
+        "id": "armorplus:PigIronChestplate"
+      },
+      "prerequisites": [
+        "b38c14ac-90bc-4845-b760-8fb26c62ddba"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:PigIronHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:PigIronChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:PigIronLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:PigIronBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8bd96239-5972-423a-9054-1f463dc36841",
+      "name": "MCGamer Treasures",
+      "description": "He would be proud!",
+      "x": 99,
+      "y": 96,
+      "icon": {
+        "id": "armorplus:LapisChestplate"
+      },
+      "prerequisites": [
+        "3ac3cfaf-b534-413f-ba64-7106661cbe5b"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:LapisHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:LapisChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:LapisLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:LapisBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c55f10aa-8232-4628-b430-094ee0f8f29b",
+      "name": "Speedy Cobalt",
+      "description": "Cobalt has always been know for speed... that\u0027s in tools though!",
+      "x": 173,
+      "y": 166,
+      "icon": {
+        "id": "armorplus:CobaltChestplate"
+      },
+      "prerequisites": [
+        "21b71510-f753-4eed-8ada-06e3b7448516"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:CobaltHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:CobaltChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:CobaltLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:CobaltBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c87da1f0-1e00-45a9-bae4-5c60b5636cb7",
+      "name": "Hastey Miner",
+      "description": "Mine faster than the speed of sound!",
+      "x": 71,
+      "y": 96,
+      "icon": {
+        "id": "armorplus:EmeraldChestplate"
+      },
+      "prerequisites": [
+        "8ef5dcad-6cc8-4051-92c4-77b9cc54cd4a"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:EmeraldHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:EmeraldChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:EmeraldLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:EmeraldBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b0548e13-396f-48ff-838b-70e9dc0f0771",
+      "name": "Gold Rush",
+      "description": "Ooo shiny!",
+      "x": 158,
+      "y": 13,
+      "icon": {
+        "id": "armorplus:RGChestplate"
+      },
+      "prerequisites": [
+        "59539d91-343a-4af5-8bf2-334d53cd780f"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:RGHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:RGChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:RGLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:RGBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "21b71510-f753-4eed-8ada-06e3b7448516",
+      "name": "Worse than Cobalt",
+      "description": "What? It\u0027s true!",
+      "x": 184,
+      "y": 189,
+      "icon": {
+        "id": "armorplus:ArditeChestplate"
+      },
+      "prerequisites": [
+        "85bc3411-7e5c-4230-b336-214526e0e8e5"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:ArditeHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:ArditeChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:ArditeLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:ArditeBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d6449d6d-710b-40ab-9d1f-1937c5444d93",
+      "name": "Underwater Aerobics",
+      "description": "Gotta get that workout in!",
+      "x": 241,
+      "y": 97,
+      "icon": {
+        "id": "armorplus:GuardianChestplate"
+      },
+      "prerequisites": [
+        "fc2ad9b8-c179-4283-851c-dadcba890ccb"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:GuardianHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:GuardianChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:GuardianLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:GuardianBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "06eb9138-de76-4e83-b0a9-0f0f89c2c244",
+      "name": "Tough Manyullun",
+      "description": "Much better than steel! ... too bad you need to go to hell to get it.",
+      "x": 142,
+      "y": 167,
+      "icon": {
+        "id": "armorplus:ManyullynChestplate"
+      },
+      "prerequisites": [
+        "c55f10aa-8232-4628-b430-094ee0f8f29b"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:ManyullynHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:ManyullynChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:ManyullynLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:ManyullynBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8ef5dcad-6cc8-4051-92c4-77b9cc54cd4a",
+      "name": "Speed Runner",
+      "description": "You\u0027ll never lose with this!",
+      "x": 99,
+      "y": 125,
+      "icon": {
+        "id": "armorplus:RedstoneChestplate"
+      },
+      "prerequisites": [
+        "8bd96239-5972-423a-9054-1f463dc36841"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:RedstoneHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:RedstoneChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:RedstoneLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:RedstoneBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ce9942a7-3722-4790-879f-c5d423e82001",
+      "name": "Fragile Piece",
+      "description": "Obsidian isn\u0027t as hard as people think...",
+      "x": 172,
+      "y": 35,
+      "icon": {
+        "id": "armorplus:ObsidianChestplate"
+      },
+      "prerequisites": [
+        "dcb3dcfd-598f-4e6e-8c16-881a36f58fbf"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:ObsidianHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:ObsidianChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:ObsidianLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:ObsidianBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fc2ad9b8-c179-4283-851c-dadcba890ccb",
+      "name": "Hot Hot",
+      "description": "Ow it burns!",
+      "x": 210,
+      "y": 125,
+      "icon": {
+        "id": "armorplus:LavaChestplate"
+      },
+      "prerequisites": [
+        "4409ddba-006f-485e-9d58-92fc16eca3ea"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:LavaHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:LavaChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:LavaLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:LavaBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cd342d74-a952-4c25-a3dd-234c65d4f4b7",
+      "name": "Star Power",
+      "description": "Sponsered by Star Co. Where your armor needs come first!",
+      "x": 153,
+      "y": 65,
+      "bigicon": true,
+      "icon": {
+        "id": "armorplus:SuperStarChestplate"
+      },
+      "prerequisites": [
+        "c87da1f0-1e00-45a9-bae4-5c60b5636cb7",
+        "ce9942a7-3722-4790-879f-c5d423e82001"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:SuperStarHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:SuperStarChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:SuperStarLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:SuperStarBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b297fbec-bfd2-4219-8d36-a73723097e0e",
+      "name": "Chicken Dance",
+      "description": "Gonna get all the chicks with these.",
+      "x": 211,
+      "y": 66,
+      "icon": {
+        "id": "armorplus:ChickenChestplate"
+      },
+      "prerequisites": [
+        "b38c14ac-90bc-4845-b760-8fb26c62ddba"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:ChickenHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:ChickenChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:ChickenLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:ChickenBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ed70b83e-2559-4755-a1f4-a016f3973fae",
+      "name": "Dragon Breakdown",
+      "description": "The dance of the enderdragon brought you into four convenient armor pieces!",
+      "x": 154,
+      "y": 129,
+      "bigicon": true,
+      "icon": {
+        "id": "armorplus:EnderDragonChestplate"
+      },
+      "prerequisites": [
+        "06eb9138-de76-4e83-b0a9-0f0f89c2c244",
+        "d6449d6d-710b-40ab-9d1f-1937c5444d93"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:EnderDragonHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:EnderDragonChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:EnderDragonLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:EnderDragonBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4409ddba-006f-485e-9d58-92fc16eca3ea",
+      "name": "Icky Slime",
+      "description": "Who would wear this?",
+      "x": 210,
+      "y": 96,
+      "icon": {
+        "id": "armorplus:SlimeChestplate"
+      },
+      "prerequisites": [
+        "b297fbec-bfd2-4219-8d36-a73723097e0e"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:SlimeHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:SlimeChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:SlimeLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:SlimeBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c4074bd5-0aa2-4bb8-b6d0-ee102ccaf729",
+      "name": "Ultimate Powa",
+      "description": "Yes yes yes! It\u0027s all mine! Muhahaha!",
+      "x": 153,
+      "y": 98,
+      "bigicon": true,
+      "icon": {
+        "id": "armorplus:TheUltimateChestplate"
+      },
+      "prerequisites": [
+        "cd342d74-a952-4c25-a3dd-234c65d4f4b7",
+        "ed70b83e-2559-4755-a1f4-a016f3973fae"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:TheUltimateHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:TheUltimateChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:TheUltimateLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:TheUltimateBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 4
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "59539d91-343a-4af5-8bf2-334d53cd780f",
+      "name": "Reinforced Steel",
+      "description": "Actually it\u0027s iron....",
+      "x": 133,
+      "y": 14,
+      "icon": {
+        "id": "armorplus:RIChestplate"
+      },
+      "prerequisites": [
+        "b38c14ac-90bc-4845-b760-8fb26c62ddba"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:RIHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:RIChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:RILeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:RIBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags"
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "85bc3411-7e5c-4230-b336-214526e0e8e5",
+      "name": "Slime King",
+      "description": "Actually it\u0027s knight slime... okay I\u0027ll shut up.",
+      "x": 158,
+      "y": 187,
+      "icon": {
+        "id": "armorplus:KnightSlimeChestplate"
+      },
+      "prerequisites": [
+        "90c130e3-eca0-4fc5-adb8-4b60f61588fe"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "armorplus:KnightSlimeHelmet"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:KnightSlimeChestplate"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:KnightSlimeLeggings"
+              }
+            },
+            {
+              "item": {
+                "id": "armorplus:KnightSlimeBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "hardcorequesting:bags"
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

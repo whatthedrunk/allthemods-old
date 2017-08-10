@@ -1,0 +1,13 @@
+All The Sly v0.9
+
+Add Woot fix recipes to make it harder to get (Middle to late Game recipes).
+
+Add Spawn Egg for 
+Skeleton
+Blaze  
+Villager 
+Guardian 
+LavaSlime 
+
+Fix Sand Ore 
+

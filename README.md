@@ -1,4 +1,5 @@
-When reporting an issue put the version number before the issue title! Such as [FULL][1.37] My game is broken! Also include any added mods you may have put in, into the description of the issue.
+Moved
+======
+I will be deleting this soon as we have moved.
 
-Fell free to ask us questions here, if we are around. 
-https://www.curse.com/invite/zgQifDkTokOUIcYt6aNxWg
+https://github.com/AllTheMods
